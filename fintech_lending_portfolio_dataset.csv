@@ -1,0 +1,501 @@
+application_id,application_date,partner,city,channel,product,stage,loan_amount,processing_days,sla_status,approval_status,disbursed,api_issue,uat_status,conversion_rate_pct,estimated_partner_revenue,portfolio_project
+APP0001,2026-03-29,Partner_K,Ahmedabad,Digital Campaign,Personal Loan,Approved,104886,10,SLA Breach,Yes,No,No,Not Required,3.7,0.0,Customer Journey Transformation
+APP0002,2026-06-10,Partner_C,Chennai,Partner,Education Loan,Lead,2266891,6,SLA Breach,Pending,No,No,Not Required,14.9,0.0,Partner Growth & Lending Operations
+APP0003,2026-01-15,Partner_L,Hyderabad,Website,Education Loan,Documents,2753882,10,SLA Breach,Pending,No,No,Not Required,14.7,0.0,Partner Growth & Lending Operations
+APP0004,2026-01-21,Partner_C,Pune,Branch,Personal Loan,Credit Review,605839,9,SLA Breach,Pending,No,No,Not Required,10.3,0.0,Customer Journey Transformation
+APP0005,2026-04-02,Partner_I,Pune,Partner,Personal Loan,Approved,748361,9,SLA Breach,Yes,No,No,Not Required,5.8,0.0,Customer Journey Transformation
+APP0006,2026-05-14,Partner_H,Kolkata,Partner,Personal Loan,Application,872352,4,Within SLA,Pending,No,No,Not Required,12.1,0.0,Customer Journey Transformation
+APP0007,2026-02-09,Partner_B,Bangalore,Website,Education Loan,Credit Review,3158505,4,Within SLA,Pending,No,No,Not Required,14.1,0.0,Partner Growth & Lending Operations
+APP0008,2026-01-09,Partner_E,Ahmedabad,Referral,Credit Card,Documents,267851,9,SLA Breach,Pending,No,No,Passed,3.2,0.0,API Integration & GTM
+APP0009,2026-02-10,Partner_H,Kolkata,Partner,Credit Card,Disbursed,89504,8,SLA Breach,Yes,Yes,No,Pending,13.2,118.15,API Integration & GTM
+APP0010,2026-06-21,Partner_L,Bangalore,Branch,Consumer Loan,Application,419622,7,SLA Breach,Pending,No,No,Not Required,11.0,0.0,CRM & Operations Transformation
+APP0011,2026-05-22,Partner_A,Mumbai,Branch,Personal Loan,Application,522525,3,Within SLA,Pending,No,No,Not Required,9.7,0.0,Customer Journey Transformation
+APP0012,2026-05-12,Partner_J,Bangalore,Website,Personal Loan,Credit Review,303618,7,SLA Breach,Pending,No,No,Not Required,9.8,0.0,Customer Journey Transformation
+APP0013,2026-03-07,Partner_K,Delhi,Partner,Consumer Loan,Application,354767,7,SLA Breach,Pending,No,No,Not Required,4.9,0.0,CRM & Operations Transformation
+APP0014,2026-04-02,Partner_E,Chennai,Partner,Personal Loan,Credit Review,817595,4,Within SLA,Pending,No,Yes,Not Required,9.5,0.0,Customer Journey Transformation
+APP0015,2026-06-04,Partner_A,Hyderabad,Digital Campaign,Personal Loan,Approved,187848,4,Within SLA,Yes,No,No,Not Required,6.7,0.0,Customer Journey Transformation
+APP0016,2026-06-29,Partner_C,Bangalore,Partner,Personal Loan,Documents,215838,6,SLA Breach,Pending,No,No,Not Required,9.7,0.0,Customer Journey Transformation
+APP0017,2026-03-22,Partner_D,Pune,Digital Campaign,Personal Loan,Application,815313,3,Within SLA,Pending,No,No,Not Required,6.4,0.0,Customer Journey Transformation
+APP0018,2026-06-21,Partner_L,Chennai,Digital Campaign,Education Loan,Lead,769536,1,Within SLA,Pending,No,No,Not Required,4.7,0.0,Partner Growth & Lending Operations
+APP0019,2026-04-26,Partner_G,Pune,Website,Personal Loan,Application,159751,1,Within SLA,Pending,No,No,Not Required,7.4,0.0,Customer Journey Transformation
+APP0020,2026-05-27,Partner_A,Hyderabad,Website,Consumer Loan,Documents,81663,3,Within SLA,Pending,No,No,Not Required,11.1,0.0,CRM & Operations Transformation
+APP0021,2026-01-11,Partner_D,Ahmedabad,Branch,Credit Card,Application,189752,1,Within SLA,Pending,No,No,Passed,13.1,0.0,API Integration & GTM
+APP0022,2026-03-01,Partner_G,Kolkata,Partner,Education Loan,Disbursed,1054594,7,SLA Breach,Yes,Yes,No,Not Required,25.1,2647.03,Partner Growth & Lending Operations
+APP0023,2026-02-17,Partner_L,Delhi,Digital Campaign,Education Loan,Disbursed,1741082,7,SLA Breach,Yes,Yes,No,Not Required,17.6,3064.3,Partner Growth & Lending Operations
+APP0024,2026-04-22,Partner_F,Ahmedabad,Branch,Credit Card,Disbursed,210371,1,Within SLA,Yes,Yes,No,Pending,21.7,456.51,API Integration & GTM
+APP0025,2026-06-10,Partner_B,Ahmedabad,Referral,Education Loan,Documents,2600021,3,Within SLA,Pending,No,No,Not Required,5.7,0.0,Partner Growth & Lending Operations
+APP0026,2026-04-25,Partner_D,Ahmedabad,Website,Education Loan,Approved,1517026,1,Within SLA,Yes,No,No,Not Required,9.5,0.0,Partner Growth & Lending Operations
+APP0027,2026-01-30,Partner_F,Chennai,Partner,Personal Loan,Documents,912645,8,SLA Breach,Pending,No,No,Not Required,12.5,0.0,Customer Journey Transformation
+APP0028,2026-01-17,Partner_A,Delhi,Referral,Personal Loan,Application,779903,3,Within SLA,Pending,No,No,Not Required,12.2,0.0,Customer Journey Transformation
+APP0029,2026-06-30,Partner_E,Chennai,Website,Consumer Loan,Documents,355352,5,Within SLA,Pending,No,Yes,Not Required,8.1,0.0,CRM & Operations Transformation
+APP0030,2026-01-25,Partner_D,Kolkata,Digital Campaign,Personal Loan,Documents,318246,1,Within SLA,Pending,No,No,Not Required,5.0,0.0,Customer Journey Transformation
+APP0031,2026-05-10,Partner_C,Ahmedabad,Branch,Personal Loan,Lead,816577,6,SLA Breach,Pending,No,No,Not Required,6.0,0.0,Customer Journey Transformation
+APP0032,2026-06-02,Partner_I,Mumbai,Branch,Education Loan,Approved,867654,10,SLA Breach,Yes,No,No,Not Required,12.7,0.0,Partner Growth & Lending Operations
+APP0033,2026-05-22,Partner_G,Hyderabad,Partner,Personal Loan,Approved,832355,1,Within SLA,Yes,No,No,Not Required,7.8,0.0,Customer Journey Transformation
+APP0034,2026-05-05,Partner_L,Bangalore,Partner,Consumer Loan,Application,172038,6,SLA Breach,Pending,No,No,Not Required,4.9,0.0,CRM & Operations Transformation
+APP0035,2026-03-01,Partner_A,Pune,Branch,Credit Card,Lead,234078,6,SLA Breach,Pending,No,No,Passed,12.9,0.0,API Integration & GTM
+APP0036,2026-01-13,Partner_D,Chennai,Referral,Education Loan,Lead,949395,3,Within SLA,Pending,No,No,Not Required,11.7,0.0,Partner Growth & Lending Operations
+APP0037,2026-04-27,Partner_C,Hyderabad,Referral,Consumer Loan,Documents,240706,10,SLA Breach,Pending,No,No,Not Required,3.3,0.0,CRM & Operations Transformation
+APP0038,2026-03-30,Partner_L,Delhi,Website,Education Loan,Lead,1303328,2,Within SLA,Pending,No,No,Not Required,4.1,0.0,Partner Growth & Lending Operations
+APP0039,2026-03-27,Partner_G,Ahmedabad,Partner,Credit Card,Credit Review,163429,7,SLA Breach,Pending,No,No,Passed,4.9,0.0,API Integration & GTM
+APP0040,2026-06-25,Partner_E,Kolkata,Partner,Education Loan,Lead,4773085,4,Within SLA,Pending,No,No,Not Required,3.2,0.0,Partner Growth & Lending Operations
+APP0041,2026-05-27,Partner_E,Kolkata,Partner,Credit Card,Lead,260677,5,Within SLA,Pending,No,Yes,Passed,3.2,0.0,API Integration & GTM
+APP0042,2026-06-09,Partner_E,Delhi,Branch,Personal Loan,Application,101991,7,SLA Breach,Pending,No,Yes,Not Required,13.4,0.0,Customer Journey Transformation
+APP0043,2026-03-06,Partner_B,Mumbai,Website,Consumer Loan,Approved,34000,3,Within SLA,Yes,No,No,Not Required,10.5,0.0,CRM & Operations Transformation
+APP0044,2026-03-22,Partner_L,Delhi,Digital Campaign,Consumer Loan,Lead,330638,2,Within SLA,Pending,No,No,Not Required,10.4,0.0,CRM & Operations Transformation
+APP0045,2026-03-16,Partner_J,Bangalore,Website,Credit Card,Documents,107458,9,SLA Breach,Pending,No,No,Passed,7.2,0.0,API Integration & GTM
+APP0046,2026-06-26,Partner_E,Delhi,Referral,Consumer Loan,Documents,336569,5,Within SLA,Pending,No,No,Not Required,12.7,0.0,CRM & Operations Transformation
+APP0047,2026-04-09,Partner_A,Kolkata,Partner,Credit Card,Approved,269798,5,Within SLA,Yes,No,No,Passed,11.9,0.0,API Integration & GTM
+APP0048,2026-05-27,Partner_D,Ahmedabad,Digital Campaign,Education Loan,Documents,3764908,3,Within SLA,Pending,No,No,Not Required,3.1,0.0,Partner Growth & Lending Operations
+APP0049,2026-02-22,Partner_D,Mumbai,Partner,Education Loan,Credit Review,1539458,9,SLA Breach,Pending,No,No,Not Required,5.6,0.0,Partner Growth & Lending Operations
+APP0050,2026-05-26,Partner_E,Bangalore,Branch,Credit Card,Rejected,138461,10,SLA Breach,No,No,No,Pending,7.2,0.0,API Integration & GTM
+APP0051,2026-05-17,Partner_J,Pune,Referral,Consumer Loan,Disbursed,467477,7,SLA Breach,Yes,Yes,No,Not Required,15.6,729.26,CRM & Operations Transformation
+APP0052,2026-03-12,Partner_E,Delhi,Referral,Credit Card,Application,76962,8,SLA Breach,Pending,No,No,Passed,12.8,0.0,API Integration & GTM
+APP0053,2026-01-19,Partner_F,Pune,Branch,Consumer Loan,Application,233196,6,SLA Breach,Pending,No,No,Not Required,6.0,0.0,CRM & Operations Transformation
+APP0054,2026-01-01,Partner_B,Pune,Website,Education Loan,Approved,3676083,8,SLA Breach,Yes,No,No,Not Required,10.8,0.0,Partner Growth & Lending Operations
+APP0055,2026-06-22,Partner_I,Kolkata,Partner,Credit Card,Credit Review,73960,8,SLA Breach,Pending,No,No,Passed,12.6,0.0,API Integration & GTM
+APP0056,2026-05-26,Partner_E,Ahmedabad,Partner,Consumer Loan,Credit Review,222714,5,Within SLA,Pending,No,No,Not Required,11.3,0.0,CRM & Operations Transformation
+APP0057,2026-01-16,Partner_A,Delhi,Partner,Education Loan,Approved,3795887,7,SLA Breach,Yes,No,No,Not Required,6.4,0.0,Partner Growth & Lending Operations
+APP0058,2026-06-27,Partner_L,Delhi,Website,Consumer Loan,Documents,76427,4,Within SLA,Pending,No,No,Not Required,7.2,0.0,CRM & Operations Transformation
+APP0059,2026-06-06,Partner_D,Ahmedabad,Website,Education Loan,Credit Review,4537776,9,SLA Breach,Pending,No,No,Not Required,12.8,0.0,Partner Growth & Lending Operations
+APP0060,2026-04-19,Partner_F,Bangalore,Partner,Education Loan,Credit Review,1075278,9,SLA Breach,Pending,No,No,Not Required,14.2,0.0,Partner Growth & Lending Operations
+APP0061,2026-03-27,Partner_F,Hyderabad,Website,Education Loan,Credit Review,4412942,1,Within SLA,Pending,No,No,Not Required,12.0,0.0,Partner Growth & Lending Operations
+APP0062,2026-04-05,Partner_A,Bangalore,Website,Credit Card,Lead,58702,1,Within SLA,Pending,No,No,Passed,11.3,0.0,API Integration & GTM
+APP0063,2026-01-01,Partner_G,Delhi,Digital Campaign,Credit Card,Approved,54809,10,SLA Breach,Yes,No,No,Passed,5.5,0.0,API Integration & GTM
+APP0064,2026-04-28,Partner_A,Hyderabad,Referral,Consumer Loan,Disbursed,122193,8,SLA Breach,Yes,Yes,No,Not Required,20.0,244.39,CRM & Operations Transformation
+APP0065,2026-03-26,Partner_A,Chennai,Partner,Credit Card,Rejected,175917,9,SLA Breach,No,No,No,Passed,8.0,0.0,API Integration & GTM
+APP0066,2026-04-01,Partner_G,Chennai,Branch,Personal Loan,Approved,56949,2,Within SLA,Yes,No,No,Not Required,7.7,0.0,Customer Journey Transformation
+APP0067,2026-01-29,Partner_I,Chennai,Referral,Education Loan,Credit Review,1853038,7,SLA Breach,Pending,No,No,Not Required,11.4,0.0,Partner Growth & Lending Operations
+APP0068,2026-05-06,Partner_J,Hyderabad,Digital Campaign,Education Loan,Application,1150199,5,Within SLA,Pending,No,Yes,Not Required,8.9,0.0,Partner Growth & Lending Operations
+APP0069,2026-05-12,Partner_C,Kolkata,Partner,Personal Loan,Application,548870,6,SLA Breach,Pending,No,No,Not Required,5.2,0.0,Customer Journey Transformation
+APP0070,2026-04-02,Partner_C,Mumbai,Branch,Education Loan,Approved,2410705,10,SLA Breach,Yes,No,No,Not Required,12.9,0.0,Partner Growth & Lending Operations
+APP0071,2026-02-14,Partner_F,Hyderabad,Partner,Education Loan,Credit Review,2745131,10,SLA Breach,Pending,No,Yes,Not Required,4.5,0.0,Partner Growth & Lending Operations
+APP0072,2026-04-23,Partner_I,Chennai,Partner,Education Loan,Application,2783869,1,Within SLA,Pending,No,No,Not Required,12.7,0.0,Partner Growth & Lending Operations
+APP0073,2026-06-03,Partner_H,Chennai,Digital Campaign,Personal Loan,Application,865131,7,SLA Breach,Pending,No,No,Not Required,11.6,0.0,Customer Journey Transformation
+APP0074,2026-01-15,Partner_G,Mumbai,Partner,Education Loan,Disbursed,4208654,2,Within SLA,Yes,Yes,No,Not Required,20.5,8627.74,Partner Growth & Lending Operations
+APP0075,2026-01-25,Partner_L,Bangalore,Referral,Education Loan,Approved,4220464,7,SLA Breach,Yes,No,No,Not Required,9.4,0.0,Partner Growth & Lending Operations
+APP0076,2026-02-03,Partner_D,Bangalore,Website,Consumer Loan,Disbursed,155036,2,Within SLA,Yes,Yes,No,Not Required,20.6,319.37,CRM & Operations Transformation
+APP0077,2026-02-28,Partner_L,Mumbai,Website,Personal Loan,Documents,241076,6,SLA Breach,Pending,No,Yes,Not Required,10.3,0.0,Customer Journey Transformation
+APP0078,2026-03-16,Partner_A,Delhi,Referral,Consumer Loan,Application,146421,6,SLA Breach,Pending,No,No,Not Required,4.9,0.0,CRM & Operations Transformation
+APP0079,2026-06-01,Partner_H,Kolkata,Branch,Education Loan,Disbursed,4168866,3,Within SLA,Yes,Yes,No,Not Required,23.2,9671.77,Partner Growth & Lending Operations
+APP0080,2026-06-28,Partner_L,Mumbai,Website,Education Loan,Disbursed,3359653,6,SLA Breach,Yes,Yes,No,Not Required,14.7,4938.69,Partner Growth & Lending Operations
+APP0081,2026-01-20,Partner_K,Ahmedabad,Referral,Credit Card,Credit Review,138236,5,Within SLA,Pending,No,No,Passed,8.1,0.0,API Integration & GTM
+APP0082,2026-05-14,Partner_J,Chennai,Partner,Education Loan,Documents,1550493,4,Within SLA,Pending,No,No,Not Required,10.1,0.0,Partner Growth & Lending Operations
+APP0083,2026-04-11,Partner_G,Bangalore,Partner,Education Loan,Rejected,878892,8,SLA Breach,No,No,No,Not Required,6.1,0.0,Partner Growth & Lending Operations
+APP0084,2026-05-17,Partner_H,Chennai,Partner,Education Loan,Credit Review,2824797,2,Within SLA,Pending,No,No,Not Required,11.8,0.0,Partner Growth & Lending Operations
+APP0085,2026-03-01,Partner_A,Ahmedabad,Website,Education Loan,Approved,637023,8,SLA Breach,Yes,No,No,Not Required,12.0,0.0,Partner Growth & Lending Operations
+APP0086,2026-02-08,Partner_E,Mumbai,Partner,Education Loan,Approved,1562636,10,SLA Breach,Yes,No,No,Not Required,12.8,0.0,Partner Growth & Lending Operations
+APP0087,2026-02-22,Partner_F,Hyderabad,Branch,Credit Card,Disbursed,199646,1,Within SLA,Yes,Yes,No,Pending,18.1,361.36,API Integration & GTM
+APP0088,2026-01-15,Partner_C,Chennai,Referral,Consumer Loan,Rejected,126646,3,Within SLA,No,No,No,Not Required,4.7,0.0,CRM & Operations Transformation
+APP0089,2026-02-02,Partner_G,Mumbai,Website,Consumer Loan,Disbursed,302933,9,SLA Breach,Yes,Yes,No,Not Required,16.0,484.69,CRM & Operations Transformation
+APP0090,2026-04-19,Partner_J,Delhi,Website,Education Loan,Disbursed,1723520,6,SLA Breach,Yes,Yes,No,Not Required,13.8,2378.46,Partner Growth & Lending Operations
+APP0091,2026-06-13,Partner_H,Delhi,Website,Education Loan,Credit Review,3730019,2,Within SLA,Pending,No,No,Not Required,10.2,0.0,Partner Growth & Lending Operations
+APP0092,2026-02-16,Partner_E,Pune,Partner,Personal Loan,Application,64153,8,SLA Breach,Pending,No,No,Not Required,7.8,0.0,Customer Journey Transformation
+APP0093,2026-04-10,Partner_J,Delhi,Referral,Education Loan,Application,1041656,1,Within SLA,Pending,No,No,Not Required,13.5,0.0,Partner Growth & Lending Operations
+APP0094,2026-02-09,Partner_E,Ahmedabad,Branch,Consumer Loan,Approved,57632,10,SLA Breach,Yes,No,No,Not Required,3.9,0.0,CRM & Operations Transformation
+APP0095,2026-02-24,Partner_A,Chennai,Digital Campaign,Credit Card,Application,282793,4,Within SLA,Pending,No,No,Pending,13.4,0.0,API Integration & GTM
+APP0096,2026-03-04,Partner_I,Delhi,Referral,Education Loan,Documents,1011411,9,SLA Breach,Pending,No,No,Not Required,7.0,0.0,Partner Growth & Lending Operations
+APP0097,2026-04-18,Partner_F,Bangalore,Branch,Personal Loan,Credit Review,582954,2,Within SLA,Pending,No,Yes,Not Required,10.0,0.0,Customer Journey Transformation
+APP0098,2026-05-30,Partner_I,Kolkata,Partner,Consumer Loan,Application,312100,8,SLA Breach,Pending,No,No,Not Required,12.4,0.0,CRM & Operations Transformation
+APP0099,2026-03-04,Partner_A,Kolkata,Partner,Education Loan,Rejected,519816,1,Within SLA,No,No,No,Not Required,13.3,0.0,Partner Growth & Lending Operations
+APP0100,2026-02-01,Partner_A,Ahmedabad,Website,Consumer Loan,Lead,384518,3,Within SLA,Pending,No,No,Not Required,13.8,0.0,CRM & Operations Transformation
+APP0101,2026-04-23,Partner_H,Mumbai,Referral,Personal Loan,Lead,638365,3,Within SLA,Pending,No,No,Not Required,9.3,0.0,Customer Journey Transformation
+APP0102,2026-04-20,Partner_D,Hyderabad,Website,Personal Loan,Documents,324486,7,SLA Breach,Pending,No,No,Not Required,6.3,0.0,Customer Journey Transformation
+APP0103,2026-03-13,Partner_G,Pune,Branch,Personal Loan,Disbursed,266454,8,SLA Breach,Yes,Yes,No,Not Required,15.6,415.67,Customer Journey Transformation
+APP0104,2026-02-01,Partner_C,Mumbai,Branch,Education Loan,Approved,972327,2,Within SLA,Yes,No,No,Not Required,14.9,0.0,Partner Growth & Lending Operations
+APP0105,2026-01-07,Partner_D,Pune,Branch,Consumer Loan,Approved,151300,7,SLA Breach,Yes,No,Yes,Not Required,3.2,0.0,CRM & Operations Transformation
+APP0106,2026-05-10,Partner_C,Pune,Branch,Credit Card,Approved,168865,2,Within SLA,Yes,No,Yes,Passed,7.0,0.0,API Integration & GTM
+APP0107,2026-03-27,Partner_D,Delhi,Partner,Personal Loan,Documents,706639,9,SLA Breach,Pending,No,No,Not Required,6.5,0.0,Customer Journey Transformation
+APP0108,2026-01-25,Partner_H,Mumbai,Partner,Credit Card,Disbursed,267215,1,Within SLA,Yes,Yes,No,Passed,23.9,638.64,API Integration & GTM
+APP0109,2026-05-26,Partner_K,Chennai,Partner,Education Loan,Rejected,1786585,2,Within SLA,No,No,No,Not Required,3.2,0.0,Partner Growth & Lending Operations
+APP0110,2026-04-27,Partner_I,Chennai,Branch,Personal Loan,Lead,989684,9,SLA Breach,Pending,No,No,Not Required,11.6,0.0,Customer Journey Transformation
+APP0111,2026-05-25,Partner_I,Kolkata,Partner,Education Loan,Disbursed,3638145,9,SLA Breach,Yes,Yes,No,Not Required,21.2,7712.87,Partner Growth & Lending Operations
+APP0112,2026-02-05,Partner_J,Chennai,Website,Personal Loan,Lead,151371,6,SLA Breach,Pending,No,No,Not Required,4.0,0.0,Customer Journey Transformation
+APP0113,2026-02-24,Partner_K,Ahmedabad,Partner,Credit Card,Credit Review,253427,1,Within SLA,Pending,No,No,Passed,14.4,0.0,API Integration & GTM
+APP0114,2026-04-19,Partner_E,Ahmedabad,Digital Campaign,Credit Card,Application,287091,4,Within SLA,Pending,No,No,Pending,13.2,0.0,API Integration & GTM
+APP0115,2026-01-25,Partner_B,Delhi,Referral,Education Loan,Documents,3438496,9,SLA Breach,Pending,No,No,Not Required,10.2,0.0,Partner Growth & Lending Operations
+APP0116,2026-02-13,Partner_E,Pune,Branch,Education Loan,Approved,3337981,6,SLA Breach,Yes,No,No,Not Required,7.3,0.0,Partner Growth & Lending Operations
+APP0117,2026-04-28,Partner_A,Bangalore,Digital Campaign,Credit Card,Approved,107134,8,SLA Breach,Yes,No,No,Passed,12.1,0.0,API Integration & GTM
+APP0118,2026-02-01,Partner_B,Hyderabad,Digital Campaign,Personal Loan,Approved,307594,10,SLA Breach,Yes,No,No,Not Required,11.0,0.0,Customer Journey Transformation
+APP0119,2026-06-25,Partner_G,Bangalore,Digital Campaign,Credit Card,Approved,144457,7,SLA Breach,Yes,No,No,Passed,6.6,0.0,API Integration & GTM
+APP0120,2026-01-17,Partner_B,Kolkata,Website,Education Loan,Disbursed,3933382,3,Within SLA,Yes,Yes,No,Not Required,25.3,9951.46,Partner Growth & Lending Operations
+APP0121,2026-02-08,Partner_L,Pune,Website,Credit Card,Credit Review,263122,5,Within SLA,Pending,No,No,Passed,7.9,0.0,API Integration & GTM
+APP0122,2026-06-19,Partner_F,Hyderabad,Website,Education Loan,Approved,3235264,10,SLA Breach,Yes,No,Yes,Not Required,8.0,0.0,Partner Growth & Lending Operations
+APP0123,2026-03-03,Partner_B,Ahmedabad,Partner,Consumer Loan,Rejected,388266,7,SLA Breach,No,No,No,Not Required,3.6,0.0,CRM & Operations Transformation
+APP0124,2026-03-06,Partner_H,Pune,Referral,Personal Loan,Rejected,939097,9,SLA Breach,No,No,No,Not Required,9.3,0.0,Customer Journey Transformation
+APP0125,2026-03-14,Partner_H,Chennai,Partner,Education Loan,Disbursed,3547569,5,Within SLA,Yes,Yes,No,Not Required,12.3,4363.51,Partner Growth & Lending Operations
+APP0126,2026-03-29,Partner_D,Pune,Website,Education Loan,Rejected,3350171,6,SLA Breach,No,No,Yes,Not Required,13.6,0.0,Partner Growth & Lending Operations
+APP0127,2026-04-20,Partner_I,Kolkata,Referral,Personal Loan,Rejected,965015,4,Within SLA,No,No,No,Not Required,5.8,0.0,Customer Journey Transformation
+APP0128,2026-02-16,Partner_J,Hyderabad,Partner,Education Loan,Application,1735202,8,SLA Breach,Pending,No,No,Not Required,3.7,0.0,Partner Growth & Lending Operations
+APP0129,2026-05-25,Partner_D,Bangalore,Website,Education Loan,Credit Review,2508954,10,SLA Breach,Pending,No,No,Not Required,8.9,0.0,Partner Growth & Lending Operations
+APP0130,2026-03-08,Partner_F,Delhi,Branch,Education Loan,Application,2175843,5,Within SLA,Pending,No,No,Not Required,13.5,0.0,Partner Growth & Lending Operations
+APP0131,2026-05-19,Partner_C,Hyderabad,Website,Education Loan,Disbursed,1642953,9,SLA Breach,Yes,Yes,No,Not Required,26.9,4419.54,Partner Growth & Lending Operations
+APP0132,2026-03-22,Partner_F,Ahmedabad,Website,Education Loan,Approved,4657893,5,Within SLA,Yes,No,No,Not Required,11.2,0.0,Partner Growth & Lending Operations
+APP0133,2026-02-02,Partner_C,Bangalore,Branch,Education Loan,Approved,511303,2,Within SLA,Yes,No,No,Not Required,13.4,0.0,Partner Growth & Lending Operations
+APP0134,2026-06-30,Partner_H,Pune,Branch,Consumer Loan,Disbursed,488298,9,SLA Breach,Yes,Yes,No,Not Required,15.8,771.51,CRM & Operations Transformation
+APP0135,2026-06-09,Partner_F,Pune,Referral,Credit Card,Application,98874,10,SLA Breach,Pending,No,No,Pending,3.1,0.0,API Integration & GTM
+APP0136,2026-06-04,Partner_B,Pune,Referral,Education Loan,Credit Review,3834732,7,SLA Breach,Pending,No,No,Not Required,4.0,0.0,Partner Growth & Lending Operations
+APP0137,2026-03-15,Partner_B,Pune,Referral,Consumer Loan,Lead,355996,3,Within SLA,Pending,No,No,Not Required,6.4,0.0,CRM & Operations Transformation
+APP0138,2026-03-09,Partner_L,Pune,Branch,Personal Loan,Application,207732,6,SLA Breach,Pending,No,Yes,Not Required,11.3,0.0,Customer Journey Transformation
+APP0139,2026-02-19,Partner_F,Hyderabad,Referral,Education Loan,Approved,1272800,6,SLA Breach,Yes,No,No,Not Required,3.5,0.0,Partner Growth & Lending Operations
+APP0140,2026-04-21,Partner_L,Pune,Referral,Consumer Loan,Approved,182499,7,SLA Breach,Yes,No,No,Not Required,12.9,0.0,CRM & Operations Transformation
+APP0141,2026-05-21,Partner_J,Kolkata,Branch,Personal Loan,Credit Review,862461,2,Within SLA,Pending,No,Yes,Not Required,8.1,0.0,Customer Journey Transformation
+APP0142,2026-03-22,Partner_K,Pune,Website,Consumer Loan,Disbursed,370941,4,Within SLA,Yes,Yes,No,Not Required,16.4,608.34,CRM & Operations Transformation
+APP0143,2026-05-11,Partner_E,Kolkata,Partner,Consumer Loan,Credit Review,451818,4,Within SLA,Pending,No,No,Not Required,6.3,0.0,CRM & Operations Transformation
+APP0144,2026-01-27,Partner_F,Kolkata,Partner,Education Loan,Disbursed,4517136,9,SLA Breach,Yes,Yes,No,Not Required,21.0,9485.99,Partner Growth & Lending Operations
+APP0145,2026-06-21,Partner_A,Delhi,Partner,Consumer Loan,Disbursed,235390,2,Within SLA,Yes,Yes,No,Not Required,22.0,517.86,CRM & Operations Transformation
+APP0146,2026-01-09,Partner_C,Pune,Digital Campaign,Education Loan,Disbursed,1018349,7,SLA Breach,Yes,Yes,No,Not Required,23.0,2342.2,Partner Growth & Lending Operations
+APP0147,2026-03-13,Partner_F,Chennai,Website,Education Loan,Documents,2304673,8,SLA Breach,Pending,No,No,Not Required,14.8,0.0,Partner Growth & Lending Operations
+APP0148,2026-05-16,Partner_B,Chennai,Referral,Personal Loan,Rejected,943093,9,SLA Breach,No,No,Yes,Not Required,12.4,0.0,Customer Journey Transformation
+APP0149,2026-06-09,Partner_I,Hyderabad,Referral,Credit Card,Application,233341,6,SLA Breach,Pending,No,No,Passed,9.7,0.0,API Integration & GTM
+APP0150,2026-06-15,Partner_A,Hyderabad,Partner,Consumer Loan,Disbursed,249724,4,Within SLA,Yes,Yes,No,Not Required,17.2,429.53,CRM & Operations Transformation
+APP0151,2026-05-03,Partner_B,Kolkata,Referral,Personal Loan,Application,59078,1,Within SLA,Pending,No,Yes,Not Required,4.5,0.0,Customer Journey Transformation
+APP0152,2026-03-25,Partner_G,Kolkata,Digital Campaign,Education Loan,Credit Review,827025,8,SLA Breach,Pending,No,Yes,Not Required,10.5,0.0,Partner Growth & Lending Operations
+APP0153,2026-01-03,Partner_G,Mumbai,Branch,Education Loan,Disbursed,3581091,6,SLA Breach,Yes,Yes,No,Not Required,19.2,6875.69,Partner Growth & Lending Operations
+APP0154,2026-02-24,Partner_K,Bangalore,Partner,Education Loan,Lead,4835702,9,SLA Breach,Pending,No,Yes,Not Required,5.6,0.0,Partner Growth & Lending Operations
+APP0155,2026-02-06,Partner_G,Delhi,Referral,Personal Loan,Approved,689282,2,Within SLA,Yes,No,No,Not Required,10.8,0.0,Customer Journey Transformation
+APP0156,2026-03-17,Partner_C,Pune,Digital Campaign,Consumer Loan,Application,255314,6,SLA Breach,Pending,No,No,Not Required,6.1,0.0,CRM & Operations Transformation
+APP0157,2026-06-28,Partner_J,Delhi,Digital Campaign,Education Loan,Disbursed,1495843,4,Within SLA,Yes,Yes,No,Not Required,20.7,3096.4,Partner Growth & Lending Operations
+APP0158,2026-04-25,Partner_E,Bangalore,Website,Personal Loan,Credit Review,617873,2,Within SLA,Pending,No,No,Not Required,10.9,0.0,Customer Journey Transformation
+APP0159,2026-03-28,Partner_C,Delhi,Website,Education Loan,Credit Review,760116,1,Within SLA,Pending,No,No,Not Required,11.6,0.0,Partner Growth & Lending Operations
+APP0160,2026-04-21,Partner_B,Kolkata,Website,Personal Loan,Credit Review,226037,9,SLA Breach,Pending,No,No,Not Required,13.4,0.0,Customer Journey Transformation
+APP0161,2026-01-05,Partner_D,Bangalore,Website,Personal Loan,Application,151520,9,SLA Breach,Pending,No,Yes,Not Required,6.1,0.0,Customer Journey Transformation
+APP0162,2026-04-03,Partner_H,Pune,Branch,Education Loan,Rejected,3354190,10,SLA Breach,No,No,No,Not Required,5.0,0.0,Partner Growth & Lending Operations
+APP0163,2026-06-14,Partner_A,Delhi,Branch,Education Loan,Application,2968152,6,SLA Breach,Pending,No,No,Not Required,3.4,0.0,Partner Growth & Lending Operations
+APP0164,2026-04-24,Partner_A,Hyderabad,Website,Personal Loan,Approved,391815,6,SLA Breach,Yes,No,No,Not Required,4.3,0.0,Customer Journey Transformation
+APP0165,2026-03-10,Partner_E,Pune,Partner,Consumer Loan,Lead,200102,3,Within SLA,Pending,No,No,Not Required,14.2,0.0,CRM & Operations Transformation
+APP0166,2026-02-08,Partner_L,Bangalore,Website,Education Loan,Documents,1680887,2,Within SLA,Pending,No,No,Not Required,14.7,0.0,Partner Growth & Lending Operations
+APP0167,2026-03-21,Partner_B,Kolkata,Website,Personal Loan,Approved,62115,7,SLA Breach,Yes,No,No,Not Required,6.7,0.0,Customer Journey Transformation
+APP0168,2026-02-03,Partner_H,Bangalore,Referral,Consumer Loan,Application,184268,6,SLA Breach,Pending,No,Yes,Not Required,5.1,0.0,CRM & Operations Transformation
+APP0169,2026-03-13,Partner_K,Bangalore,Digital Campaign,Credit Card,Lead,78625,1,Within SLA,Pending,No,No,Pending,12.2,0.0,API Integration & GTM
+APP0170,2026-03-04,Partner_A,Mumbai,Digital Campaign,Credit Card,Rejected,293341,5,Within SLA,No,No,No,Passed,7.2,0.0,API Integration & GTM
+APP0171,2026-05-12,Partner_I,Delhi,Website,Consumer Loan,Approved,227096,4,Within SLA,Yes,No,No,Not Required,12.2,0.0,CRM & Operations Transformation
+APP0172,2026-05-23,Partner_B,Delhi,Branch,Credit Card,Disbursed,206498,1,Within SLA,Yes,Yes,No,Passed,12.1,249.86,API Integration & GTM
+APP0173,2026-06-21,Partner_E,Mumbai,Referral,Personal Loan,Documents,940328,1,Within SLA,Pending,No,No,Not Required,7.5,0.0,Customer Journey Transformation
+APP0174,2026-02-17,Partner_H,Chennai,Website,Education Loan,Approved,3091661,9,SLA Breach,Yes,No,No,Not Required,13.4,0.0,Partner Growth & Lending Operations
+APP0175,2026-03-28,Partner_J,Hyderabad,Digital Campaign,Credit Card,Documents,131889,5,Within SLA,Pending,No,No,Passed,7.7,0.0,API Integration & GTM
+APP0176,2026-02-05,Partner_K,Mumbai,Referral,Credit Card,Lead,214246,7,SLA Breach,Pending,No,Yes,Passed,14.5,0.0,API Integration & GTM
+APP0177,2026-01-27,Partner_E,Delhi,Partner,Consumer Loan,Documents,470097,4,Within SLA,Pending,No,No,Not Required,6.4,0.0,CRM & Operations Transformation
+APP0178,2026-03-31,Partner_H,Ahmedabad,Website,Consumer Loan,Application,487373,2,Within SLA,Pending,No,No,Not Required,14.7,0.0,CRM & Operations Transformation
+APP0179,2026-02-11,Partner_L,Bangalore,Partner,Education Loan,Disbursed,4757950,7,SLA Breach,Yes,Yes,No,Not Required,24.7,11752.14,Partner Growth & Lending Operations
+APP0180,2026-05-21,Partner_F,Kolkata,Website,Consumer Loan,Disbursed,444891,8,SLA Breach,Yes,Yes,No,Not Required,13.8,613.95,CRM & Operations Transformation
+APP0181,2026-06-19,Partner_F,Pune,Branch,Personal Loan,Application,611672,10,SLA Breach,Pending,No,No,Not Required,7.3,0.0,Customer Journey Transformation
+APP0182,2026-03-30,Partner_J,Mumbai,Website,Consumer Loan,Disbursed,140641,8,SLA Breach,Yes,Yes,No,Not Required,18.8,264.41,CRM & Operations Transformation
+APP0183,2026-04-29,Partner_A,Kolkata,Referral,Education Loan,Approved,695246,1,Within SLA,Yes,No,No,Not Required,13.4,0.0,Partner Growth & Lending Operations
+APP0184,2026-06-02,Partner_E,Kolkata,Partner,Personal Loan,Application,614678,10,SLA Breach,Pending,No,No,Not Required,10.6,0.0,Customer Journey Transformation
+APP0185,2026-01-24,Partner_E,Bangalore,Partner,Consumer Loan,Credit Review,455333,7,SLA Breach,Pending,No,No,Not Required,3.2,0.0,CRM & Operations Transformation
+APP0186,2026-05-11,Partner_J,Chennai,Partner,Education Loan,Approved,3605958,4,Within SLA,Yes,No,No,Not Required,13.7,0.0,Partner Growth & Lending Operations
+APP0187,2026-06-21,Partner_F,Hyderabad,Website,Personal Loan,Approved,166492,1,Within SLA,Yes,No,No,Not Required,11.0,0.0,Customer Journey Transformation
+APP0188,2026-06-21,Partner_F,Ahmedabad,Website,Education Loan,Approved,2048075,10,SLA Breach,Yes,No,No,Not Required,11.0,0.0,Partner Growth & Lending Operations
+APP0189,2026-01-31,Partner_B,Kolkata,Website,Credit Card,Credit Review,147543,6,SLA Breach,Pending,No,No,Failed,5.1,0.0,API Integration & GTM
+APP0190,2026-01-30,Partner_J,Chennai,Partner,Credit Card,Credit Review,174982,1,Within SLA,Pending,No,No,Failed,8.7,0.0,API Integration & GTM
+APP0191,2026-05-30,Partner_H,Chennai,Website,Education Loan,Rejected,4888087,1,Within SLA,No,No,No,Not Required,9.3,0.0,Partner Growth & Lending Operations
+APP0192,2026-05-31,Partner_A,Delhi,Branch,Education Loan,Disbursed,3841861,4,Within SLA,Yes,Yes,No,Not Required,12.6,4840.74,Partner Growth & Lending Operations
+APP0193,2026-02-24,Partner_E,Bangalore,Website,Education Loan,Rejected,4094058,3,Within SLA,No,No,No,Not Required,8.4,0.0,Partner Growth & Lending Operations
+APP0194,2026-02-04,Partner_F,Pune,Branch,Education Loan,Disbursed,4398606,1,Within SLA,Yes,Yes,No,Not Required,25.1,11040.5,Partner Growth & Lending Operations
+APP0195,2026-06-12,Partner_F,Mumbai,Website,Credit Card,Disbursed,276227,9,SLA Breach,Yes,Yes,No,Passed,14.5,400.53,API Integration & GTM
+APP0196,2026-03-06,Partner_J,Hyderabad,Digital Campaign,Education Loan,Approved,4102684,6,SLA Breach,Yes,No,No,Not Required,10.3,0.0,Partner Growth & Lending Operations
+APP0197,2026-05-29,Partner_D,Mumbai,Branch,Personal Loan,Rejected,73429,9,SLA Breach,No,No,No,Not Required,4.5,0.0,Customer Journey Transformation
+APP0198,2026-05-14,Partner_D,Delhi,Partner,Education Loan,Credit Review,4702271,4,Within SLA,Pending,No,No,Not Required,4.3,0.0,Partner Growth & Lending Operations
+APP0199,2026-05-10,Partner_B,Pune,Partner,Education Loan,Documents,3947794,5,Within SLA,Pending,No,No,Not Required,8.5,0.0,Partner Growth & Lending Operations
+APP0200,2026-04-25,Partner_H,Kolkata,Branch,Personal Loan,Rejected,764834,9,SLA Breach,No,No,No,Not Required,4.5,0.0,Customer Journey Transformation
+APP0201,2026-02-21,Partner_A,Pune,Referral,Education Loan,Approved,2127687,1,Within SLA,Yes,No,No,Not Required,5.6,0.0,Partner Growth & Lending Operations
+APP0202,2026-03-27,Partner_B,Kolkata,Branch,Credit Card,Disbursed,107022,3,Within SLA,Yes,Yes,No,Passed,25.2,269.7,API Integration & GTM
+APP0203,2026-06-16,Partner_K,Delhi,Partner,Consumer Loan,Lead,234366,5,Within SLA,Pending,No,No,Not Required,4.6,0.0,CRM & Operations Transformation
+APP0204,2026-05-19,Partner_J,Bangalore,Partner,Personal Loan,Approved,590340,2,Within SLA,Yes,No,No,Not Required,3.5,0.0,Customer Journey Transformation
+APP0205,2026-06-29,Partner_G,Delhi,Branch,Personal Loan,Credit Review,678419,2,Within SLA,Pending,No,No,Not Required,11.8,0.0,Customer Journey Transformation
+APP0206,2026-05-10,Partner_J,Delhi,Website,Consumer Loan,Application,454127,1,Within SLA,Pending,No,No,Not Required,14.3,0.0,CRM & Operations Transformation
+APP0207,2026-02-03,Partner_J,Bangalore,Partner,Personal Loan,Lead,697099,8,SLA Breach,Pending,No,No,Not Required,10.6,0.0,Customer Journey Transformation
+APP0208,2026-06-21,Partner_A,Kolkata,Website,Personal Loan,Disbursed,823974,8,SLA Breach,Yes,Yes,Yes,Not Required,13.7,1128.84,Customer Journey Transformation
+APP0209,2026-05-13,Partner_H,Hyderabad,Referral,Personal Loan,Disbursed,479440,3,Within SLA,Yes,Yes,No,Not Required,12.2,584.92,Customer Journey Transformation
+APP0210,2026-01-05,Partner_D,Mumbai,Website,Personal Loan,Rejected,808994,7,SLA Breach,No,No,No,Not Required,7.3,0.0,Customer Journey Transformation
+APP0211,2026-06-02,Partner_H,Ahmedabad,Branch,Personal Loan,Credit Review,471486,1,Within SLA,Pending,No,No,Not Required,12.2,0.0,Customer Journey Transformation
+APP0212,2026-04-24,Partner_C,Hyderabad,Referral,Consumer Loan,Application,430195,9,SLA Breach,Pending,No,No,Not Required,9.4,0.0,CRM & Operations Transformation
+APP0213,2026-06-17,Partner_K,Ahmedabad,Partner,Education Loan,Application,2181076,2,Within SLA,Pending,No,No,Not Required,7.1,0.0,Partner Growth & Lending Operations
+APP0214,2026-06-21,Partner_H,Mumbai,Partner,Personal Loan,Credit Review,679720,2,Within SLA,Pending,No,Yes,Not Required,5.9,0.0,Customer Journey Transformation
+APP0215,2026-06-24,Partner_H,Delhi,Branch,Education Loan,Documents,2717181,7,SLA Breach,Pending,No,Yes,Not Required,6.1,0.0,Partner Growth & Lending Operations
+APP0216,2026-04-02,Partner_E,Chennai,Branch,Education Loan,Disbursed,4395958,6,SLA Breach,Yes,Yes,No,Not Required,16.3,7165.41,Partner Growth & Lending Operations
+APP0217,2026-01-22,Partner_E,Kolkata,Partner,Education Loan,Application,1728337,3,Within SLA,Pending,No,No,Not Required,7.1,0.0,Partner Growth & Lending Operations
+APP0218,2026-04-21,Partner_H,Mumbai,Website,Personal Loan,Documents,396130,7,SLA Breach,Pending,No,No,Not Required,13.5,0.0,Customer Journey Transformation
+APP0219,2026-05-12,Partner_H,Bangalore,Website,Consumer Loan,Credit Review,488311,1,Within SLA,Pending,No,No,Not Required,13.6,0.0,CRM & Operations Transformation
+APP0220,2026-06-04,Partner_J,Bangalore,Website,Education Loan,Application,2207017,5,Within SLA,Pending,No,No,Not Required,10.4,0.0,Partner Growth & Lending Operations
+APP0221,2026-05-01,Partner_I,Pune,Website,Credit Card,Credit Review,158777,10,SLA Breach,Pending,No,No,Pending,3.1,0.0,API Integration & GTM
+APP0222,2026-05-12,Partner_K,Ahmedabad,Website,Consumer Loan,Application,297254,6,SLA Breach,Pending,No,Yes,Not Required,15.0,0.0,CRM & Operations Transformation
+APP0223,2026-04-13,Partner_J,Ahmedabad,Referral,Personal Loan,Application,597993,5,Within SLA,Pending,No,No,Not Required,3.0,0.0,Customer Journey Transformation
+APP0224,2026-03-21,Partner_D,Pune,Referral,Education Loan,Disbursed,1838486,7,SLA Breach,Yes,Yes,No,Not Required,22.3,4099.82,Partner Growth & Lending Operations
+APP0225,2026-02-18,Partner_H,Chennai,Referral,Education Loan,Credit Review,1794929,3,Within SLA,Pending,No,No,Not Required,12.9,0.0,Partner Growth & Lending Operations
+APP0226,2026-01-19,Partner_H,Delhi,Partner,Personal Loan,Disbursed,202889,6,SLA Breach,Yes,Yes,No,Not Required,25.2,511.28,Customer Journey Transformation
+APP0227,2026-02-16,Partner_G,Hyderabad,Partner,Personal Loan,Credit Review,411278,4,Within SLA,Pending,No,No,Not Required,12.6,0.0,Customer Journey Transformation
+APP0228,2026-04-13,Partner_A,Hyderabad,Digital Campaign,Consumer Loan,Approved,341955,6,SLA Breach,Yes,No,Yes,Not Required,12.0,0.0,CRM & Operations Transformation
+APP0229,2026-04-28,Partner_I,Pune,Website,Personal Loan,Documents,215937,3,Within SLA,Pending,No,No,Not Required,3.3,0.0,Customer Journey Transformation
+APP0230,2026-02-18,Partner_C,Delhi,Website,Education Loan,Lead,4502713,3,Within SLA,Pending,No,No,Not Required,8.5,0.0,Partner Growth & Lending Operations
+APP0231,2026-01-24,Partner_D,Chennai,Digital Campaign,Personal Loan,Approved,210381,7,SLA Breach,Yes,No,Yes,Not Required,13.9,0.0,Customer Journey Transformation
+APP0232,2026-06-07,Partner_F,Chennai,Branch,Credit Card,Approved,218123,9,SLA Breach,Yes,No,No,Passed,14.5,0.0,API Integration & GTM
+APP0233,2026-04-16,Partner_F,Pune,Partner,Education Loan,Documents,1452246,8,SLA Breach,Pending,No,Yes,Not Required,7.5,0.0,Partner Growth & Lending Operations
+APP0234,2026-06-27,Partner_I,Delhi,Partner,Credit Card,Disbursed,276922,4,Within SLA,Yes,Yes,No,Passed,17.5,484.61,API Integration & GTM
+APP0235,2026-06-19,Partner_B,Ahmedabad,Partner,Personal Loan,Approved,116707,8,SLA Breach,Yes,No,No,Not Required,14.2,0.0,Customer Journey Transformation
+APP0236,2026-04-25,Partner_I,Delhi,Branch,Credit Card,Rejected,78228,3,Within SLA,No,No,No,Passed,7.1,0.0,API Integration & GTM
+APP0237,2026-03-12,Partner_I,Delhi,Referral,Consumer Loan,Application,37345,5,Within SLA,Pending,No,No,Not Required,6.0,0.0,CRM & Operations Transformation
+APP0238,2026-04-08,Partner_H,Delhi,Website,Credit Card,Application,252779,10,SLA Breach,Pending,No,No,Pending,9.6,0.0,API Integration & GTM
+APP0239,2026-04-08,Partner_A,Bangalore,Website,Education Loan,Application,2156321,6,SLA Breach,Pending,No,No,Not Required,11.0,0.0,Partner Growth & Lending Operations
+APP0240,2026-04-09,Partner_G,Chennai,Website,Consumer Loan,Documents,480542,8,SLA Breach,Pending,No,No,Not Required,7.3,0.0,CRM & Operations Transformation
+APP0241,2026-04-30,Partner_G,Delhi,Branch,Education Loan,Application,1088158,4,Within SLA,Pending,No,No,Not Required,9.2,0.0,Partner Growth & Lending Operations
+APP0242,2026-03-07,Partner_D,Pune,Referral,Education Loan,Application,789768,8,SLA Breach,Pending,No,Yes,Not Required,12.3,0.0,Partner Growth & Lending Operations
+APP0243,2026-06-27,Partner_H,Pune,Website,Education Loan,Credit Review,521253,7,SLA Breach,Pending,No,No,Not Required,12.9,0.0,Partner Growth & Lending Operations
+APP0244,2026-03-26,Partner_K,Ahmedabad,Website,Education Loan,Application,1728807,8,SLA Breach,Pending,No,No,Not Required,12.1,0.0,Partner Growth & Lending Operations
+APP0245,2026-05-11,Partner_H,Bangalore,Referral,Education Loan,Application,3019507,6,SLA Breach,Pending,No,No,Not Required,6.8,0.0,Partner Growth & Lending Operations
+APP0246,2026-06-09,Partner_K,Ahmedabad,Branch,Personal Loan,Credit Review,961579,1,Within SLA,Pending,No,No,Not Required,7.4,0.0,Customer Journey Transformation
+APP0247,2026-01-16,Partner_D,Chennai,Partner,Credit Card,Approved,174661,3,Within SLA,Yes,No,Yes,Pending,9.1,0.0,API Integration & GTM
+APP0248,2026-02-28,Partner_E,Delhi,Website,Consumer Loan,Approved,86481,4,Within SLA,Yes,No,Yes,Not Required,14.8,0.0,CRM & Operations Transformation
+APP0249,2026-05-13,Partner_I,Mumbai,Partner,Education Loan,Credit Review,3092536,4,Within SLA,Pending,No,Yes,Not Required,4.0,0.0,Partner Growth & Lending Operations
+APP0250,2026-06-24,Partner_I,Pune,Partner,Consumer Loan,Disbursed,161717,3,Within SLA,Yes,Yes,No,Not Required,27.8,449.57,CRM & Operations Transformation
+APP0251,2026-06-10,Partner_H,Bangalore,Partner,Credit Card,Disbursed,50587,10,SLA Breach,Yes,Yes,No,Passed,13.4,67.79,API Integration & GTM
+APP0252,2026-01-17,Partner_I,Mumbai,Partner,Education Loan,Credit Review,3847769,9,SLA Breach,Pending,No,No,Not Required,9.9,0.0,Partner Growth & Lending Operations
+APP0253,2026-06-16,Partner_K,Mumbai,Website,Credit Card,Lead,208588,2,Within SLA,Pending,No,No,Passed,3.8,0.0,API Integration & GTM
+APP0254,2026-02-07,Partner_A,Ahmedabad,Referral,Education Loan,Lead,4391839,3,Within SLA,Pending,No,No,Not Required,9.2,0.0,Partner Growth & Lending Operations
+APP0255,2026-04-09,Partner_I,Delhi,Partner,Personal Loan,Credit Review,975683,4,Within SLA,Pending,No,Yes,Not Required,12.2,0.0,Customer Journey Transformation
+APP0256,2026-02-15,Partner_C,Hyderabad,Branch,Education Loan,Disbursed,1309178,7,SLA Breach,Yes,Yes,No,Not Required,18.2,2382.7,Partner Growth & Lending Operations
+APP0257,2026-01-14,Partner_H,Chennai,Branch,Personal Loan,Documents,514894,4,Within SLA,Pending,No,No,Not Required,8.1,0.0,Customer Journey Transformation
+APP0258,2026-03-12,Partner_I,Mumbai,Partner,Consumer Loan,Rejected,269017,3,Within SLA,No,No,No,Not Required,3.2,0.0,CRM & Operations Transformation
+APP0259,2026-03-02,Partner_L,Kolkata,Website,Personal Loan,Credit Review,390754,4,Within SLA,Pending,No,No,Not Required,11.4,0.0,Customer Journey Transformation
+APP0260,2026-03-19,Partner_I,Ahmedabad,Partner,Education Loan,Approved,3185747,9,SLA Breach,Yes,No,No,Not Required,3.9,0.0,Partner Growth & Lending Operations
+APP0261,2026-03-03,Partner_D,Pune,Partner,Credit Card,Disbursed,131768,6,SLA Breach,Yes,Yes,Yes,Passed,13.3,175.25,API Integration & GTM
+APP0262,2026-06-21,Partner_C,Mumbai,Partner,Credit Card,Rejected,240001,5,Within SLA,No,No,No,Passed,13.0,0.0,API Integration & GTM
+APP0263,2026-03-28,Partner_I,Pune,Partner,Education Loan,Disbursed,1504001,8,SLA Breach,Yes,Yes,Yes,Not Required,12.4,1864.96,Partner Growth & Lending Operations
+APP0264,2026-01-21,Partner_L,Chennai,Partner,Personal Loan,Disbursed,551608,3,Within SLA,Yes,Yes,Yes,Not Required,19.1,1053.57,Customer Journey Transformation
+APP0265,2026-03-27,Partner_C,Pune,Website,Personal Loan,Approved,486571,4,Within SLA,Yes,No,No,Not Required,8.9,0.0,Customer Journey Transformation
+APP0266,2026-03-02,Partner_K,Kolkata,Partner,Education Loan,Rejected,3600581,6,SLA Breach,No,No,Yes,Not Required,3.0,0.0,Partner Growth & Lending Operations
+APP0267,2026-06-17,Partner_H,Mumbai,Partner,Personal Loan,Documents,467216,9,SLA Breach,Pending,No,No,Not Required,8.8,0.0,Customer Journey Transformation
+APP0268,2026-05-16,Partner_D,Ahmedabad,Website,Personal Loan,Approved,661004,6,SLA Breach,Yes,No,Yes,Not Required,3.6,0.0,Customer Journey Transformation
+APP0269,2026-01-09,Partner_J,Kolkata,Partner,Education Loan,Disbursed,4575837,10,SLA Breach,Yes,Yes,No,Not Required,26.9,12309.0,Partner Growth & Lending Operations
+APP0270,2026-05-27,Partner_A,Ahmedabad,Partner,Credit Card,Credit Review,225674,7,SLA Breach,Pending,No,No,Passed,11.1,0.0,API Integration & GTM
+APP0271,2026-01-12,Partner_A,Ahmedabad,Digital Campaign,Personal Loan,Credit Review,618651,8,SLA Breach,Pending,No,Yes,Not Required,11.6,0.0,Customer Journey Transformation
+APP0272,2026-06-24,Partner_J,Kolkata,Partner,Credit Card,Rejected,131348,8,SLA Breach,No,No,Yes,Passed,11.6,0.0,API Integration & GTM
+APP0273,2026-05-27,Partner_B,Bangalore,Referral,Education Loan,Application,4908285,1,Within SLA,Pending,No,No,Not Required,7.4,0.0,Partner Growth & Lending Operations
+APP0274,2026-04-15,Partner_A,Hyderabad,Website,Personal Loan,Credit Review,205378,9,SLA Breach,Pending,No,Yes,Not Required,11.0,0.0,Customer Journey Transformation
+APP0275,2026-03-25,Partner_J,Chennai,Branch,Personal Loan,Approved,913349,9,SLA Breach,Yes,No,No,Not Required,13.5,0.0,Customer Journey Transformation
+APP0276,2026-06-12,Partner_F,Mumbai,Referral,Personal Loan,Credit Review,253047,2,Within SLA,Pending,No,No,Not Required,8.1,0.0,Customer Journey Transformation
+APP0277,2026-01-28,Partner_J,Delhi,Partner,Personal Loan,Application,258944,9,SLA Breach,Pending,No,No,Not Required,10.8,0.0,Customer Journey Transformation
+APP0278,2026-04-18,Partner_D,Mumbai,Branch,Personal Loan,Lead,281496,5,Within SLA,Pending,No,Yes,Not Required,10.1,0.0,Customer Journey Transformation
+APP0279,2026-02-26,Partner_L,Pune,Branch,Credit Card,Disbursed,118670,7,SLA Breach,Yes,Yes,No,Passed,17.9,212.42,API Integration & GTM
+APP0280,2026-02-16,Partner_H,Kolkata,Website,Education Loan,Credit Review,4115652,7,SLA Breach,Pending,No,No,Not Required,13.7,0.0,Partner Growth & Lending Operations
+APP0281,2026-05-16,Partner_L,Bangalore,Partner,Education Loan,Approved,3765962,1,Within SLA,Yes,No,No,Not Required,13.2,0.0,Partner Growth & Lending Operations
+APP0282,2026-04-30,Partner_L,Chennai,Partner,Personal Loan,Credit Review,229587,1,Within SLA,Pending,No,No,Not Required,8.8,0.0,Customer Journey Transformation
+APP0283,2026-05-05,Partner_D,Bangalore,Website,Consumer Loan,Lead,339237,10,SLA Breach,Pending,No,No,Not Required,6.8,0.0,CRM & Operations Transformation
+APP0284,2026-01-18,Partner_E,Bangalore,Partner,Personal Loan,Application,515065,5,Within SLA,Pending,No,No,Not Required,8.3,0.0,Customer Journey Transformation
+APP0285,2026-06-11,Partner_K,Kolkata,Digital Campaign,Credit Card,Application,281312,6,SLA Breach,Pending,No,No,Passed,9.6,0.0,API Integration & GTM
+APP0286,2026-05-07,Partner_G,Mumbai,Partner,Education Loan,Documents,3262081,3,Within SLA,Pending,No,No,Not Required,9.1,0.0,Partner Growth & Lending Operations
+APP0287,2026-04-08,Partner_G,Pune,Digital Campaign,Education Loan,Documents,2172795,8,SLA Breach,Pending,No,Yes,Not Required,4.8,0.0,Partner Growth & Lending Operations
+APP0288,2026-06-14,Partner_A,Mumbai,Website,Personal Loan,Disbursed,543671,6,SLA Breach,Yes,Yes,No,Not Required,21.9,1190.64,Customer Journey Transformation
+APP0289,2026-02-23,Partner_E,Hyderabad,Partner,Credit Card,Approved,142021,3,Within SLA,Yes,No,No,Passed,10.2,0.0,API Integration & GTM
+APP0290,2026-02-15,Partner_E,Chennai,Branch,Personal Loan,Disbursed,329003,5,Within SLA,Yes,Yes,No,Not Required,16.4,539.56,Customer Journey Transformation
+APP0291,2026-04-12,Partner_C,Mumbai,Digital Campaign,Education Loan,Credit Review,4732939,4,Within SLA,Pending,No,Yes,Not Required,10.1,0.0,Partner Growth & Lending Operations
+APP0292,2026-06-30,Partner_G,Kolkata,Website,Personal Loan,Approved,194063,9,SLA Breach,Yes,No,No,Not Required,11.7,0.0,Customer Journey Transformation
+APP0293,2026-03-14,Partner_C,Kolkata,Website,Consumer Loan,Disbursed,213043,7,SLA Breach,Yes,Yes,Yes,Not Required,15.2,323.83,CRM & Operations Transformation
+APP0294,2026-03-10,Partner_A,Hyderabad,Partner,Education Loan,Documents,1135719,3,Within SLA,Pending,No,No,Not Required,6.1,0.0,Partner Growth & Lending Operations
+APP0295,2026-02-11,Partner_G,Ahmedabad,Referral,Personal Loan,Disbursed,299877,6,SLA Breach,Yes,Yes,No,Not Required,23.1,692.72,Customer Journey Transformation
+APP0296,2026-06-12,Partner_L,Bangalore,Referral,Personal Loan,Documents,655730,8,SLA Breach,Pending,No,No,Not Required,12.5,0.0,Customer Journey Transformation
+APP0297,2026-01-01,Partner_A,Ahmedabad,Referral,Consumer Loan,Documents,171958,3,Within SLA,Pending,No,No,Not Required,13.0,0.0,CRM & Operations Transformation
+APP0298,2026-04-14,Partner_H,Delhi,Partner,Education Loan,Disbursed,3031528,1,Within SLA,Yes,Yes,No,Not Required,21.8,6608.73,Partner Growth & Lending Operations
+APP0299,2026-06-22,Partner_D,Chennai,Referral,Personal Loan,Lead,856242,8,SLA Breach,Pending,No,No,Not Required,12.7,0.0,Customer Journey Transformation
+APP0300,2026-04-12,Partner_C,Mumbai,Partner,Credit Card,Disbursed,251793,8,SLA Breach,Yes,Yes,No,Pending,15.9,400.35,API Integration & GTM
+APP0301,2026-04-30,Partner_H,Kolkata,Partner,Education Loan,Application,1013313,7,SLA Breach,Pending,No,No,Not Required,6.5,0.0,Partner Growth & Lending Operations
+APP0302,2026-05-27,Partner_G,Delhi,Digital Campaign,Personal Loan,Disbursed,704224,9,SLA Breach,Yes,Yes,No,Not Required,12.5,880.28,Customer Journey Transformation
+APP0303,2026-02-21,Partner_F,Kolkata,Referral,Personal Loan,Disbursed,712550,10,SLA Breach,Yes,Yes,No,Not Required,22.0,1567.61,Customer Journey Transformation
+APP0304,2026-01-04,Partner_B,Pune,Website,Personal Loan,Application,975748,8,SLA Breach,Pending,No,No,Not Required,9.8,0.0,Customer Journey Transformation
+APP0305,2026-02-18,Partner_B,Pune,Branch,Education Loan,Credit Review,4863089,8,SLA Breach,Pending,No,No,Not Required,3.7,0.0,Partner Growth & Lending Operations
+APP0306,2026-02-19,Partner_J,Delhi,Partner,Education Loan,Lead,3845503,6,SLA Breach,Pending,No,No,Not Required,3.8,0.0,Partner Growth & Lending Operations
+APP0307,2026-06-04,Partner_L,Hyderabad,Partner,Personal Loan,Application,418266,9,SLA Breach,Pending,No,No,Not Required,6.2,0.0,Customer Journey Transformation
+APP0308,2026-06-28,Partner_B,Kolkata,Website,Consumer Loan,Rejected,121218,1,Within SLA,No,No,No,Not Required,14.2,0.0,CRM & Operations Transformation
+APP0309,2026-05-29,Partner_J,Delhi,Referral,Education Loan,Documents,2641912,8,SLA Breach,Pending,No,No,Not Required,4.7,0.0,Partner Growth & Lending Operations
+APP0310,2026-05-20,Partner_H,Pune,Partner,Consumer Loan,Application,385779,9,SLA Breach,Pending,No,No,Not Required,4.3,0.0,CRM & Operations Transformation
+APP0311,2026-04-15,Partner_F,Ahmedabad,Partner,Consumer Loan,Documents,448815,9,SLA Breach,Pending,No,No,Not Required,4.3,0.0,CRM & Operations Transformation
+APP0312,2026-02-23,Partner_B,Delhi,Branch,Education Loan,Disbursed,3672382,2,Within SLA,Yes,Yes,No,Not Required,22.5,8262.86,Partner Growth & Lending Operations
+APP0313,2026-01-03,Partner_G,Delhi,Partner,Consumer Loan,Lead,378040,8,SLA Breach,Pending,No,Yes,Not Required,4.5,0.0,CRM & Operations Transformation
+APP0314,2026-02-23,Partner_E,Pune,Referral,Education Loan,Approved,1789467,3,Within SLA,Yes,No,No,Not Required,12.9,0.0,Partner Growth & Lending Operations
+APP0315,2026-04-10,Partner_E,Bangalore,Partner,Personal Loan,Lead,856564,6,SLA Breach,Pending,No,No,Not Required,3.2,0.0,Customer Journey Transformation
+APP0316,2026-06-02,Partner_C,Kolkata,Partner,Consumer Loan,Documents,287803,6,SLA Breach,Pending,No,No,Not Required,11.7,0.0,CRM & Operations Transformation
+APP0317,2026-01-27,Partner_F,Hyderabad,Website,Consumer Loan,Documents,311755,1,Within SLA,Pending,No,No,Not Required,14.7,0.0,CRM & Operations Transformation
+APP0318,2026-01-07,Partner_I,Bangalore,Partner,Personal Loan,Application,930006,5,Within SLA,Pending,No,No,Not Required,11.9,0.0,Customer Journey Transformation
+APP0319,2026-02-14,Partner_K,Delhi,Website,Education Loan,Approved,1998339,3,Within SLA,Yes,No,No,Not Required,13.8,0.0,Partner Growth & Lending Operations
+APP0320,2026-06-21,Partner_C,Delhi,Partner,Personal Loan,Application,142769,2,Within SLA,Pending,No,No,Not Required,12.0,0.0,Customer Journey Transformation
+APP0321,2026-01-22,Partner_I,Kolkata,Digital Campaign,Education Loan,Disbursed,2934003,2,Within SLA,Yes,Yes,No,Not Required,21.0,6161.41,Partner Growth & Lending Operations
+APP0322,2026-01-11,Partner_L,Kolkata,Partner,Personal Loan,Application,476009,9,SLA Breach,Pending,No,No,Not Required,9.9,0.0,Customer Journey Transformation
+APP0323,2026-02-26,Partner_D,Kolkata,Website,Consumer Loan,Application,104218,1,Within SLA,Pending,No,No,Not Required,14.0,0.0,CRM & Operations Transformation
+APP0324,2026-02-23,Partner_B,Bangalore,Referral,Consumer Loan,Application,154932,4,Within SLA,Pending,No,No,Not Required,8.4,0.0,CRM & Operations Transformation
+APP0325,2026-03-03,Partner_B,Kolkata,Partner,Personal Loan,Documents,464841,5,Within SLA,Pending,No,Yes,Not Required,10.5,0.0,Customer Journey Transformation
+APP0326,2026-04-18,Partner_J,Chennai,Website,Credit Card,Credit Review,117293,3,Within SLA,Pending,No,No,Passed,5.5,0.0,API Integration & GTM
+APP0327,2026-03-05,Partner_B,Mumbai,Digital Campaign,Credit Card,Documents,291131,6,SLA Breach,Pending,No,No,Passed,9.0,0.0,API Integration & GTM
+APP0328,2026-06-03,Partner_L,Mumbai,Website,Consumer Loan,Credit Review,355905,3,Within SLA,Pending,No,No,Not Required,5.6,0.0,CRM & Operations Transformation
+APP0329,2026-01-08,Partner_K,Delhi,Branch,Education Loan,Rejected,3397706,5,Within SLA,No,No,Yes,Not Required,14.6,0.0,Partner Growth & Lending Operations
+APP0330,2026-03-27,Partner_D,Kolkata,Website,Education Loan,Application,3011910,1,Within SLA,Pending,No,No,Not Required,9.8,0.0,Partner Growth & Lending Operations
+APP0331,2026-06-19,Partner_E,Bangalore,Referral,Consumer Loan,Disbursed,169227,10,SLA Breach,Yes,Yes,No,Not Required,12.7,214.92,CRM & Operations Transformation
+APP0332,2026-06-22,Partner_H,Ahmedabad,Branch,Education Loan,Application,4656004,9,SLA Breach,Pending,No,No,Not Required,13.7,0.0,Partner Growth & Lending Operations
+APP0333,2026-05-28,Partner_H,Kolkata,Partner,Education Loan,Disbursed,2795936,9,SLA Breach,Yes,Yes,No,Not Required,17.9,5004.73,Partner Growth & Lending Operations
+APP0334,2026-04-01,Partner_A,Kolkata,Digital Campaign,Credit Card,Approved,69149,1,Within SLA,Yes,No,No,Passed,9.8,0.0,API Integration & GTM
+APP0335,2026-02-10,Partner_A,Bangalore,Branch,Personal Loan,Disbursed,80099,4,Within SLA,Yes,Yes,No,Not Required,25.4,203.45,Customer Journey Transformation
+APP0336,2026-06-28,Partner_A,Chennai,Partner,Education Loan,Disbursed,1706184,4,Within SLA,Yes,Yes,No,Not Required,19.0,3241.75,Partner Growth & Lending Operations
+APP0337,2026-05-29,Partner_C,Mumbai,Partner,Personal Loan,Application,785430,7,SLA Breach,Pending,No,Yes,Not Required,13.7,0.0,Customer Journey Transformation
+APP0338,2026-06-05,Partner_D,Kolkata,Branch,Credit Card,Credit Review,282556,8,SLA Breach,Pending,No,No,Passed,13.3,0.0,API Integration & GTM
+APP0339,2026-06-13,Partner_J,Kolkata,Website,Personal Loan,Disbursed,228048,3,Within SLA,Yes,Yes,No,Not Required,25.2,574.68,Customer Journey Transformation
+APP0340,2026-03-10,Partner_J,Pune,Branch,Credit Card,Application,172808,1,Within SLA,Pending,No,No,Passed,8.1,0.0,API Integration & GTM
+APP0341,2026-06-17,Partner_I,Hyderabad,Website,Personal Loan,Approved,271883,6,SLA Breach,Yes,No,No,Not Required,11.7,0.0,Customer Journey Transformation
+APP0342,2026-06-13,Partner_D,Mumbai,Partner,Education Loan,Disbursed,4061262,4,Within SLA,Yes,Yes,Yes,Not Required,15.6,6335.57,Partner Growth & Lending Operations
+APP0343,2026-05-06,Partner_G,Bangalore,Branch,Credit Card,Documents,216589,5,Within SLA,Pending,No,No,Pending,5.2,0.0,API Integration & GTM
+APP0344,2026-01-16,Partner_D,Kolkata,Digital Campaign,Education Loan,Application,3781941,5,Within SLA,Pending,No,No,Not Required,4.8,0.0,Partner Growth & Lending Operations
+APP0345,2026-01-17,Partner_J,Ahmedabad,Website,Education Loan,Application,578077,9,SLA Breach,Pending,No,No,Not Required,10.5,0.0,Partner Growth & Lending Operations
+APP0346,2026-02-05,Partner_I,Mumbai,Partner,Personal Loan,Disbursed,999349,1,Within SLA,Yes,Yes,No,Not Required,20.1,2008.69,Customer Journey Transformation
+APP0347,2026-06-16,Partner_B,Ahmedabad,Website,Consumer Loan,Application,418518,6,SLA Breach,Pending,No,Yes,Not Required,11.3,0.0,CRM & Operations Transformation
+APP0348,2026-01-03,Partner_B,Mumbai,Partner,Consumer Loan,Lead,376184,6,SLA Breach,Pending,No,No,Not Required,14.7,0.0,CRM & Operations Transformation
+APP0349,2026-05-26,Partner_G,Ahmedabad,Branch,Education Loan,Credit Review,837369,4,Within SLA,Pending,No,No,Not Required,11.8,0.0,Partner Growth & Lending Operations
+APP0350,2026-02-28,Partner_C,Ahmedabad,Branch,Education Loan,Disbursed,3409984,2,Within SLA,Yes,Yes,No,Not Required,15.8,5387.77,Partner Growth & Lending Operations
+APP0351,2026-01-13,Partner_A,Hyderabad,Referral,Personal Loan,Credit Review,705348,1,Within SLA,Pending,No,No,Not Required,8.8,0.0,Customer Journey Transformation
+APP0352,2026-06-21,Partner_C,Pune,Referral,Consumer Loan,Application,324442,10,SLA Breach,Pending,No,No,Not Required,11.1,0.0,CRM & Operations Transformation
+APP0353,2026-03-24,Partner_C,Hyderabad,Branch,Education Loan,Disbursed,2509606,8,SLA Breach,Yes,Yes,Yes,Not Required,25.6,6424.59,Partner Growth & Lending Operations
+APP0354,2026-05-25,Partner_H,Pune,Partner,Personal Loan,Application,137051,5,Within SLA,Pending,No,No,Not Required,7.2,0.0,Customer Journey Transformation
+APP0355,2026-01-19,Partner_L,Chennai,Website,Consumer Loan,Approved,293031,1,Within SLA,Yes,No,No,Not Required,8.2,0.0,CRM & Operations Transformation
+APP0356,2026-05-08,Partner_G,Pune,Partner,Credit Card,Rejected,96163,6,SLA Breach,No,No,No,Passed,12.4,0.0,API Integration & GTM
+APP0357,2026-01-06,Partner_H,Bangalore,Partner,Credit Card,Rejected,144776,8,SLA Breach,No,No,No,Passed,5.2,0.0,API Integration & GTM
+APP0358,2026-03-12,Partner_I,Delhi,Digital Campaign,Personal Loan,Application,702755,9,SLA Breach,Pending,No,No,Not Required,9.2,0.0,Customer Journey Transformation
+APP0359,2026-06-20,Partner_I,Mumbai,Partner,Education Loan,Documents,2013083,8,SLA Breach,Pending,No,No,Not Required,14.6,0.0,Partner Growth & Lending Operations
+APP0360,2026-04-21,Partner_F,Pune,Partner,Personal Loan,Documents,161541,4,Within SLA,Pending,No,No,Not Required,10.5,0.0,Customer Journey Transformation
+APP0361,2026-03-11,Partner_F,Mumbai,Referral,Personal Loan,Documents,837738,10,SLA Breach,Pending,No,No,Not Required,11.1,0.0,Customer Journey Transformation
+APP0362,2026-05-30,Partner_L,Bangalore,Partner,Education Loan,Disbursed,2377145,9,SLA Breach,Yes,Yes,No,Not Required,27.1,6442.06,Partner Growth & Lending Operations
+APP0363,2026-02-14,Partner_H,Chennai,Partner,Consumer Loan,Approved,114381,9,SLA Breach,Yes,No,No,Not Required,10.5,0.0,CRM & Operations Transformation
+APP0364,2026-02-01,Partner_D,Mumbai,Partner,Personal Loan,Rejected,520435,9,SLA Breach,No,No,No,Not Required,5.3,0.0,Customer Journey Transformation
+APP0365,2026-06-02,Partner_J,Bangalore,Referral,Education Loan,Disbursed,4248529,3,Within SLA,Yes,Yes,Yes,Not Required,13.3,5650.54,Partner Growth & Lending Operations
+APP0366,2026-02-10,Partner_K,Hyderabad,Partner,Personal Loan,Credit Review,773858,8,SLA Breach,Pending,No,No,Not Required,9.6,0.0,Customer Journey Transformation
+APP0367,2026-04-20,Partner_H,Kolkata,Referral,Education Loan,Application,2720182,4,Within SLA,Pending,No,No,Not Required,6.0,0.0,Partner Growth & Lending Operations
+APP0368,2026-04-04,Partner_H,Mumbai,Partner,Education Loan,Credit Review,1838306,10,SLA Breach,Pending,No,No,Not Required,10.1,0.0,Partner Growth & Lending Operations
+APP0369,2026-03-06,Partner_F,Kolkata,Branch,Consumer Loan,Disbursed,430826,8,SLA Breach,Yes,Yes,No,Not Required,21.9,943.51,CRM & Operations Transformation
+APP0370,2026-01-28,Partner_H,Mumbai,Digital Campaign,Education Loan,Disbursed,4128104,6,SLA Breach,Yes,Yes,No,Not Required,17.3,7141.62,Partner Growth & Lending Operations
+APP0371,2026-06-17,Partner_B,Ahmedabad,Branch,Consumer Loan,Disbursed,393265,10,SLA Breach,Yes,Yes,No,Not Required,23.3,916.31,CRM & Operations Transformation
+APP0372,2026-01-04,Partner_E,Kolkata,Referral,Personal Loan,Lead,205489,6,SLA Breach,Pending,No,No,Not Required,10.2,0.0,Customer Journey Transformation
+APP0373,2026-05-01,Partner_K,Chennai,Website,Personal Loan,Lead,343851,1,Within SLA,Pending,No,No,Not Required,7.9,0.0,Customer Journey Transformation
+APP0374,2026-03-25,Partner_E,Hyderabad,Partner,Education Loan,Application,1173812,2,Within SLA,Pending,No,Yes,Not Required,12.8,0.0,Partner Growth & Lending Operations
+APP0375,2026-03-02,Partner_A,Pune,Branch,Personal Loan,Rejected,871530,8,SLA Breach,No,No,No,Not Required,6.1,0.0,Customer Journey Transformation
+APP0376,2026-06-26,Partner_I,Delhi,Branch,Personal Loan,Documents,970095,7,SLA Breach,Pending,No,Yes,Not Required,6.9,0.0,Customer Journey Transformation
+APP0377,2026-05-30,Partner_A,Hyderabad,Digital Campaign,Personal Loan,Application,705496,6,SLA Breach,Pending,No,No,Not Required,9.0,0.0,Customer Journey Transformation
+APP0378,2026-01-29,Partner_G,Hyderabad,Branch,Personal Loan,Documents,795423,3,Within SLA,Pending,No,No,Not Required,3.2,0.0,Customer Journey Transformation
+APP0379,2026-05-14,Partner_D,Kolkata,Website,Personal Loan,Credit Review,759676,1,Within SLA,Pending,No,No,Not Required,13.4,0.0,Customer Journey Transformation
+APP0380,2026-04-25,Partner_F,Hyderabad,Partner,Credit Card,Documents,120269,10,SLA Breach,Pending,No,Yes,Passed,10.6,0.0,API Integration & GTM
+APP0381,2026-06-01,Partner_L,Mumbai,Website,Education Loan,Application,2251797,3,Within SLA,Pending,No,No,Not Required,12.0,0.0,Partner Growth & Lending Operations
+APP0382,2026-06-06,Partner_A,Chennai,Website,Personal Loan,Disbursed,150546,10,SLA Breach,Yes,Yes,No,Not Required,24.1,362.82,Customer Journey Transformation
+APP0383,2026-02-08,Partner_F,Hyderabad,Website,Personal Loan,Approved,193279,1,Within SLA,Yes,No,No,Not Required,14.2,0.0,Customer Journey Transformation
+APP0384,2026-06-20,Partner_G,Delhi,Referral,Education Loan,Documents,1660294,5,Within SLA,Pending,No,No,Not Required,10.3,0.0,Partner Growth & Lending Operations
+APP0385,2026-02-25,Partner_E,Mumbai,Website,Education Loan,Approved,3524015,9,SLA Breach,Yes,No,No,Not Required,11.4,0.0,Partner Growth & Lending Operations
+APP0386,2026-06-18,Partner_I,Mumbai,Branch,Credit Card,Application,253381,9,SLA Breach,Pending,No,No,Passed,12.8,0.0,API Integration & GTM
+APP0387,2026-05-16,Partner_E,Chennai,Website,Consumer Loan,Documents,334359,2,Within SLA,Pending,No,Yes,Not Required,5.4,0.0,CRM & Operations Transformation
+APP0388,2026-03-07,Partner_I,Ahmedabad,Website,Consumer Loan,Rejected,186379,4,Within SLA,No,No,No,Not Required,3.9,0.0,CRM & Operations Transformation
+APP0389,2026-03-05,Partner_D,Ahmedabad,Digital Campaign,Personal Loan,Rejected,535097,3,Within SLA,No,No,No,Not Required,7.2,0.0,Customer Journey Transformation
+APP0390,2026-06-07,Partner_D,Mumbai,Referral,Personal Loan,Documents,708250,10,SLA Breach,Pending,No,No,Not Required,14.2,0.0,Customer Journey Transformation
+APP0391,2026-02-27,Partner_A,Hyderabad,Referral,Education Loan,Lead,1199895,9,SLA Breach,Pending,No,No,Not Required,8.1,0.0,Partner Growth & Lending Operations
+APP0392,2026-03-12,Partner_G,Ahmedabad,Branch,Credit Card,Credit Review,70176,3,Within SLA,Pending,No,No,Passed,11.9,0.0,API Integration & GTM
+APP0393,2026-03-03,Partner_F,Delhi,Partner,Credit Card,Application,274655,7,SLA Breach,Pending,No,No,Passed,12.3,0.0,API Integration & GTM
+APP0394,2026-04-04,Partner_K,Chennai,Website,Education Loan,Documents,3138439,9,SLA Breach,Pending,No,No,Not Required,5.6,0.0,Partner Growth & Lending Operations
+APP0395,2026-01-23,Partner_K,Kolkata,Referral,Consumer Loan,Credit Review,345097,2,Within SLA,Pending,No,No,Not Required,8.3,0.0,CRM & Operations Transformation
+APP0396,2026-06-05,Partner_F,Hyderabad,Branch,Credit Card,Documents,232949,3,Within SLA,Pending,No,No,Passed,6.2,0.0,API Integration & GTM
+APP0397,2026-01-23,Partner_K,Pune,Partner,Personal Loan,Disbursed,702873,7,SLA Breach,Yes,Yes,No,Not Required,25.1,1764.21,Customer Journey Transformation
+APP0398,2026-03-11,Partner_J,Delhi,Branch,Consumer Loan,Disbursed,439760,8,SLA Breach,Yes,Yes,No,Not Required,16.2,712.41,CRM & Operations Transformation
+APP0399,2026-06-06,Partner_E,Pune,Branch,Personal Loan,Lead,476673,6,SLA Breach,Pending,No,No,Not Required,5.4,0.0,Customer Journey Transformation
+APP0400,2026-01-27,Partner_B,Bangalore,Referral,Personal Loan,Disbursed,967472,6,SLA Breach,Yes,Yes,No,Not Required,27.5,2660.55,Customer Journey Transformation
+APP0401,2026-01-13,Partner_K,Ahmedabad,Partner,Consumer Loan,Approved,473842,3,Within SLA,Yes,No,No,Not Required,6.6,0.0,CRM & Operations Transformation
+APP0402,2026-06-01,Partner_K,Delhi,Partner,Education Loan,Disbursed,614589,5,Within SLA,Yes,Yes,No,Not Required,12.2,749.8,Partner Growth & Lending Operations
+APP0403,2026-05-05,Partner_G,Kolkata,Branch,Personal Loan,Credit Review,991497,3,Within SLA,Pending,No,Yes,Not Required,8.0,0.0,Customer Journey Transformation
+APP0404,2026-06-01,Partner_C,Mumbai,Website,Personal Loan,Approved,83340,9,SLA Breach,Yes,No,No,Not Required,10.2,0.0,Customer Journey Transformation
+APP0405,2026-04-23,Partner_L,Delhi,Website,Personal Loan,Approved,251604,3,Within SLA,Yes,No,No,Not Required,8.9,0.0,Customer Journey Transformation
+APP0406,2026-03-16,Partner_K,Ahmedabad,Digital Campaign,Personal Loan,Credit Review,593898,7,SLA Breach,Pending,No,Yes,Not Required,4.3,0.0,Customer Journey Transformation
+APP0407,2026-03-05,Partner_I,Mumbai,Website,Education Loan,Approved,1365256,6,SLA Breach,Yes,No,No,Not Required,4.9,0.0,Partner Growth & Lending Operations
+APP0408,2026-04-22,Partner_H,Pune,Website,Credit Card,Lead,111169,1,Within SLA,Pending,No,No,Passed,3.2,0.0,API Integration & GTM
+APP0409,2026-01-13,Partner_L,Ahmedabad,Partner,Education Loan,Disbursed,743877,3,Within SLA,Yes,Yes,No,Not Required,27.3,2030.78,Partner Growth & Lending Operations
+APP0410,2026-05-28,Partner_F,Bangalore,Website,Education Loan,Rejected,1918826,8,SLA Breach,No,No,No,Not Required,10.1,0.0,Partner Growth & Lending Operations
+APP0411,2026-06-25,Partner_A,Ahmedabad,Website,Education Loan,Approved,1325782,7,SLA Breach,Yes,No,No,Not Required,14.7,0.0,Partner Growth & Lending Operations
+APP0412,2026-02-26,Partner_I,Mumbai,Branch,Personal Loan,Application,748148,10,SLA Breach,Pending,No,No,Not Required,10.2,0.0,Customer Journey Transformation
+APP0413,2026-06-06,Partner_D,Pune,Branch,Personal Loan,Lead,55750,1,Within SLA,Pending,No,No,Not Required,13.7,0.0,Customer Journey Transformation
+APP0414,2026-06-09,Partner_B,Kolkata,Website,Education Loan,Application,4151361,4,Within SLA,Pending,No,No,Not Required,14.3,0.0,Partner Growth & Lending Operations
+APP0415,2026-04-14,Partner_C,Delhi,Partner,Education Loan,Disbursed,4642887,8,SLA Breach,Yes,Yes,No,Not Required,16.5,7660.76,Partner Growth & Lending Operations
+APP0416,2026-02-05,Partner_H,Pune,Referral,Education Loan,Disbursed,2051899,1,Within SLA,Yes,Yes,No,Not Required,16.8,3447.19,Partner Growth & Lending Operations
+APP0417,2026-04-29,Partner_B,Ahmedabad,Branch,Education Loan,Lead,2222199,8,SLA Breach,Pending,No,No,Not Required,8.8,0.0,Partner Growth & Lending Operations
+APP0418,2026-05-25,Partner_E,Ahmedabad,Referral,Credit Card,Approved,116983,8,SLA Breach,Yes,No,No,Passed,8.9,0.0,API Integration & GTM
+APP0419,2026-03-30,Partner_J,Hyderabad,Digital Campaign,Personal Loan,Approved,826372,8,SLA Breach,Yes,No,No,Not Required,5.3,0.0,Customer Journey Transformation
+APP0420,2026-05-17,Partner_H,Hyderabad,Referral,Personal Loan,Disbursed,714846,7,SLA Breach,Yes,Yes,No,Not Required,27.8,1987.27,Customer Journey Transformation
+APP0421,2026-02-17,Partner_E,Bangalore,Partner,Consumer Loan,Credit Review,241144,6,SLA Breach,Pending,No,No,Not Required,7.3,0.0,CRM & Operations Transformation
+APP0422,2026-05-14,Partner_D,Mumbai,Partner,Personal Loan,Disbursed,159373,8,SLA Breach,Yes,Yes,No,Not Required,27.2,433.49,Customer Journey Transformation
+APP0423,2026-06-15,Partner_J,Chennai,Website,Personal Loan,Approved,438227,7,SLA Breach,Yes,No,Yes,Not Required,11.9,0.0,Customer Journey Transformation
+APP0424,2026-06-15,Partner_C,Pune,Partner,Consumer Loan,Credit Review,299045,2,Within SLA,Pending,No,Yes,Not Required,10.2,0.0,CRM & Operations Transformation
+APP0425,2026-06-26,Partner_I,Chennai,Website,Consumer Loan,Documents,41874,10,SLA Breach,Pending,No,No,Not Required,4.0,0.0,CRM & Operations Transformation
+APP0426,2026-05-07,Partner_E,Chennai,Website,Credit Card,Rejected,178126,9,SLA Breach,No,No,No,Passed,9.3,0.0,API Integration & GTM
+APP0427,2026-05-23,Partner_J,Bangalore,Partner,Education Loan,Lead,1641452,1,Within SLA,Pending,No,No,Not Required,8.5,0.0,Partner Growth & Lending Operations
+APP0428,2026-01-13,Partner_H,Bangalore,Partner,Education Loan,Rejected,2412493,8,SLA Breach,No,No,No,Not Required,5.9,0.0,Partner Growth & Lending Operations
+APP0429,2026-04-13,Partner_I,Delhi,Website,Personal Loan,Application,929617,6,SLA Breach,Pending,No,No,Not Required,10.2,0.0,Customer Journey Transformation
+APP0430,2026-04-26,Partner_B,Delhi,Website,Consumer Loan,Approved,356237,5,Within SLA,Yes,No,No,Not Required,10.8,0.0,CRM & Operations Transformation
+APP0431,2026-04-21,Partner_L,Kolkata,Website,Credit Card,Application,224463,4,Within SLA,Pending,No,No,Pending,14.1,0.0,API Integration & GTM
+APP0432,2026-05-16,Partner_B,Ahmedabad,Partner,Education Loan,Application,3876910,1,Within SLA,Pending,No,No,Not Required,14.0,0.0,Partner Growth & Lending Operations
+APP0433,2026-06-09,Partner_A,Mumbai,Partner,Education Loan,Disbursed,4097170,7,SLA Breach,Yes,Yes,No,Not Required,24.4,9997.09,Partner Growth & Lending Operations
+APP0434,2026-02-23,Partner_H,Kolkata,Branch,Personal Loan,Rejected,750757,2,Within SLA,No,No,No,Not Required,12.0,0.0,Customer Journey Transformation
+APP0435,2026-04-13,Partner_C,Mumbai,Partner,Education Loan,Documents,1248692,3,Within SLA,Pending,No,No,Not Required,3.5,0.0,Partner Growth & Lending Operations
+APP0436,2026-03-09,Partner_C,Ahmedabad,Referral,Education Loan,Documents,2445537,6,SLA Breach,Pending,No,Yes,Not Required,13.6,0.0,Partner Growth & Lending Operations
+APP0437,2026-03-24,Partner_D,Bangalore,Digital Campaign,Personal Loan,Credit Review,631177,1,Within SLA,Pending,No,No,Not Required,10.5,0.0,Customer Journey Transformation
+APP0438,2026-04-24,Partner_H,Ahmedabad,Partner,Education Loan,Credit Review,3022919,1,Within SLA,Pending,No,Yes,Not Required,5.2,0.0,Partner Growth & Lending Operations
+APP0439,2026-02-03,Partner_I,Kolkata,Partner,Consumer Loan,Application,33358,8,SLA Breach,Pending,No,No,Not Required,8.4,0.0,CRM & Operations Transformation
+APP0440,2026-01-05,Partner_F,Bangalore,Partner,Education Loan,Disbursed,4932787,8,SLA Breach,Yes,Yes,No,Not Required,26.5,13071.89,Partner Growth & Lending Operations
+APP0441,2026-05-20,Partner_A,Kolkata,Digital Campaign,Education Loan,Credit Review,4972089,2,Within SLA,Pending,No,Yes,Not Required,7.3,0.0,Partner Growth & Lending Operations
+APP0442,2026-03-25,Partner_G,Ahmedabad,Partner,Consumer Loan,Documents,279432,2,Within SLA,Pending,No,No,Not Required,7.1,0.0,CRM & Operations Transformation
+APP0443,2026-01-21,Partner_A,Pune,Partner,Credit Card,Documents,143326,10,SLA Breach,Pending,No,No,Passed,8.2,0.0,API Integration & GTM
+APP0444,2026-04-14,Partner_F,Hyderabad,Website,Personal Loan,Lead,630971,7,SLA Breach,Pending,No,No,Not Required,14.2,0.0,Customer Journey Transformation
+APP0445,2026-06-30,Partner_B,Bangalore,Branch,Credit Card,Documents,83776,8,SLA Breach,Pending,No,No,Pending,4.3,0.0,API Integration & GTM
+APP0446,2026-01-30,Partner_F,Delhi,Partner,Personal Loan,Application,866698,2,Within SLA,Pending,No,No,Not Required,3.4,0.0,Customer Journey Transformation
+APP0447,2026-04-13,Partner_G,Bangalore,Partner,Consumer Loan,Disbursed,429294,6,SLA Breach,Yes,Yes,No,Not Required,24.7,1060.36,CRM & Operations Transformation
+APP0448,2026-04-21,Partner_B,Kolkata,Website,Consumer Loan,Application,151688,1,Within SLA,Pending,No,No,Not Required,5.7,0.0,CRM & Operations Transformation
+APP0449,2026-01-08,Partner_J,Chennai,Partner,Personal Loan,Disbursed,317598,1,Within SLA,Yes,Yes,No,Not Required,26.3,835.28,Customer Journey Transformation
+APP0450,2026-06-12,Partner_F,Bangalore,Partner,Education Loan,Application,3105221,1,Within SLA,Pending,No,No,Not Required,14.0,0.0,Partner Growth & Lending Operations
+APP0451,2026-02-27,Partner_F,Delhi,Website,Education Loan,Documents,1099792,5,Within SLA,Pending,No,No,Not Required,3.2,0.0,Partner Growth & Lending Operations
+APP0452,2026-01-17,Partner_J,Kolkata,Website,Credit Card,Credit Review,192867,6,SLA Breach,Pending,No,No,Passed,14.7,0.0,API Integration & GTM
+APP0453,2026-06-12,Partner_G,Ahmedabad,Branch,Consumer Loan,Application,430782,3,Within SLA,Pending,No,No,Not Required,3.5,0.0,CRM & Operations Transformation
+APP0454,2026-04-17,Partner_D,Mumbai,Website,Education Loan,Credit Review,1435783,8,SLA Breach,Pending,No,No,Not Required,7.5,0.0,Partner Growth & Lending Operations
+APP0455,2026-03-09,Partner_D,Delhi,Website,Consumer Loan,Credit Review,301487,5,Within SLA,Pending,No,No,Not Required,7.7,0.0,CRM & Operations Transformation
+APP0456,2026-01-24,Partner_D,Delhi,Partner,Personal Loan,Application,950959,2,Within SLA,Pending,No,No,Not Required,5.8,0.0,Customer Journey Transformation
+APP0457,2026-05-05,Partner_G,Delhi,Partner,Consumer Loan,Disbursed,216950,8,SLA Breach,Yes,Yes,No,Not Required,18.1,392.68,CRM & Operations Transformation
+APP0458,2026-06-20,Partner_J,Chennai,Website,Personal Loan,Credit Review,874516,5,Within SLA,Pending,No,No,Not Required,11.8,0.0,Customer Journey Transformation
+APP0459,2026-04-16,Partner_F,Ahmedabad,Referral,Consumer Loan,Disbursed,147229,4,Within SLA,Yes,Yes,No,Not Required,20.0,294.46,CRM & Operations Transformation
+APP0460,2026-05-25,Partner_I,Delhi,Website,Credit Card,Disbursed,288597,8,SLA Breach,Yes,Yes,No,Passed,12.1,349.2,API Integration & GTM
+APP0461,2026-05-30,Partner_A,Hyderabad,Partner,Credit Card,Application,109807,6,SLA Breach,Pending,No,No,Passed,4.6,0.0,API Integration & GTM
+APP0462,2026-03-14,Partner_K,Bangalore,Partner,Credit Card,Lead,106635,7,SLA Breach,Pending,No,No,Passed,6.7,0.0,API Integration & GTM
+APP0463,2026-04-22,Partner_E,Kolkata,Referral,Education Loan,Credit Review,4478966,9,SLA Breach,Pending,No,No,Not Required,5.1,0.0,Partner Growth & Lending Operations
+APP0464,2026-04-09,Partner_J,Hyderabad,Branch,Personal Loan,Approved,964013,7,SLA Breach,Yes,No,No,Not Required,3.6,0.0,Customer Journey Transformation
+APP0465,2026-03-05,Partner_C,Mumbai,Partner,Personal Loan,Lead,90149,7,SLA Breach,Pending,No,No,Not Required,5.8,0.0,Customer Journey Transformation
+APP0466,2026-03-31,Partner_B,Chennai,Partner,Education Loan,Application,853039,1,Within SLA,Pending,No,No,Not Required,13.3,0.0,Partner Growth & Lending Operations
+APP0467,2026-02-28,Partner_K,Kolkata,Branch,Consumer Loan,Application,392793,4,Within SLA,Pending,No,Yes,Not Required,9.5,0.0,CRM & Operations Transformation
+APP0468,2026-02-12,Partner_H,Kolkata,Website,Personal Loan,Application,324349,8,SLA Breach,Pending,No,No,Not Required,7.9,0.0,Customer Journey Transformation
+APP0469,2026-03-17,Partner_H,Pune,Partner,Credit Card,Disbursed,219796,10,SLA Breach,Yes,Yes,No,Passed,17.4,382.45,API Integration & GTM
+APP0470,2026-06-24,Partner_J,Kolkata,Partner,Education Loan,Lead,1994139,5,Within SLA,Pending,No,No,Not Required,8.8,0.0,Partner Growth & Lending Operations
+APP0471,2026-03-11,Partner_J,Delhi,Partner,Personal Loan,Disbursed,699242,7,SLA Breach,Yes,Yes,No,Not Required,14.4,1006.91,Customer Journey Transformation
+APP0472,2026-03-03,Partner_B,Delhi,Website,Education Loan,Disbursed,4169021,3,Within SLA,Yes,Yes,No,Not Required,15.1,6295.22,Partner Growth & Lending Operations
+APP0473,2026-04-26,Partner_D,Pune,Partner,Consumer Loan,Documents,206968,7,SLA Breach,Pending,No,No,Not Required,10.8,0.0,CRM & Operations Transformation
+APP0474,2026-03-09,Partner_I,Ahmedabad,Branch,Credit Card,Disbursed,133793,5,Within SLA,Yes,Yes,No,Passed,17.8,238.15,API Integration & GTM
+APP0475,2026-05-08,Partner_J,Hyderabad,Partner,Education Loan,Application,1100198,4,Within SLA,Pending,No,Yes,Not Required,12.5,0.0,Partner Growth & Lending Operations
+APP0476,2026-04-06,Partner_C,Kolkata,Website,Credit Card,Credit Review,72337,4,Within SLA,Pending,No,No,Passed,11.0,0.0,API Integration & GTM
+APP0477,2026-04-21,Partner_E,Kolkata,Partner,Consumer Loan,Approved,163248,7,SLA Breach,Yes,No,No,Not Required,10.2,0.0,CRM & Operations Transformation
+APP0478,2026-04-18,Partner_A,Mumbai,Partner,Credit Card,Rejected,50320,5,Within SLA,No,No,No,Passed,13.4,0.0,API Integration & GTM
+APP0479,2026-02-18,Partner_B,Mumbai,Partner,Education Loan,Rejected,1850850,3,Within SLA,No,No,No,Not Required,10.1,0.0,Partner Growth & Lending Operations
+APP0480,2026-04-15,Partner_D,Chennai,Website,Credit Card,Application,112559,10,SLA Breach,Pending,No,No,Passed,10.5,0.0,API Integration & GTM
+APP0481,2026-03-30,Partner_F,Ahmedabad,Partner,Credit Card,Application,136483,2,Within SLA,Pending,No,No,Passed,7.1,0.0,API Integration & GTM
+APP0482,2026-03-01,Partner_L,Bangalore,Partner,Consumer Loan,Lead,269455,9,SLA Breach,Pending,No,No,Not Required,3.3,0.0,CRM & Operations Transformation
+APP0483,2026-06-05,Partner_D,Ahmedabad,Referral,Credit Card,Credit Review,264401,9,SLA Breach,Pending,No,Yes,Passed,13.7,0.0,API Integration & GTM
+APP0484,2026-02-05,Partner_E,Bangalore,Partner,Education Loan,Credit Review,2787319,2,Within SLA,Pending,No,Yes,Not Required,7.9,0.0,Partner Growth & Lending Operations
+APP0485,2026-05-31,Partner_D,Ahmedabad,Referral,Consumer Loan,Disbursed,423120,4,Within SLA,Yes,Yes,No,Not Required,21.3,901.25,CRM & Operations Transformation
+APP0486,2026-05-20,Partner_K,Delhi,Partner,Education Loan,Approved,4361607,3,Within SLA,Yes,No,No,Not Required,3.2,0.0,Partner Growth & Lending Operations
+APP0487,2026-04-08,Partner_G,Chennai,Referral,Education Loan,Application,3372875,1,Within SLA,Pending,No,No,Not Required,14.0,0.0,Partner Growth & Lending Operations
+APP0488,2026-03-24,Partner_G,Ahmedabad,Branch,Education Loan,Documents,4928622,1,Within SLA,Pending,No,No,Not Required,6.9,0.0,Partner Growth & Lending Operations
+APP0489,2026-04-05,Partner_H,Delhi,Partner,Education Loan,Rejected,2004900,9,SLA Breach,No,No,No,Not Required,12.7,0.0,Partner Growth & Lending Operations
+APP0490,2026-06-16,Partner_L,Mumbai,Referral,Personal Loan,Application,337360,4,Within SLA,Pending,No,No,Not Required,4.0,0.0,Customer Journey Transformation
+APP0491,2026-04-21,Partner_F,Bangalore,Website,Consumer Loan,Lead,385859,3,Within SLA,Pending,No,No,Not Required,6.9,0.0,CRM & Operations Transformation
+APP0492,2026-04-18,Partner_D,Chennai,Website,Education Loan,Approved,2206930,1,Within SLA,Yes,No,No,Not Required,4.5,0.0,Partner Growth & Lending Operations
+APP0493,2026-03-27,Partner_I,Kolkata,Referral,Credit Card,Disbursed,136005,3,Within SLA,Yes,Yes,No,Passed,15.0,204.01,API Integration & GTM
+APP0494,2026-01-26,Partner_F,Mumbai,Website,Education Loan,Application,2861331,8,SLA Breach,Pending,No,Yes,Not Required,4.3,0.0,Partner Growth & Lending Operations
+APP0495,2026-01-11,Partner_I,Pune,Partner,Education Loan,Approved,2157583,7,SLA Breach,Yes,No,Yes,Not Required,8.7,0.0,Partner Growth & Lending Operations
+APP0496,2026-06-19,Partner_F,Bangalore,Branch,Personal Loan,Credit Review,485647,6,SLA Breach,Pending,No,No,Not Required,6.7,0.0,Customer Journey Transformation
+APP0497,2026-06-03,Partner_H,Mumbai,Digital Campaign,Education Loan,Application,2302502,7,SLA Breach,Pending,No,No,Not Required,5.3,0.0,Partner Growth & Lending Operations
+APP0498,2026-02-23,Partner_C,Delhi,Partner,Credit Card,Credit Review,168580,8,SLA Breach,Pending,No,Yes,Failed,13.0,0.0,API Integration & GTM
+APP0499,2026-01-28,Partner_K,Ahmedabad,Referral,Education Loan,Disbursed,3069849,6,SLA Breach,Yes,Yes,No,Not Required,24.6,7551.83,Partner Growth & Lending Operations
+APP0500,2026-04-02,Partner_I,Chennai,Partner,Personal Loan,Credit Review,319152,4,Within SLA,Pending,No,No,Not Required,3.7,0.0,Customer Journey Transformation
