@@ -1,81 +1,78 @@
 # 02 — Partner Performance & Allocation Engine
 
-> **Case study:** Which lending partners should receive more business, more support, or corrective action?
+> **Decision question:** Which lending partners should receive more business, more support, or corrective action?
 
 ## Executive Summary
 
-Partner performance should not be judged by lead volume alone. This case study builds a decision framework combining **volume, conversion, disbursement, turnaround time, SLA adherence, and commercial value** to create a more balanced partner scorecard.
+Partner performance should not be judged by lead volume alone. This case study combines **volume, approval, disbursement, SLA, processing efficiency and estimated revenue** into a weighted allocation score.
 
-The output is designed to support partner reviews, allocation decisions, and targeted improvement plans.
+The portfolio baseline is **500 applications, 152 approvals and 89 disbursements**. The analysis is designed to turn partner reporting into an allocation mechanism while keeping customer experience and operational capacity in the decision.
 
 ## Business Problem
 
-Two partners can generate the same number of applications while producing very different outcomes. One may convert quickly with strong economics; another may create operational load without translating volume into disbursement.
+Two partners can generate the same number of applications while producing very different outcomes. The operating question is therefore not “who sent the most leads?” but **where should the next unit of allocation and partner-management effort go?**
 
-### Decision to support
+## Scorecard
 
-**Where should incremental lead allocation and partner-management effort go?**
-
-## Scorecard Design
-
-| Dimension | Example weight | Why it matters |
+| Dimension | Weight | Decision role |
 |---|---:|---|
-| Disbursement conversion | 25% | Measures realized business outcome |
-| Approval conversion | 15% | Measures funnel quality |
-| SLA adherence | 20% | Protects customer experience |
-| Processing TAT | 15% | Measures operational efficiency |
-| Business value | 15% | Captures commercial contribution |
-| Volume consistency | 10% | Rewards sustainable supply |
+| Disbursement performance | 25% | Realized business outcome |
+| Approval performance | 15% | Funnel quality |
+| SLA adherence | 20% | Customer/ops reliability |
+| Processing TAT | 15% | Operational efficiency |
+| Estimated revenue | 25% | Commercial contribution |
 
-> Weights are illustrative and should be calibrated against business economics and historical outcomes.
+Scores are normalized across partners so large revenue or volume does not automatically dominate every dimension.
+
+## Allocation Logic
+
+```text
+Partner metrics
+      ↓
+Normalize performance
+      ↓
+Weighted score
+      ↓
+Volume × conversion segmentation
+      ↓
+Allocation / support / corrective action
+```
 
 ## Partner Segmentation
 
-```text
-                    HIGH CONVERSION
-                         │
-          GROWTH         │       STRATEGIC
-       Low volume        │       High volume
-                         │
-LOW VOLUME ──────────────┼────────────── HIGH VOLUME
-                         │
-       REVIEW            │       OPTIMIZE
-     Low volume          │       High volume
-     Low conversion      │       Low conversion
-                         │
-                    LOW CONVERSION
-```
+| Segment | Signal | Default action |
+|---|---|---|
+| Strategic | High score + meaningful volume | Increase allocation + joint growth plan |
+| Growth | Strong conversion + lower volume | Controlled allocation test |
+| Optimize | High volume + weak conversion/TAT | Diagnose before increasing volume |
+| Review | Low score or persistent service risk | Corrective plan / reassess |
 
 ## Analytical Approach
 
 1. Establish partner-level baseline metrics.
-2. Normalize metrics where scale differences could distort rankings.
-3. Apply weighted scoring.
-4. Segment partners by volume and conversion.
-5. Flag partners with strong commercial outcomes but weak SLA/TAT, and vice versa.
-6. Convert the scorecard into allocation and improvement actions.
+2. Normalize performance across partners.
+3. Apply weighted scoring using SQL window functions.
+4. Compare conversion, SLA, TAT and revenue together.
+5. Identify partners that create high business value but operational risk.
+6. Translate scores into allocation decisions and measurable improvement plans.
 
-## Decision Rules
+## SQL
 
-### Strategic
-Increase allocation and create joint growth plans.
+The reusable scorecard query is in [`analysis/portfolio_kpi_queries.sql`](../../analysis/portfolio_kpi_queries.sql), including normalization and a weighted allocation score.
 
-### Growth
-Test higher allocation where operational capacity exists.
+## Product Artifact
 
-### Optimize
-Diagnose lead quality, funnel friction, or partner process issues before increasing volume.
+A production implementation would expose:
 
-### Review
-Reassess economics, SLA performance, and operational effort.
+- current partner score,
+- score movement week over week,
+- allocation received,
+- disbursement yield,
+- SLA risk,
+- estimated value,
+- recommended action.
 
-## Product / Operations Recommendations
-
-- Build a partner scorecard into the operating dashboard.
-- Use partner-level SLA alerts instead of waiting for monthly reviews.
-- Create an exception queue for high-value applications at risk of breach.
-- Compare partner performance against peer benchmarks, not just absolute targets.
-- Tie allocation decisions to realized outcomes rather than raw lead counts.
+This allows partner managers to discuss **decisions and trade-offs**, rather than manually reconciling spreadsheets.
 
 ## Success Metrics
 
@@ -83,13 +80,13 @@ Reassess economics, SLA performance, and operational effort.
 - Incremental disbursed value per allocated lead
 - P75 processing TAT
 - SLA breach rate
-- Partner contribution margin / revenue
+- Estimated revenue per allocated lead
 - Allocation-to-disbursement efficiency
 
 ## Portfolio Takeaway
 
-This is deliberately framed as a **decision engine**, not a partner report. A strong Product Operations analyst should be able to explain not only who performed best, but **what action the business should take next and how that action will be measured**.
+The senior-level signal is the connection between **analytics and resource allocation**. A partner scorecard becomes useful when it changes who gets attention, volume and corrective action, and when those decisions are subsequently measured.
 
-## Data
+## Data Disclaimer
 
-Synthetic/anonymized portfolio dataset. No confidential customer or company data is used.
+All data is synthetic or anonymized. The framework demonstrates decision logic and does not claim production partner performance or commercial results.
