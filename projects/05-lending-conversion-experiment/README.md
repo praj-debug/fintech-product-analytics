@@ -1,12 +1,10 @@
 # 05 — Lending Conversion Experiment
 
-> **Case study:** Can a targeted change reduce customer drop-off without degrading approval quality or increasing operational workload?
+> **Decision question:** Can a targeted change reduce customer drop-off without degrading approval quality or increasing operational workload?
 
 ## Experiment Brief
 
-This case study demonstrates how a Product Operations / Product Analytics team can turn a funnel problem into a measurable experiment.
-
-The experiment is intentionally designed around a lending workflow where customer friction and operational capacity must both be considered.
+The portfolio has **500 applications** and an **17.8% end-to-end disbursement rate**. This case study turns the observed funnel problem into a controlled product experiment rather than assuming every conversion issue should be solved with more follow-up.
 
 ## Hypothesis
 
@@ -26,19 +24,21 @@ Current document collection and status communication.
 ## Metrics
 
 ### Primary
-**Document completion rate** and **application-to-disbursement conversion**.
+**Document-to-credit-review progression rate.**
 
 ### Secondary
-- Time to document completion
+- Application-to-disbursement conversion
 - Approval-to-disbursement conversion
 - P75 processing TAT
-- Customer abandonment rate
+- Document completion time
 
 ### Guardrails
 - Approval quality
 - Complaint/contact rate
 - Document resubmission rate
+- SLA breach rate
 - Operations exception volume
+- API issue rate
 
 ## Experiment Design
 
@@ -48,62 +48,59 @@ Current document collection and status communication.
 | Randomization | Application/customer level where operationally valid |
 | Control | Existing experience |
 | Variant | Improved guidance + reminders |
-| Primary decision metric | Document completion |
+| Primary decision metric | Document → credit-review progression |
 | Business outcome | Disbursement conversion |
-| Guardrails | Quality, support load, operational exceptions |
+| Guardrails | Quality, support load, SLA, exceptions, API reliability |
 
 ## Decision Rule
 
-Do not ship because the variant has a prettier conversion number.
+Recommend rollout only when:
 
-Recommend rollout when:
-
-1. the primary metric shows a meaningful positive lift,
+1. the primary metric shows meaningful positive lift,
 2. the business outcome improves or remains directionally positive,
-3. no guardrail metric crosses its risk threshold,
-4. operational capacity remains within acceptable limits.
+3. no guardrail crosses its agreed risk threshold,
+4. operational capacity remains acceptable.
+
+## Product Artifact
+
+A production experiment ticket would contain:
+
+```text
+Problem → Hypothesis → Instrumentation → Experiment → Readout → Decision
+```
+
+Instrumentation events are defined in [`experiment_plan.md`](experiment_plan.md).
 
 ## Follow-up Analysis
 
-After the initial result, segment performance by:
+Segment results by partner, acquisition channel, product, loan amount and application stage. Use these cuts to determine whether the intervention should be universal or targeted.
 
-- partner,
-- acquisition channel,
-- customer segment,
-- loan amount,
-- application stage,
-- new vs repeat applicant where available.
-
-This helps determine whether the change is broadly effective or only works for a specific cohort.
-
-## Product Rollout Plan
+## Rollout Plan
 
 ```text
 Experiment
     ↓
-Validate result
+Validate tracking
     ↓
-Check guardrails
+Read primary + guardrails
     ↓
 Segment lift
     ↓
 Limited rollout
     ↓
-Monitor
+Monitor regression
     ↓
 Scale / iterate / rollback
 ```
 
 ## Measurement Discipline
 
-The experiment should report **absolute conversion, relative lift, sample size, confidence interval, and practical business impact**, not only a percentage change.
-
-Where historical variance or sample size is insufficient, the correct product decision is to continue testing rather than manufacture certainty. Humanity has enough dashboards pretending to know things already.
+The readout should include **absolute conversion, relative lift, sample size, confidence interval, and practical business impact**. A percentage change without its denominator is merely a confident-looking decoration.
 
 ## Portfolio Takeaway
 
-This case study demonstrates product judgment: define the problem, form a falsifiable hypothesis, protect against unintended consequences, and make the rollout decision measurable.
+The senior signal is product judgment: define a falsifiable hypothesis, protect customer and operational guardrails, and make the rollout decision measurable.
 
-## Data
+## Data Disclaimer
 
-The experiment design is based on the synthetic lending portfolio and is illustrative rather than a claim of production results.
+The experiment design is based on the synthetic lending portfolio and is illustrative. The repository does not claim the experiment was run in production or that the proposed change generated a real-world uplift.
