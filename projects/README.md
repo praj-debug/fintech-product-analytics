@@ -33,7 +33,7 @@ Design an executive control tower that connects funnel health, SLA/TAT, partner 
 
 **Senior signal:** turning analytics into an operating mechanism.
 
-### 04 — [API Reliability & Lending Operations](../03-api-integration/)
+### 04 — [API Reliability & Lending Operations](04-api-reliability/)
 **APIs • Postman • Integrations • Incident Thinking**
 
 Connect API reliability to application-level customer and business impact, then define monitoring, escalation, and recovery workflows.
