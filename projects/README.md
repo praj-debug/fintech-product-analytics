@@ -1,137 +1,73 @@
 # FinTech Product Portfolio
 
-This folder contains practical product, operations, analytics, and digital lending projects designed to demonstrate problem-solving, business thinking, and data-driven decision making.
+A decision-focused portfolio across **Product Operations, Product Analytics, Digital Lending, Partner Strategy, and fintech integrations**.
+
+The work is intentionally structured around one principle:
+
+> **Problem → Data → Insight → Decision → Measurement**
+
+These are not dashboard-for-dashboard's-sake projects. Each case study asks what a product or operations team should actually do with the evidence.
 
 ---
 
-## Project 1: Digital Lending Funnel Analysis
+## Flagship Case Studies
 
-### Objective
-Analyze the customer/application funnel from application to approval and disbursement.
+### 01 — [Digital Lending Funnel Optimization](01-lending-funnel-optimization/)
+**Funnel Analytics • SQL • Product Analytics • Operations**
 
-### Business Questions
-- How many applications enter the funnel?
-- Where do applications drop off?
-- What is the approval rate?
-- What is the disbursement rate?
-- Which stages need improvement?
+Identify conversion leaks, TAT bottlenecks, SLA risk, and segment-level friction across a lending journey. Translate the analysis into a prioritized intervention and measurement plan.
 
-### Skills Demonstrated
-- Product funnel analysis
-- SQL
-- KPI analysis
-- Conversion analysis
-- Business problem solving
+**Senior signal:** funnel diagnosis + root-cause thinking + measurable product intervention.
 
-### Deliverables
-- Funnel dataset
-- SQL analysis
-- Product insights
-- Improvement recommendations
+### 02 — [Partner Performance & Allocation Engine](02-partner-performance-engine/)
+**Partnerships • SQL • Decision Frameworks • Operations Analytics**
 
----
+Build a partner scorecard using conversion, SLA, TAT, volume, and business value to support allocation and partner-management decisions.
 
-## Project 2: Partner Performance Analytics
+**Senior signal:** commercial thinking + prioritization + operating model design.
 
-### Objective
-Evaluate lending partners based on application volume, approvals, disbursements, processing time, loan size, and revenue contribution.
+### 03 — [Lending Operations Control Tower](03-lending-operations-control-tower/)
+**Power BI • SQL • KPI Design • Product Operations**
 
-### Business Questions
-- Which partners generate the highest application volume?
-- Which partners have the best approval rate?
-- Which partners have the fastest processing time?
-- Which partners contribute the most revenue?
-- Which partners should receive additional business focus?
+Design an executive control tower that connects funnel health, SLA/TAT, partner performance, disbursement, and exception management.
 
-### Skills Demonstrated
-- Partner analytics
-- SQL
-- Performance measurement
-- Operational analytics
-- Business recommendations
+**Senior signal:** turning analytics into an operating mechanism.
 
-### Deliverables
-- Partner performance SQL analysis
-- KPI framework
-- Partner comparison
-- Business recommendations
+### 04 — [API Reliability & Lending Operations](../03-api-integration/)
+**APIs • Postman • Integrations • Incident Thinking**
+
+Connect API reliability to application-level customer and business impact, then define monitoring, escalation, and recovery workflows.
+
+**Senior signal:** product-engineering-operational bridge.
+
+### 05 — [Lending Conversion Experiment](05-lending-conversion-experiment/)
+**Experimentation • Product Analytics • Growth**
+
+Design a controlled intervention to improve document completion and disbursement conversion while protecting quality and operational guardrails.
+
+**Senior signal:** hypothesis-driven product thinking + measurement discipline.
 
 ---
 
-## Project 3: Customer & Lending Analytics
+## Supporting Assets
 
-### Objective
-Analyze customer profiles, loan characteristics, and lending outcomes to identify patterns and opportunities for product improvement.
+- [`../analysis/`](../analysis/) — reusable SQL analysis
+- [`../sql/`](../sql/) — supporting SQL patterns
+- [`../documentation/data_dictionary.md`](../documentation/data_dictionary.md) — dataset definitions
+- [`../fintech_lending_portfolio_dataset.csv`](../fintech_lending_portfolio_dataset.csv) — synthetic portfolio data
 
-### Business Questions
-- Which customer segments have higher approval rates?
-- What loan amounts are most common?
-- Which customer segments generate higher business value?
-- What factors may influence lending outcomes?
+## What this portfolio demonstrates
 
-### Skills Demonstrated
-- Customer analytics
-- SQL
-- Segmentation
-- Lending analytics
-- Product thinking
+- Product funnel and conversion analysis
+- Digital lending operations
+- Partner performance and allocation logic
+- KPI and operating-model design
+- TAT, SLA, ageing and exception management
+- API / integration problem diagnosis
+- Experiment design and measurement
+- SQL, segmentation and analytical reasoning
+- Translating data into product and business decisions
 
----
+## Data disclaimer
 
-## Project 4: Lending Dashboard
-
-### Objective
-Build a management dashboard for monitoring lending performance and operational KPIs.
-
-### Dashboard KPIs
-- Total applications
-- Approval rate
-- Disbursement rate
-- Total loan value
-- Average loan amount
-- Average processing time
-- Partner performance
-- Customer segment performance
-
-### Tools
-- Excel
-- Power BI
-- SQL
-
----
-
-## Project 5: Product Improvement Recommendations
-
-### Objective
-Convert analytical findings into practical product and operational improvements.
-
-### Focus Areas
-- Funnel conversion
-- Processing turnaround time
-- Partner performance
-- Customer experience
-- Operational efficiency
-- Digital lending journey
-
-### Approach
-1. Identify the business problem
-2. Analyze available data
-3. Identify root causes
-4. Define product opportunities
-5. Recommend measurable improvements
-6. Define success metrics
-
----
-
-## Product Operations Skills Demonstrated
-
-- Product analytics
-- Digital lending
-- Operations analytics
-- Customer journey analysis
-- Partner management
-- KPI design
-- SQL
-- Business problem solving
-- Data-driven decision making
-- Product improvement
+All datasets are synthetic or anonymized for portfolio demonstration. No confidential customer, company, partner, or proprietary operational information is included.
