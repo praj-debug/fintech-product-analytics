@@ -1,108 +1,90 @@
 # 01 — Digital Lending Funnel Optimization
 
-> **Case study:** How should a lending product reduce drop-off and improve end-to-end conversion without adding operational load?
+> **Decision question:** Where is the lending journey leaking volume, and which intervention should be prioritised first?
 
 ## Executive Summary
 
-This case study treats the lending journey as a product funnel rather than a reporting problem. The analysis connects stage conversion, turnaround time, SLA adherence, partner/channel mix, and disbursement outcomes to identify where intervention is most likely to create business value.
+This case study treats lending as a measurable product funnel rather than a collection of operational stages. The synthetic portfolio contains **500 applications**: **152 approvals (30.4%)** and **89 disbursements (17.8%)**. Only **58.6% of approved applications reach disbursement**, creating a **12.6 percentage-point gap** between approval and disbursement rates.
 
-The goal is to move from **funnel signal → root cause → product decision → measurement plan**.
+The second major signal is operational: **272 of 500 applications (54.4%) breach SLA**. The recommendation is therefore not “improve conversion” in isolation. It is to diagnose post-approval leakage and high-volume SLA hotspots together, then instrument interventions against conversion, TAT and guardrails.
 
 ## Business Problem
 
-A digital lending funnel can lose customers for very different reasons: friction in document collection, slow operational queues, integration failures, weak lead quality, or delays between approval and disbursement.
+A lending funnel can appear healthy at the top while losing value later through document friction, partner delays, operational queues, integration issues or unresolved exceptions.
 
-A single approval-rate KPI does not explain where the customer experience breaks.
+The objective is to identify **where volume and value are lost**, quantify the operational cost of that leakage, and define product/operations interventions that can be measured after rollout.
 
-### Decision to support
-
-**Which stages and segments should Product + Operations prioritize first, and what should change?**
-
-## Journey
+## Funnel Snapshot
 
 ```text
-Lead
-  ↓
-Application
-  ↓
-Documents
-  ↓
-Verification
-  ↓
-Credit Decision
-  ↓
-Sanction
-  ↓
-Disbursement
+500 applications
+       ↓
+152 approved  | 30.4% of applications
+       ↓
+89 disbursed | 58.6% of approved
 ```
 
 ## KPI Framework
 
-| KPI | Definition | Decision use |
-|---|---|---|
-| Application → Approval | Approved / Applications | Overall credit conversion |
-| Approval → Disbursement | Disbursed / Approved | Post-approval leakage |
-| End-to-end Conversion | Disbursed / Applications | North-star funnel outcome |
-| Stage Drop-off | Lost cases / entering cases | Prioritize friction |
-| Processing TAT | Elapsed processing time | Operations efficiency |
-| P50 / P75 / P90 TAT | Distribution percentiles | Detect long-tail delays |
-| SLA Breach Rate | Breached cases / eligible cases | Escalation priority |
+| KPI | Why it matters |
+|---|---|
+| Approval rate | Measures movement through credit decisioning |
+| Approval → disbursement conversion | Exposes post-approval leakage |
+| Disbursement rate | End-to-end funnel outcome |
+| P50 / P75 / P90 TAT | Shows typical vs tail operational friction |
+| SLA breach rate | Measures service reliability |
+| Exception backlog | Quantifies unresolved operational risk |
 
 ## Analytical Approach
 
-1. Build a consistent funnel from the application-level dataset.
-2. Quantify stage-to-stage conversion rather than relying on volume alone.
-3. Compare outcomes by partner, channel, city, product, and loan amount.
-4. Separate average TAT from tail latency using P50/P75/P90.
-5. Overlay SLA breaches and API issues to locate operational hotspots.
-6. Translate the strongest signals into product and process interventions.
+1. Establish the portfolio funnel.
+2. Compare approval with final disbursement outcome.
+3. Cut performance by partner, channel, product and city.
+4. Compare processing-time distributions, not just averages.
+5. Identify SLA/API/UAT exception hotspots.
+6. Prioritise interventions using customer impact × business impact × implementation effort.
 
-## SQL
+## Quantified Findings
 
-See [`analysis/funnel_analysis.sql`](../../analysis/funnel_analysis.sql) for the base queries.
+- **500** applications in the portfolio.
+- **30.4%** approval rate.
+- **17.8%** end-to-end disbursement rate.
+- **58.6%** approval-to-disbursement conversion.
+- **54.4%** SLA breach rate.
+- **12.6 pp** gap between approval rate and disbursement rate.
 
-The portfolio intentionally uses SQL patterns that would support an analytics workflow in production: conditional aggregation, window functions, segmentation, and exception analysis.
+Full evidence: [`insights/quantified_findings.md`](../../insights/quantified_findings.md).
 
-## Decision Framework
+## Product / Operations Recommendation
 
-### Prioritization matrix
+### Priority 1 — Create an approved-but-not-disbursed recovery queue
 
-| Opportunity | Customer pain | Business impact | Operational effort | Priority |
-|---|---:|---:|---:|---|
-| Document-status visibility | High | High | Medium | P0 |
-| SLA exception queue | High | High | Low | P0 |
-| Proactive document reminders | High | Medium | Medium | P1 |
-| Partner/channel quality rules | Medium | High | Medium | P1 |
-| Post-approval tracking | Medium | High | Low | P1 |
+Segment approved-but-not-disbursed applications by partner, channel, product and processing-time band. Give each exception an owner and next action.
 
-## Product Recommendation
+### Priority 2 — Attack repeatable SLA hotspots
 
-Build an **exception-led lending operations layer** rather than asking operations teams to inspect every application manually.
+Use partner × city × stage cuts to find recurring breach clusters. Do not treat every breach as a unique case if the same root cause is repeating.
 
-The product should surface:
+### Priority 3 — Instrument the intervention
 
-- applications approaching SLA breach,
-- incomplete or repeatedly rejected documents,
-- applications stuck between workflow stages,
-- partner/channel segments with unusually low conversion,
-- API failures affecting otherwise healthy applications.
-
-This turns analytics into an operating mechanism.
+Measure whether the intervention improves approval-to-disbursement conversion and P75 TAT without increasing API failures, approval-quality risk or operational backlog.
 
 ## Measurement Plan
 
-A successful change should move the following metrics:
+**Primary outcome:** approval → disbursement conversion.
 
-**Primary:** end-to-end disbursement conversion and P75 processing TAT.
+**Secondary:** disbursement rate, P75 processing days, SLA breach rate, exception ageing.
 
-**Secondary:** document completion rate, SLA breach rate, approval-to-disbursement conversion.
+**Guardrails:** API issue rate, approval quality, operational workload.
 
-**Guardrails:** approval quality, complaint/contact rate, exception backlog.
+## SQL
+
+Core analysis is maintained in [`analysis/funnel_analysis.sql`](../../analysis/funnel_analysis.sql), with the reusable KPI layer in [`analysis/portfolio_kpi_queries.sql`](../../analysis/portfolio_kpi_queries.sql).
 
 ## Portfolio Takeaway
 
-The point of the analysis is not to report that a funnel has leakage. The useful output is a defensible answer to **where to intervene, why, what to change, and how to know the change worked**.
+The important insight is not that conversion is low. It is that **approval is not the final product outcome**. A product-operations analyst should trace the journey through disbursement, connect leakage to operational causes, assign ownership and define how the change will be measured.
 
-## Data
+## Data Disclaimer
 
-Synthetic/anonymized portfolio dataset. No confidential customer or company data is used.
+All data is synthetic or anonymized. No confidential customer, company, partner or proprietary operational information is represented, and the quantified results above are not claimed production outcomes.
