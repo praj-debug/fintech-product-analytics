@@ -1,4 +1,4 @@
-# 05 — Lending Conversion Experiment
+# 05 - Lending Conversion Experiment
 
 > **Decision question:** Can a targeted change reduce customer drop-off without degrading approval quality or increasing operational workload?
 
@@ -24,7 +24,7 @@ Current document collection and status communication.
 ## Metrics
 
 ### Primary
-**Document-to-credit-review progression rate.**
+**Document-to-credit-review progression rate**
 
 ### Secondary
 - Application-to-disbursement conversion
@@ -34,7 +34,7 @@ Current document collection and status communication.
 
 ### Guardrails
 - Approval quality
-- Complaint/contact rate
+- Complaint or contact rate
 - Document resubmission rate
 - SLA breach rate
 - Operations exception volume
@@ -45,7 +45,7 @@ Current document collection and status communication.
 | Component | Design |
 |---|---|
 | Population | Eligible new lending applications |
-| Randomization | Application/customer level where operationally valid |
+| Randomization | Application or customer level where operationally valid |
 | Control | Existing experience |
 | Variant | Improved guidance + reminders |
 | Primary decision metric | Document → credit-review progression |
@@ -56,10 +56,10 @@ Current document collection and status communication.
 
 Recommend rollout only when:
 
-1. the primary metric shows meaningful positive lift,
-2. the business outcome improves or remains directionally positive,
-3. no guardrail crosses its agreed risk threshold,
-4. operational capacity remains acceptable.
+1. the primary metric shows meaningful positive lift
+2. the business outcome improves or remains directionally positive
+3. no guardrail crosses its agreed risk threshold
+4. operational capacity remains acceptable
 
 ## Product Artifact
 
@@ -70,6 +70,8 @@ Problem → Hypothesis → Instrumentation → Experiment → Readout → Decisi
 ```
 
 Instrumentation events are defined in [`experiment_plan.md`](experiment_plan.md).
+
+A [synthetic experiment readout](synthetic_experiment_readout.md) shows how the decision could be made once results are available. It is clearly illustrative and does not claim a real production test.
 
 ## Follow-up Analysis
 
@@ -99,8 +101,8 @@ The readout should include **absolute conversion, relative lift, sample size, co
 
 ## Portfolio Takeaway
 
-The senior signal is product judgment: define a falsifiable hypothesis, protect customer and operational guardrails, and make the rollout decision measurable.
+The useful product signal is judgment: define a falsifiable hypothesis, protect customer and operational guardrails, and make the rollout decision measurable.
 
 ## Data Disclaimer
 
-The experiment design is based on the synthetic lending portfolio and is illustrative. The repository does not claim the experiment was run in production or that the proposed change generated a real-world uplift.
+The experiment design and readout use synthetic or illustrative data. The repository does not claim the experiment was run in production or that the proposed change generated a real-world uplift.
