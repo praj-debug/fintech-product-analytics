@@ -8,6 +8,12 @@
 
 > **Note:** This is a portfolio case study based on a lending marketplace scenario. The funnel volumes and expected impact figures are scenario assumptions, not production claims.
 
+## Interactive Dashboard
+
+**[Open the interactive Partner Rejection Analysis Dashboard](./index.html)**
+
+The dashboard provides a visual product-analytics view of the funnel, partner rejection patterns, journey comparison, and sourcing quality. The figures shown are scenario data aligned to this case study, not production results.
+
 ---
 
 ## 1. Problem
