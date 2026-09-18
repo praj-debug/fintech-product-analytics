@@ -2,6 +2,10 @@
 
 This portfolio is intentionally kept simple and evidence focused. Changes should make the work easier to understand, reproduce, or review.
 
+## Before contributing
+
+Please review the [Code of Conduct](CODE_OF_CONDUCT.md) before participating in issues, pull requests, discussions, or other project activities.
+
 ## Commit messages
 
 Use a short, specific commit message that explains the change.
