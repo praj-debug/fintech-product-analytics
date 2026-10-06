@@ -1,46 +1,47 @@
-# Prajakta Mane | FinTech Product Analytics & Operations
+# Prajakta Mane | FinTech Product Analytics & Product Thinking
 
-> **Product Operations • Product Analytics • Digital Lending • Partner Strategy**
->
-> I build practical decision frameworks for fintech teams - using customer, lending, partner, operational and integration data to understand what is happening, why it is happening, and what to do next.
+> **Product Operations • Product Analytics • Product Strategy • Digital Lending • UX**
 
-## What this portfolio shows
+I use data, customer journeys and product observation to understand **what is happening, why it is happening, and what should change next**.
 
-This portfolio is built around real product and operations questions, not just dashboard exercises.
+This repository is a working portfolio of independent product and analytics case studies.
 
-- Find where a lending funnel is losing customers
-- Compare partners using conversion, service quality, efficiency and value
-- Turn operational signals into an exception queue with clear ownership
-- Connect API and integration issues to customer and business impact
-- Design experiments with measurable outcomes and guardrails
+## Product case studies
 
-## Featured case studies
-
-| | Case study | What it demonstrates |
+| # | Case study | What it demonstrates |
 |---|---|---|
-| **01** | [Digital Lending Funnel Optimization](projects/01-lending-funnel-optimization/) | Funnel leakage, TAT, SLA, root-cause analysis and interventions |
-| **02** | [Partner Performance & Allocation Engine](projects/02-partner-performance-engine/) | Partner scoring, allocation decisions and commercial trade-offs |
-| **03** | [Lending Operations Control Tower](projects/03-lending-operations-control-tower/) | KPI architecture, exception management and operating workflows |
-| **04** | [API Reliability & Lending Operations](projects/04-api-reliability/) | Integration reliability, incident prioritisation and business impact |
-| **05** | [Lending Conversion Experiment](projects/05-lending-conversion-experiment/) | Hypothesis design, metrics, guardrails and rollout decisions |
+| **01** | [Swiggy: Reducing Late-Delivery Friction](product-case-study/01-swiggy-late-deliveries/) | Problem framing, UX, metrics, experimentation and operational thinking |
+| **02** | [Zomato vs Swiggy: Multi-Restaurant Checkout](product-case-study/02-zomato-swiggy-multi-restaurant-checkout/) | Competitive teardown, UX discoverability, feature comprehension and experimentation |
+| **03** | [Education Loan Refinance Funnel](product-case-study/) | Funnel analysis, conversion leakage, product hypotheses and measurable interventions |
 
-## How I approach a problem
+## How I approach a product problem
 
 ```text
-BUSINESS QUESTION
-      ↓
-DATA + CUSTOMER SIGNALS
-      ↓
-DIAGNOSIS
-      ↓
-ROOT CAUSE
-      ↓
-PRODUCT / OPERATIONS DECISION
-      ↓
-IMPLEMENTATION OR EXPERIMENT
-      ↓
-MEASUREMENT
+OBSERVE
+   ↓
+DEFINE THE USER / BUSINESS PROBLEM
+   ↓
+IDENTIFY THE FRICTION
+   ↓
+FORM A HYPOTHESIS
+   ↓
+DESIGN THE PRODUCT / OPERATIONAL CHANGE
+   ↓
+DEFINE METRICS + GUARDRAILS
+   ↓
+TEST
+   ↓
+MEASURE + ITERATE
 ```
+
+## What this portfolio focuses on
+
+- **Product thinking:** turning ambiguous problems into clear product questions
+- **Product analytics:** funnels, conversion, segmentation and root-cause analysis
+- **UX:** identifying friction, discoverability and comprehension gaps
+- **Experimentation:** hypotheses, success metrics and guardrails
+- **FinTech:** lending journeys, refinance funnels and operational workflows
+- **Cross-functional thinking:** connecting customer experience with business and operational constraints
 
 ## Core skills
 
@@ -48,24 +49,24 @@ MEASUREMENT
 
 **FinTech:** Digital Lending, Lending Operations, Partner Management, API Integrations, SLA/TAT, Exception Management
 
-**Analytics:** SQL, Funnel Analysis, Segmentation, Cohort Analysis, Root-Cause Analysis, Business Metrics
+**Analytics:** SQL, BigQuery, Metabase, Funnel Analysis, Segmentation, Cohort Analysis, Root-Cause Analysis
 
-**Tools:** Excel, Power BI, Metabase, BigQuery, Jira, Salesforce, Postman, Tableau, GitHub
+**Tools:** Excel, Tableau, Jira, Salesforce, Postman, GitHub
 
 ## Portfolio principles
 
-- **Decision over dashboard:** every analysis should lead to a clear action.
-- **Outcome over activity:** focus on conversion, TAT, quality, customer impact and business value.
-- **Exceptions matter:** averages can hide the cases that create the most customer and operational pain.
-- **Trade-offs matter:** a good recommendation considers customer experience, risk, economics and operational capacity.
-- **Measure before rollout:** define success metrics and guardrails before making a change.
+- **Decision over dashboard:** analysis should lead to an action.
+- **Outcome over activity:** measure conversion, quality, efficiency and customer impact.
+- **Discoverability is part of functionality:** a feature that users cannot find or understand creates limited value.
+- **Trade-offs matter:** product decisions must balance customer experience, business value and operational reality.
+- **Measure before rollout:** define success metrics and guardrails before shipping.
 
 ## About the data
 
-All portfolio datasets are synthetic or anonymized. They are used to demonstrate analytical methods and decision frameworks and are not presented as production results from any employer, customer or partner.
+Portfolio datasets and analysis are based on publicly observable product behaviour, synthetic/anonymized examples, or independent product exercises. They do not use or claim access to proprietary internal data from any employer.
 
 ## About me
 
-I am Prajakta Mane, a FinTech Product Operations and Strategic Partnerships professional focused on digital lending, partner ecosystems, analytics and cross-functional product delivery.
+I am Prajakta Mane, a FinTech Product Operations and Strategic Partnerships professional focused on digital lending, product analytics, partner ecosystems and cross-functional product delivery.
 
-This repository is a working portfolio of how I think through product and operations problems - from finding the signal to turning it into a practical decision.
+This repository documents **how I think through product problems**, from observation and diagnosis to product decisions, experiments and measurement.
