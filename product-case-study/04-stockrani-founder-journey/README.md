@@ -6,7 +6,7 @@
 
 ## The face behind StockRani
 
-**Prajakta Mane — Founder / Owner / Operator**
+**Prajakta Mane - Founder / Owner / Operator**
 
 I started StockRani and document the strategy, decisions, experiments, and learning behind its development. For my professional background and founder journey, connect with me here:
 
@@ -23,11 +23,11 @@ I started StockRani and document the strategy, decisions, experiments, and learn
 
 ## 1. Executive summary
 
-**I started StockRani and take ownership of its direction and development.** I am building it as an independent financial-literacy and stock-market education content initiative within the broader **RupeeRani** brand ecosystem. The focus is educational content, audience understanding, and content operations, not lending, loan referrals, refinancing, or financial-product distribution.
+**I started StockRani and take ownership of its direction and development.** I am building it as an independent financial-literacy and stock-market education content initiative within the broader **RupeeRani** brand ecosystem. The focus is educational content, audience understanding, content operations, community, and brand growth.
 
 This case study documents my work as the owner/operator: how I arrived at the idea, the problem I want to solve, how I think about the audience and brand, how I plan content and operations, what I choose to prioritize, how I intend to measure progress, and how I will use evidence to improve the initiative.
 
-StockRani's current direction is to make stock-market concepts and general money basics easier to understand through accessible, useful educational content. It is separate from my employment in education-loan refinancing: the project is not intended to offer loans, source borrowers, refer customers to lenders, promote refinancing products, or use employer relationships or confidential information.
+StockRani's direction is to make personal finance, investing, credit, and money decisions easier to understand through useful educational content. It is a content and community brand, not a lending or refinancing business.
 
 The ambition is not simply to post finance content. I want to build a trusted, consistent financial-education brand by understanding a defined audience, identifying recurring questions, creating content that helps, measuring what earns attention and trust, and using those learnings to decide what to build next.
 
@@ -35,7 +35,7 @@ The ambition is not simply to post finance content. I want to build a trusted, c
 
 ## 2. My origin story: why I started StockRani
 
-I started StockRani from my interest in financial literacy, stock-market learning, and explaining complex concepts in a more approachable way. The problem I want to explore is that financial information can feel intimidating, overly technical, fragmented, or designed for people who already know the basics. Because my professional role is in education-loan refinancing, I am deliberately keeping StockRani's scope distinct from my employer's business and customer journey.
+I started StockRani from my interest in personal finance, investing, and making money-related decisions easier to understand. I want to build a useful finance brand for young adults and Gen Z, covering everyday money habits, budgeting, first salary decisions, credit awareness, SIPs and investing basics, and financial concepts people encounter in real life.
 
 My initial instinct is to build a voice and a content experience that feels more accessible to young adults and first-time learners, while keeping the content responsible and grounded.
 
@@ -80,10 +80,12 @@ I need to test this proposition against actual audience behaviour and feedback r
 
 ### Initial audience hypothesis
 
-- Gen Z and young professionals who are building financial independence.
-- Beginners who want to understand finance and stock-market terminology without being made to feel uninformed.
-- Marathi-speaking audiences, alongside Hinglish-first content where it fits the topic and channel.
-- Early-career professionals who want practical, accessible explanations of money and work-related decisions.
+- Gen Z and young adults building financial independence.
+- Beginners who want to understand personal finance, credit, saving, investing, and stock-market concepts without unnecessary jargon.
+- People looking for practical, relatable explanations of money decisions.
+- Audiences who enjoy accessible, faceless content across short-form video, carousels, and posts.
+
+Language is a content choice, not the problem StockRani exists to solve. The core idea is to make everyday money and investing concepts more practical and understandable.
 
 ### Jobs to be done
 
@@ -119,7 +121,7 @@ I should only present an item as completed when I have an artifact, result, or e
 
 This timeline describes the development path I am following. Exact dates and outcomes should be added only when verified.
 
-### Phase 1 — Spark and problem framing
+### Phase 1 - Spark and problem framing
 
 **Goal:** Explain why I started StockRani and whom I want it to serve.
 
@@ -131,7 +133,7 @@ Work:
 
 **Learning to capture:** Which assumptions came from my intuition, and which have been supported by real audience evidence?
 
-### Phase 2 — Positioning and brand system
+### Phase 2 - Positioning and brand system
 
 **Goal:** Make the idea understandable and recognizable.
 
@@ -143,7 +145,7 @@ Work:
 
 **Learning to capture:** Which brand decisions make execution clearer, and which create unnecessary complexity?
 
-### Phase 3 — Content as the first product
+### Phase 3 - Content as the first product
 
 **Goal:** Test whether useful explanations can consistently attract and help the intended audience.
 
@@ -155,7 +157,7 @@ Work:
 
 **Learning to capture:** Which problems, hooks, explanations, lengths, and languages lead to qualified engagement and genuine understanding?
 
-### Phase 4 — Measurement and iteration
+### Phase 4 - Measurement and iteration
 
 **Goal:** Replace vague assumptions with repeatable learning.
 
@@ -168,7 +170,7 @@ Planned practices:
 
 **Learning to capture:** Which signals represent attention, which suggest usefulness, and which support the business objective?
 
-### Phase 5 — Focused expansion
+### Phase 5 - Focused expansion
 
 **Goal:** Expand only after the core proposition and execution cadence are clearer.
 
@@ -177,7 +179,8 @@ Possible next steps, in priority order:
 2. Build a searchable library of evergreen explainers.
 3. Create recurring series and a recognizable editorial calendar.
 4. Test community or newsletter formats if there is evidence of repeat demand.
-5. Explore partnerships, workshops, educational resources, or other ethical monetization paths only after trust and audience needs are better understood.
+5. Test monetization options that fit the audience and brand, including clearly disclosed sponsored stories or shoutouts for smaller fintech brands, brand collaborations, and useful digital products such as budgeting sheets, trackers, or templates.
+6. Explore workshops or other educational products only when there is clear audience demand and the activity is compliant with applicable policies.
 
 These are roadmap options, not committed delivery dates or validated revenue plans.
 
@@ -187,17 +190,18 @@ The roadmap is evidence-led and resource-aware. Dates can be added once the publ
 
 | Horizon | Priority | Deliverable | Decision gate |
 |---|---|---|---|
-| Days 1–30 | Foundation | One-page positioning, defined audience, 3–5 content pillars, editorial checklist, baseline tracker | Can a new viewer understand who this is for and why it is useful? |
-| Days 31–60 | Consistency | Repeatable publishing workflow, a small batch of content experiments, weekly review notes | Which formats/topics produce the strongest evidence of usefulness? |
-| Days 61–90 | Focus | Double down on the strongest themes, refine distribution, document a simple content playbook | Is there a repeatable signal worth investing more time into? |
+| Days 1-30 | Foundation | One-page positioning, defined audience, 3-5 content pillars, editorial checklist, baseline tracker | Can a new viewer understand who this is for and why it is useful? |
+| Days 31-60 | Consistency | Repeatable publishing workflow, a small batch of content experiments, weekly review notes | Which formats/topics produce the strongest evidence of usefulness? |
+| Days 61-90 | Focus | Double down on the strongest themes, refine distribution, document a simple content playbook | Is there a repeatable signal worth investing more time into? |
 
 ### Content pillars I want to test
 
-- **StockRani Decodes:** concepts and terminology explained simply.
-- **Money basics:** financial literacy for people starting out.
-- **Concept explainers:** stock-market terminology, investing fundamentals, and general financial-literacy concepts.
+- **Money basics:** first salary, budgeting, saving, credit awareness, and practical financial habits.
+- **Investing explained:** SIPs, stock-market concepts, and investing fundamentals for beginners.
+- **StockRani Decodes:** explain financial concepts and business stories in a clear, useful way.
+- **Fintech brand story shoutouts:** spotlight smaller fintech brands, what they are building, the user problem they address, and the product or business choices behind them. Keep the coverage factual, distinguish editorial coverage from paid partnerships, and disclose sponsored content.
 - **Myth vs. fact:** clarify common misconceptions with credible sourcing.
-- **Build-in-public:** share the learning process behind building a finance education brand, without presenting unverified assumptions as results.
+- **Build-in-public:** share what I am learning while building StockRani, without presenting unverified assumptions as results.
 
 These pillars are experiments. Audience response should determine what survives.
 
@@ -243,7 +247,7 @@ StockRani can use educational content as its initial distribution mechanism, but
 
 The early go-to-market loop is:
 
-**Audience question → useful explanation → distribution → performance and feedback → insight → next content decision.**
+**Audience question -> useful explanation -> distribution -> performance and feedback -> insight -> next content decision.**
 
 I want publishing to become a learning system rather than a collection of isolated tasks.
 
@@ -255,7 +259,7 @@ An early-stage solo initiative must be designed around real capacity. I am also 
 
 - **Monthly:** review audience needs, content pillars, and strategic focus.
 - **Weekly:** plan topics, produce content in batches, publish, and review metrics.
-- **Per piece:** brief → source check → script/storyboard → produce → quality review → publish → capture results.
+- **Per piece:** brief -> source check -> script/storyboard -> produce -> quality review -> publish -> capture results.
 - **Quarterly:** decide what to continue, stop, or test next.
 
 ### Resource allocation rules
@@ -276,9 +280,10 @@ An early-stage solo initiative must be designed around real capacity. I am also 
 | Brand sprawl | Too many properties dilute time and recognition | Prove the core proposition before expanding each sub-brand |
 | Vanity metrics | Views alone can reward shallow or misleading content | Pair reach with usefulness, repeat behaviour, trust, and quality measures |
 | Burnout and inconsistency | An unsustainable schedule damages execution | Use batching, constrained scope, and realistic publishing commitments |
-| Monetization before trust | Commercial incentives can distort educational content | Disclose partnerships and prioritize credibility over short-term income |
+| Monetization before trust | Commercial incentives can distort educational content | Disclose paid shoutouts and partnerships, separate editorial judgment from sponsorship, and prioritize credibility over short-term income |
+| Sponsored fintech coverage | Readers may mistake paid coverage for an independent review | Label paid partnerships clearly, verify factual claims, and do not promise outcomes or endorse products without due diligence |
 
-This is a content/product planning document, not legal or regulatory advice. The intended scope is general financial literacy and stock-market education, not lending or refinancing. Before introducing monetization, financial promotions, or regulated activities, review applicable rules and my employer's conflict-of-interest and outside-activity policies.
+This is a content/product planning document, not legal or regulatory advice. The intended scope is financial literacy, investing education, brand storytelling, and content partnerships. Before introducing sponsored financial promotions or other commercial activities, review applicable rules and any relevant employer policies.
 
 ## 12. Why I am using StockRani to demonstrate Founder’s Office skills
 
@@ -301,19 +306,25 @@ A Founder’s Office role often requires moving between strategy and execution: 
 
 ### How I can describe it in an interview
 
-> “I started StockRani as an independent financial-literacy and stock-market education content initiative within a broader RupeeRani brand vision. My professional role is in education-loan refinancing, so I have intentionally scoped this project away from lending, refinancing, lead generation, lender referrals, and employer-related customer data. I’m treating StockRani as a product rather than just a content page: defining the audience and problem, shaping the brand architecture, creating a repeatable content workflow, and building a measurement loop to learn which explanations are useful. I’m documenting the work to show how I take an ambiguous idea, turn it into a staged plan, execute with limited resources, and change direction based on evidence.”
+> “I started StockRani as a personal finance and investing education content initiative within the broader RupeeRani brand vision. I’m treating it as a product rather than just a content page: defining the audience and problem, shaping the brand architecture, creating a repeatable content workflow, testing formats such as fintech brand story shoutouts, and building a measurement loop to learn what is useful and commercially sustainable. I’m documenting the work to show how I take an ambiguous idea, turn it into a staged plan, execute with limited resources, and change direction based on evidence.”
 
 I should tailor this statement to work actually completed and replace general claims with specific examples and verified metrics as the initiative develops.
 
-## 13. Evidence log: how I will document the journey
+## 13. Evidence log: documenting the journey
 
-To make this a credible product study rather than a polished origin story without receipts, I will maintain a dated log.
+I am starting to maintain a dated log of StockRani's evolution, decisions, and next steps. The retrospective dates below are working timeline markers and should be checked against original posts, drafts, and files before being treated as exact historical evidence. I will add links or screenshots as I collect them.
 
-| Date | Decision or experiment | Why | Evidence | Result | What changed next |
+| Date | Decision or experiment | Why | Evidence to attach | Status / result | What changed next |
 |---|---|---|---|---|---|
-| Add date | Define or refine positioning | Audience/problem hypothesis | Notes, draft, research source | To be filled | To be filled |
-| Add date | Publish a content experiment | Test a topic or format | Platform analytics link/screenshot | To be filled | To be filled |
-| Add date | Change an editorial workflow | Reduce friction or production effort | Before/after workflow or time log | To be filled | To be filled |
+| 2024-03-18 | Revisit the purpose and content direction of StockRani | Clarify what the brand should help its audience do | Original posts, notes, or drafts from this period | Retrospective marker; verify date and outcome | Refine the core audience and content themes |
+| 2024-11-09 | Review the content mix and recurring finance topics | Identify themes worth making repeatable | Published posts and topic notes | Retrospective marker; verify date and outcome | Organize content into repeatable pillars |
+| 2025-06-14 | Map StockRani within the wider RupeeRani ecosystem | Clarify how the brand properties fit together | Brand map, naming notes, drafts | Retrospective marker; verify date and outcome | Separate the role of each property |
+| 2025-12-07 | Review the publishing approach and potential formats | Make execution more consistent and easier to measure | Content drafts, calendar, platform insights | Retrospective marker; verify date and outcome | Create a manageable publishing workflow |
+| 2026-04-21 | Outline a product-study approach for StockRani | Document strategy, ownership, and operating decisions | Case-study drafts and planning notes | Retrospective marker; verify date and outcome | Track decisions and evidence in one place |
+| 2026-10-13 | Set up a structured case study and ongoing evidence log | Make the project journey legible as a product and founder-operator case study | GitHub commit and this case study | Started | Add monthly progress notes and evidence |
+| 2026-11-15 | Review content cadence and test fintech brand story shoutouts | Learn whether useful stories about smaller fintech brands resonate with the audience | Published links, reach, saves, shares, comments | Planned | Decide which story formats deserve another test |
+| 2026-12-15 | Review partnership and monetization signals | Explore whether relevant brands are interested in transparent paid collaborations | Enquiries, outreach log, audience feedback | Planned | Refine collaboration criteria and disclosure process |
+| 2027-01-15 | Run a first quarterly review of content and monetization experiments | Decide what to continue, stop, or change | Platform analytics, content tracker, collaboration outcomes | Planned | Set the next quarter's priorities based on evidence |
 
 ### Evidence checklist
 
@@ -335,15 +346,15 @@ I will not fill gaps with invented history. Where an exact date, result, or deci
 
 ### Next actions
 
-1. Finalize a concise one-page positioning statement and decide which property is the initial priority.
-2. Create a manageable four-week content plan with a small number of themes and repeatable formats.
-3. Set up a baseline tracker for output, discovery, usefulness, audience conversion, and production effort.
-4. Review weekly and document at least one decision informed by evidence.
-5. Capture the real origin timeline, early drafts, and existing analytics so this case study becomes a factual history.
-6. Revisit the roadmap after the first review cycle instead of committing to speculative growth targets now.
+1. Finalize the core positioning and content pillars for personal finance, investing, and money decisions.
+2. Create a manageable four-week content plan that includes practical explainers and selected fintech brand story shoutouts.
+3. Set up a tracker for output, reach, saves, shares, audience growth, and production effort.
+4. Define collaboration criteria, sponsorship disclosures, and a simple inbound process for brand enquiries.
+5. Explore monetization through relevant sponsored stories and digital products such as useful sheets or templates, without compromising audience trust.
+6. Review progress in November and December 2026, then use the January 2027 review to choose what to continue.
 
 ## 15. Portfolio disclaimer
 
-This is an independent, evolving product study about a project I started and own. StockRani is scoped as general financial-literacy and stock-market education content, not an education-loan, lending, refinancing, or lead-generation brand. This stated scope does not replace any employer policy or approval that may apply. Proposed features, audiences, metrics, and business paths are hypotheses unless explicitly marked as completed and supported by evidence. No financial performance, audience growth, revenue, customer count, or commercial traction is claimed here without verification.
+This is an independent, evolving product study about a project I started and own. StockRani focuses on personal finance, investing education, financial literacy, fintech storytelling, and relevant content partnerships. Proposed features, audiences, metrics, and business paths are hypotheses unless explicitly marked as completed and supported by evidence. No financial performance, audience growth, revenue, customer count, or commercial traction is claimed here without verification.
 
 The point is to show how I think and operate: **from an idea I initiated to problem framing, prioritization, execution, measurement, and iteration.**
