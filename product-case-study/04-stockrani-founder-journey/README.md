@@ -1,4 +1,4 @@
-# StockRani: Building a Financial Literacy and Stock-Market Education Content Brand
+# StockRani: How I Started and Am Building a FinTech Education Brand
 
 > **Founder / Owner / Operator:** Prajakta Mane  
 > **Case study lens:** Founder’s Office • Product Strategy • Zero-to-One Thinking • Content, Brand & Growth Operations  
