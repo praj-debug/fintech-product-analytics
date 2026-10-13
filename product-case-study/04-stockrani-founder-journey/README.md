@@ -4,6 +4,23 @@
 > **Case study lens:** Founder’s Office • Product Strategy • Zero-to-One Thinking • Content, Brand & Growth Operations  
 > **Status:** Early-stage, independently owned initiative. This is a living case study; completed work, plans, and hypotheses are explicitly distinguished.
 
+## The face behind StockRani
+
+**Prajakta Mane — Founder / Owner / Operator**
+
+I started StockRani and document the strategy, decisions, experiments, and learning behind its development. For my professional background and founder journey, connect with me here:
+
+- **LinkedIn:** [linkedin.com/in/prajaktamane114](https://www.linkedin.com/in/prajaktamane114/)
+- **Personal Instagram:** [@_mee_prajakta_](https://www.instagram.com/_mee_prajakta_/)
+- **Professional contact:** [prajaktamane.work@outlook.com](mailto:prajaktamane.work@outlook.com)
+
+### StockRani channels
+
+- **Instagram:** [@stockrani](https://www.instagram.com/stockrani/)
+- **Facebook:** [StockRani](https://www.facebook.com/StockRani/)
+- **Collaborations and brand enquiries:** [connect.rupeerani@gmail.com](mailto:connect.rupeerani@gmail.com)
+
+
 ## 1. Executive summary
 
 **I started StockRani and take ownership of its direction and development.** I am building it as an independent financial-literacy and stock-market education content initiative within the broader **RupeeRani** brand ecosystem. The focus is educational content, audience understanding, and content operations, not lending, loan referrals, refinancing, or financial-product distribution.
