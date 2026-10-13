@@ -1,16 +1,16 @@
-# StockRani: How I Started and Am Building a FinTech Education Brand
+# StockRani: Building a Financial Literacy and Stock-Market Education Content Brand
 
 > **Founder / Owner / Operator:** Prajakta Mane  
-> **Case study lens:** Founder’s Office • Product Strategy • Zero-to-One Thinking • Brand & Growth Operations  
+> **Case study lens:** Founder’s Office • Product Strategy • Zero-to-One Thinking • Content, Brand & Growth Operations  
 > **Status:** Early-stage, independently owned initiative. This is a living case study; completed work, plans, and hypotheses are explicitly distinguished.
 
 ## 1. Executive summary
 
-**I started StockRani and take ownership of its direction and development.** I am building it as an independent fintech education and content initiative within the broader **RupeeRani** brand ecosystem.
+**I started StockRani and take ownership of its direction and development.** I am building it as an independent financial-literacy and stock-market education content initiative within the broader **RupeeRani** brand ecosystem. The focus is educational content, audience understanding, and content operations, not lending, loan referrals, refinancing, or financial-product distribution.
 
 This case study documents my work as the owner/operator: how I arrived at the idea, the problem I want to solve, how I think about the audience and brand, how I plan content and operations, what I choose to prioritize, how I intend to measure progress, and how I will use evidence to improve the initiative.
 
-StockRani's current direction is to make stock-market and money concepts easier to understand through accessible, useful content, with a clear separation between education and personalized financial advice.
+StockRani's current direction is to make stock-market concepts and general money basics easier to understand through accessible, useful educational content. It is separate from my employment in education-loan refinancing: the project is not intended to offer loans, source borrowers, refer customers to lenders, promote refinancing products, or use employer relationships or confidential information.
 
 The ambition is not simply to post finance content. I want to build a trusted, consistent financial-education brand by understanding a defined audience, identifying recurring questions, creating content that helps, measuring what earns attention and trust, and using those learnings to decide what to build next.
 
@@ -18,7 +18,7 @@ The ambition is not simply to post finance content. I want to build a trusted, c
 
 ## 2. My origin story: why I started StockRani
 
-I started StockRani from my interest in fintech, financial products, and explaining complex money topics in a more approachable way. The problem I want to explore is that financial information can feel intimidating, overly technical, fragmented, or designed for people who already know the basics.
+I started StockRani from my interest in financial literacy, stock-market learning, and explaining complex concepts in a more approachable way. The problem I want to explore is that financial information can feel intimidating, overly technical, fragmented, or designed for people who already know the basics. Because my professional role is in education-loan refinancing, I am deliberately keeping StockRani's scope distinct from my employer's business and customer journey.
 
 My initial instinct is to build a voice and a content experience that feels more accessible to young adults and first-time learners, while keeping the content responsible and grounded.
 
@@ -53,7 +53,7 @@ These are the intended roles I am shaping, not proof that every property is alre
 
 ### Problem hypothesis
 
-Young adults and beginner investors may want to understand finance but face barriers such as jargon, too much information, confusing explanations, and uncertainty about which sources to trust.
+Young adults and beginner learners may want to understand stock-market and general money concepts but face barriers such as jargon, too much information, confusing explanations, and uncertainty about which educational sources to trust.
 
 ### Proposed value proposition
 
@@ -178,7 +178,7 @@ The roadmap is evidence-led and resource-aware. Dates can be added once the publ
 
 - **StockRani Decodes:** concepts and terminology explained simply.
 - **Money basics:** financial literacy for people starting out.
-- **Product explainers:** how financial products work, their trade-offs, and what to verify.
+- **Concept explainers:** stock-market terminology, investing fundamentals, and general financial-literacy concepts.
 - **Myth vs. fact:** clarify common misconceptions with credible sourcing.
 - **Build-in-public:** share the learning process behind building a finance education brand, without presenting unverified assumptions as results.
 
@@ -217,7 +217,7 @@ The goal is not to chase a vanity number. I want metrics to help answer a decisi
 
 ## 9. My distribution and go-to-market thinking
 
-StockRani can use content as its initial distribution mechanism, but each platform should have a clear role rather than receiving identical content without thought.
+StockRani can use educational content as its initial distribution mechanism, but each platform should have a clear role rather than receiving identical content without thought.
 
 - **Instagram:** discoverability, short explainers, visual hooks, and feedback from comments/saves/shares.
 - **YouTube Shorts and long-form:** short discovery formats plus deeper explanation when a topic warrants it.
@@ -261,7 +261,7 @@ An early-stage solo initiative must be designed around real capacity. I am also 
 | Burnout and inconsistency | An unsustainable schedule damages execution | Use batching, constrained scope, and realistic publishing commitments |
 | Monetization before trust | Commercial incentives can distort educational content | Disclose partnerships and prioritize credibility over short-term income |
 
-This is a content/product planning document, not legal or regulatory advice. Before commercializing financial content, review the applicable rules for the specific activity and market.
+This is a content/product planning document, not legal or regulatory advice. The intended scope is general financial literacy and stock-market education, not lending or refinancing. Before introducing monetization, financial promotions, or regulated activities, review applicable rules and my employer's conflict-of-interest and outside-activity policies.
 
 ## 12. Why I am using StockRani to demonstrate Founder’s Office skills
 
@@ -284,7 +284,7 @@ A Founder’s Office role often requires moving between strategy and execution: 
 
 ### How I can describe it in an interview
 
-> “I started StockRani as an independent financial-education initiative within a broader RupeeRani brand vision. I’m treating it as a product rather than just a content page: defining the audience and problem, shaping the brand architecture, creating a repeatable content workflow, and building a measurement loop to learn which explanations are useful. I’m documenting the work to show how I take an ambiguous idea, turn it into a staged plan, execute with limited resources, and change direction based on evidence.”
+> “I started StockRani as an independent financial-literacy and stock-market education content initiative within a broader RupeeRani brand vision. My professional role is in education-loan refinancing, so I have intentionally scoped this project away from lending, refinancing, lead generation, lender referrals, and employer-related customer data. I’m treating StockRani as a product rather than just a content page: defining the audience and problem, shaping the brand architecture, creating a repeatable content workflow, and building a measurement loop to learn which explanations are useful. I’m documenting the work to show how I take an ambiguous idea, turn it into a staged plan, execute with limited resources, and change direction based on evidence.”
 
 I should tailor this statement to work actually completed and replace general claims with specific examples and verified metrics as the initiative develops.
 
@@ -327,6 +327,6 @@ I will not fill gaps with invented history. Where an exact date, result, or deci
 
 ## 15. Portfolio disclaimer
 
-This is an independent, evolving product study about a project I started and own. Proposed features, audiences, metrics, and business paths are hypotheses unless explicitly marked as completed and supported by evidence. No financial performance, audience growth, revenue, customer count, or commercial traction is claimed here without verification.
+This is an independent, evolving product study about a project I started and own. StockRani is scoped as general financial-literacy and stock-market education content, not an education-loan, lending, refinancing, or lead-generation brand. This stated scope does not replace any employer policy or approval that may apply. Proposed features, audiences, metrics, and business paths are hypotheses unless explicitly marked as completed and supported by evidence. No financial performance, audience growth, revenue, customer count, or commercial traction is claimed here without verification.
 
 The point is to show how I think and operate: **from an idea I initiated to problem framing, prioritization, execution, measurement, and iteration.**
