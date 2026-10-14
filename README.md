@@ -74,6 +74,10 @@ Portfolio datasets and analysis are based on publicly observable product behavio
 
 **StockRani was started by Prajakta Mane.** I document the initiative's positioning, product thinking, brand architecture, content operations, and learning roadmap in the [StockRani Founder Journey case study](product-case-study/04-stockrani-founder-journey/). This is an independently owned, early-stage financial-literacy initiative; planned work is distinguished from completed work and no unverified commercial traction is claimed.
 
+## StockRani founder landing page
+
+A dedicated landing page has been added at [`docs/index.html`](docs/index.html), with founder attribution, project context, social links, metadata, and structured data connecting StockRani with Prajakta Mane. A GitHub Actions workflow is included to deploy the `docs/` folder to GitHub Pages. **One-time setup required:** open the repository's **Settings → Pages** and select **GitHub Actions** as the build and deployment source. After the first successful deployment, the expected URL is `https://praj-debug.github.io/fintech-product-analytics/`.
+
 ## About me
 
 I am Prajakta Mane, a FinTech Product Operations and Strategic Partnerships professional focused on digital lending, product analytics, partner ecosystems and cross-functional product delivery.
