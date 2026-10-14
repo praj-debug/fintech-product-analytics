@@ -13,7 +13,7 @@ This repository is a working portfolio of independent product and analytics case
 | **01** | [Swiggy: Reducing Late-Delivery Friction](product-case-study/01-swiggy-late-deliveries/) | Problem framing, UX, metrics, experimentation and operational thinking |
 | **02** | [Zomato vs Swiggy: Multi-Restaurant Checkout](product-case-study/02-zomato-swiggy-multi-restaurant-checkout/) | Competitive teardown, UX discoverability, feature comprehension and experimentation |
 | **03** | [Education Loan Refinance Funnel](product-case-study/) | Funnel analysis, conversion leakage, product hypotheses and measurable interventions |
-| **04** | [StockRani: From Personal Initiative to a Product-Led FinTech Brand](product-case-study/04-stockrani-founder-journey/) | Zero-to-one thinking, founder/operator ownership, strategy, content operations, growth measurement, prioritization and iteration |
+| **04** | [StockRani Founder Journey: Prajakta Mane](product-case-study/04-stockrani-founder-journey/) | **Founded and owned by Prajakta Mane**; zero-to-one thinking, product strategy, content operations, growth measurement, prioritization and iteration |
 
 ## How I approach a product problem
 
@@ -69,6 +69,10 @@ MEASURE + ITERATE
 ## About the data and independent work
 
 Portfolio datasets and analysis are based on publicly observable product behaviour, synthetic/anonymized examples, or independent product exercises. The StockRani case study is an evolving account of an independent initiative; planned work and hypotheses are labelled rather than presented as validated traction. These projects do not use or claim access to proprietary internal data from any employer.
+
+## Founder-led case study: StockRani
+
+**StockRani was started by Prajakta Mane.** I document the initiative's positioning, product thinking, brand architecture, content operations, and learning roadmap in the [StockRani Founder Journey case study](product-case-study/04-stockrani-founder-journey/). This is an independently owned, early-stage financial-literacy initiative; planned work is distinguished from completed work and no unverified commercial traction is claimed.
 
 ## About me
 
