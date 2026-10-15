@@ -1,82 +1,62 @@
-# StockRani — Founder, Vision, Mission & Monetisation Strategy
+# StockRani — Founder & Brand Story
+
+**Founded by Prajakta Mane**  
+**Part of the broader RupeeRani vision**
+
+## The woman behind StockRani
+
+I'm Prajakta Mane, the founder of StockRani. My experience across fintech, lending, product operations and strategic partnerships has shaped my interest in helping people understand the money decisions they face in everyday life.
+
+I started StockRani with a simple belief: financial knowledge should feel accessible to everyone, not intimidating or reserved for people who already understand finance.
+
+StockRani is my ongoing effort to make personal finance and investing concepts easier to understand through clear, practical and responsible education.
 
 **Founder:** Prajakta Mane  
-**Brand:** StockRani, part of the broader RupeeRani vision  
-**Status:** Early-stage independent financial-literacy content initiative. This document separates the ambition and proposed strategy from results that still need validation.
+[LinkedIn](https://www.linkedin.com/in/prajaktamane114/) · [Instagram](https://www.instagram.com/stockrani/) · [Facebook](https://www.facebook.com/StockRani/)
 
-## Founder
+> **Founder portrait:** Planned repository asset: `docs/assets/prajakta-mane-founder.jpg`. The portrait should be displayed on the landing page once the image file has been uploaded to that path.
 
-Prajakta Mane initiated StockRani and is documenting its development as a founder-led project. Her professional experience across fintech, lending, product operations and strategic partnerships informs the brand's interest in practical financial decisions.
+## My vision
 
-- [LinkedIn](https://www.linkedin.com/in/prajaktamane114/)
-- [Founder journey and product case study](./README.md)
-- [Instagram](https://www.instagram.com/stockrani/)
-- [Facebook](https://www.facebook.com/StockRani/)
+To help build a financially informed generation of young Indians who can make money decisions with greater clarity, confidence and independence.
 
-> **Founder photo:** The intended public asset path is `docs/assets/prajakta-mane-founder.jpg`. Add the original portrait at this path before using it in the public landing page. Do not substitute a generated portrait or imply that the image is already published until the file is present in the repository.
+## My mission
 
-## Vision
+To make personal finance, credit, saving and investing easier to understand by explaining real-world money concepts in simple, practical and responsible language.
 
-Build a trusted, approachable financial-education brand that helps young Indians make clearer and more confident money decisions.
+## What StockRani stands for
 
-## Mission
+- **Clarity over jargon:** Explain financial concepts in language beginners can follow.
+- **Usefulness over hype:** Focus on real money questions, not sensational claims.
+- **Trust over quick attention:** Use credible sources, correct mistakes and be transparent about paid collaborations.
+- **Education over promises:** Help people understand options without promising returns or presenting general content as personalised financial advice.
 
-Explain personal finance, credit, loans, saving and investing fundamentals in practical, beginner-friendly language, using credible sources and avoiding hype, jargon and misleading financial claims.
+## Who I want to serve
 
-## Who StockRani serves
+StockRani is being developed for young adults and early-career professionals who are navigating their first salary, budgeting, credit cards, EMIs, education loans, savings and investing basics.
 
-Young adults and first-job professionals, especially people navigating their first salary, credit cards, education loans, EMIs, savings and beginner investing.
+## The broader RupeeRani vision
 
-## Positioning
+RupeeRani is the umbrella vision for accessible financial education.
 
-**Money decisions for India's first-job generation.** StockRani should help people understand real-life financial choices, not promise returns or act as a generic stock-tip account.
+- **StockRani:** The core financial-literacy and investing-education brand.
+- **StockRani Decodes:** A content series explaining financial concepts, products, companies and fintech business models.
+- **StockRani Studio:** A separate, planned space for career and professional resources.
 
-## Brand architecture
+These names describe the intended brand architecture. Each property will grow in line with audience needs and the capacity to maintain it well.
 
-- **RupeeRani:** Umbrella vision for accessible financial education.
-- **StockRani:** Core consumer-facing financial-literacy brand.
-- **StockRani Decodes:** Repeatable explainers for finance concepts, products and fintech business models.
-- **StockRani Studio:** Career and professional resources, primarily for early-career professionals.
+## What I'm building toward
 
-These are intended roles. Each property should be expanded only when audience demand and available capacity justify it.
+My immediate focus is to define the audience clearly, publish helpful content on a sustainable schedule, learn from genuine audience feedback and build a trustworthy library of explanations. Over time, I want StockRani to become a useful and sustainable platform for financial education.
 
-## Recommended content series
+Potential future revenue may support that mission through relevant digital resources or transparently disclosed partnerships. These are future possibilities, not claims of current earnings or proven commercial traction. Trust and usefulness must come first.
 
-1. **First Salary, Real Life:** CTC vs take-home pay, budgeting, emergency funds and salary decisions.
-2. **Credit Without Confusion:** Credit scores, repayment basics, EMI affordability and loan comparisons.
-3. **StockRani Decodes:** Investing fundamentals and evidence-led explainers of financial products and fintech business models.
+## A note on the journey
 
-## Monetisation hypotheses
+StockRani is an evolving, founder-led initiative. I document its decisions, experiments and learnings so the journey reflects actual work rather than an inflated success story. Plans, assumptions and completed outcomes should remain clearly distinguished.
 
-1. **Digital tools:** Budget planners, salary trackers, bill calendars and educational templates. Test demand with a small product before building a large course.
-2. **Fintech content partnerships:** Clearly disclosed, fact-checked explainers and brand-story content, with deliverables and usage rights agreed in advance.
-3. **Relevant referrals:** Only where the product genuinely serves the audience and all employer, disclosure and regulatory requirements have been checked.
+[Read the detailed founder journey and product case study](./README.md)
 
-These are hypotheses, not claims of existing revenue. No public earnings, paying customers or repeatable conversion results are asserted here.
+---
 
-## 90-day validation plan
-
-- **Days 1–14:** Finalise positioning, profile links, content pillars and a free first-salary checklist.
-- **Days 15–45:** Publish three useful pieces per week and record baseline analytics.
-- **Days 46–75:** Test one small digital product and prepare a partnership portfolio using real content and analytics.
-- **Days 76–90:** Review audience usefulness, sign-ups, purchases and qualified partnership enquiries; continue only what evidence supports.
-
-## What to measure
-
-- Publishing consistency and production time
-- Reach and non-follower discovery
-- Retention, saves, shares and meaningful comments
-- Profile visits and follows attributed to content
-- Email sign-ups and repeat audience behaviour
-- Product sales, refunds and net revenue
-- Qualified partnership enquiries and completed paid work
-
-Record measurement periods and sources. Do not invent audience, growth, revenue or conversion numbers.
-
-## Trust and transparency
-
-StockRani is an educational initiative, not a promise of financial outcomes. Verify claims, date time-sensitive information, disclose paid partnerships, distinguish education from regulated investment advice, and check applicable rules before promoting financial products.
-
-## The immediate priority
-
-Prove that one audience finds StockRani useful and returns for more before expanding the sub-brands. The next milestone is evidence of a repeatable content process and genuine audience demand, not another brand announcement.
+*StockRani shares educational information and does not promise financial outcomes. Financial products and regulations can change, so readers should verify details with credible, current sources.*
