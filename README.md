@@ -1,6 +1,6 @@
 # Prajakta Mane | FinTech Product Analytics & Product Thinking
 
-> **Product Operations • Product Analytics • Product Strategy • Digital Lending • UX • Founder’s Office**
+> **Product Operations • Product Analytics • Product Strategy • Digital Lending • UX • Founder's Office**
 
 I use data, customer journeys and product observation to understand **what is happening, why it is happening, and what should change next**.
 
@@ -13,7 +13,7 @@ This repository is a working portfolio of independent product and analytics case
 | **01** | [Swiggy: Reducing Late-Delivery Friction](product-case-study/01-swiggy-late-deliveries/) | Problem framing, UX, metrics, experimentation and operational thinking |
 | **02** | [Zomato vs Swiggy: Multi-Restaurant Checkout](product-case-study/02-zomato-swiggy-multi-restaurant-checkout/) | Competitive teardown, UX discoverability, feature comprehension and experimentation |
 | **03** | [Education Loan Refinance Funnel](product-case-study/) | Funnel analysis, conversion leakage, product hypotheses and measurable interventions |
-| **04** | [StockRani Founder Journey: Prajakta Mane](product-case-study/04-stockrani-founder-journey/) | **Founded and owned by Prajakta Mane**; zero-to-one thinking, product strategy, content operations, growth measurement, prioritization and iteration |
+| **04** | [StockRani Founder Journey: Prajakta Mane](product-case-study/04-stockrani-founder-journey/) | Founded and owned by Prajakta Mane; zero-to-one thinking, product strategy, content operations, growth measurement, prioritization and iteration |
 
 ## How I approach a product problem
 
@@ -43,7 +43,7 @@ MEASURE + ITERATE
 - **Experimentation:** hypotheses, success metrics and guardrails
 - **FinTech:** lending journeys, refinance funnels and operational workflows
 - **Cross-functional thinking:** connecting customer experience with business and operational constraints
-- **Founder’s Office skills:** structuring ambiguous work, prioritizing limited resources, building operating rhythms and using evidence to make decisions
+- **Founder's Office skills:** structuring ambiguous work, prioritizing limited resources, building operating rhythms and using evidence to make decisions
 
 ## Core skills
 
@@ -72,11 +72,13 @@ Portfolio datasets and analysis are based on publicly observable product behavio
 
 ## Founder-led case study: StockRani
 
-**StockRani was started by Prajakta Mane.** I document the initiative's positioning, product thinking, brand architecture, content operations, and learning roadmap in the [StockRani Founder Journey case study](product-case-study/04-stockrani-founder-journey/). This is an independently owned, early-stage financial-literacy initiative; planned work is distinguished from completed work and no unverified commercial traction is claimed.
+**StockRani was started by Prajakta Mane and is part of the RupeeRani brand vision.** RupeeRani is intended to be the main brand and website for the broader financial-education ecosystem. StockRani focuses on financial literacy and investing education, while StockRani Decodes and StockRani Studio are intended related formats or properties.
 
-## StockRani founder landing page
+Read the [StockRani founder journey](product-case-study/04-stockrani-founder-journey/) and the [RupeeRani brand story, vision and mission](product-case-study/04-stockrani-founder-journey/BRAND-VISION-MONETISATION.md). The initiative is early-stage, and planned work is distinguished from completed work. No unverified commercial traction is claimed.
 
-A dedicated landing page has been added at [`docs/index.html`](docs/index.html), with founder attribution, project context, social links, metadata, and structured data connecting StockRani with Prajakta Mane. A GitHub Actions workflow is included to deploy the `docs/` folder to GitHub Pages. **One-time setup required:** open the repository's **Settings → Pages** and select **GitHub Actions** as the build and deployment source. After the first successful deployment, the expected URL is `https://praj-debug.github.io/fintech-product-analytics/`.
+## RupeeRani website
+
+The current landing-page source is [docs/index.html](docs/index.html). It still needs to be updated to make RupeeRani the primary website identity and to include the founder photo when the image asset is uploaded. To publish with GitHub Pages, check **Settings → Pages** and select **GitHub Actions** as the build and deployment source. The expected project URL is `https://praj-debug.github.io/fintech-product-analytics/`.
 
 ## About me
 
