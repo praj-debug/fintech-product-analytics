@@ -1,4 +1,4 @@
-# RupeeRani — Brand Story
+# RupeeRani: Brand Story
 
 **Founded by Prajakta Mane**  
 **StockRani is a brand within RupeeRani**
@@ -12,9 +12,11 @@ I'm building RupeeRani with a simple belief: financial knowledge should feel acc
 RupeeRani is the umbrella brand for my financial-education vision. **StockRani is one of its brands**, focused on making personal finance and investing concepts easier to understand through clear, practical and responsible education.
 
 **Founder:** Prajakta Mane  
-[LinkedIn](https://www.linkedin.com/in/prajaktamane114/) · [StockRani Instagram](https://www.instagram.com/stockrani/) · [StockRani Facebook](https://www.facebook.com/StockRani/)
+[LinkedIn](https://www.linkedin.com/in/prajaktamane114/) | [StockRani Instagram](https://www.instagram.com/stockrani/) | [StockRani Facebook](https://www.facebook.com/StockRani/)
 
-> **Founder portrait:** Planned repository asset: `docs/assets/prajakta-mane-founder.jpg`. Display the portrait on the RupeeRani website once the image has been uploaded to that path.
+## Founder portrait
+
+The founder portrait should be added to the dedicated RupeeRani repository and shown on its README and website. No image is embedded here because the photo asset has not yet been uploaded to GitHub.
 
 ## RupeeRani's vision
 
@@ -45,7 +47,11 @@ RupeeRani is the main brand and intended website for the broader financial-educa
 
 These are intended brand roles. Each property will grow in line with audience needs and the capacity to maintain it well.
 
-## What we're building toward
+## The journey from scratch
+
+The journey should document real work in sequence: the original idea, audience research, positioning decisions, brand identity, content planning, publishing routines, feedback, experiments and what changes as a result. Keep dated notes and distinguish completed work from assumptions, plans and measured outcomes.
+
+## Future direction
 
 The immediate focus is to define the audience clearly, publish helpful content on a sustainable schedule, learn from genuine audience feedback and build a trustworthy library of explanations. Over time, RupeeRani aims to become a useful and sustainable platform for financial education.
 
@@ -55,8 +61,4 @@ Potential future revenue may support that mission through relevant digital resou
 
 RupeeRani is an evolving, founder-led brand ecosystem, with StockRani as one of its brands. The journey should reflect actual work rather than an inflated success story. Plans, assumptions and completed outcomes should remain clearly distinguished.
 
-[Read the detailed StockRani founder journey and product case study](./README.md)
-
----
-
-*RupeeRani shares educational information and does not promise financial outcomes. Financial products and regulations can change, so readers should verify details with credible, current sources.*
+RupeeRani shares educational information and does not promise financial outcomes. Financial products and regulations can change, so readers should verify details with credible, current sources.
