@@ -20,10 +20,17 @@
     body{margin:0;background:var(--paper);color:var(--ink);font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;line-height:1.65}
     a{color:inherit}
     .wrap{width:min(1160px,calc(100% - 40px));margin:auto}
-    nav{display:flex;align-items:center;justify-content:space-between;gap:20px;padding:24px 0;border-bottom:1px solid var(--line)}
-    .wordmark{font-size:.9rem;font-weight:850;letter-spacing:.12em;color:var(--green)}
-    .navlinks{display:flex;gap:22px;flex-wrap:wrap;font-size:.9rem;color:var(--muted)}
-    .navlinks a{text-decoration:none}
+    nav{display:flex;align-items:center;justify-content:space-between;gap:22px;padding:18px 0;border-bottom:1px solid var(--line)}
+    .wordmark{display:inline-flex;align-items:center;flex-shrink:0;font-size:.9rem;font-weight:850;letter-spacing:.12em;color:var(--green);text-decoration:none;padding:7px 0}
+    .navlinks{display:flex;align-items:center;justify-content:flex-end;gap:7px;flex-wrap:wrap;font-size:.88rem;color:var(--muted)}
+    .navlinks a{display:inline-flex;align-items:center;justify-content:center;min-height:40px;padding:8px 12px;border:1px solid transparent;border-radius:999px;text-decoration:none;white-space:nowrap;transition:background .18s ease,border-color .18s ease,color .18s ease}
+    .navlinks a:hover,.navlinks a:focus-visible{color:var(--green);background:#fff;border-color:#cbd9ce;outline:none}
+    a:focus-visible{outline:3px solid #9ab6a6;outline-offset:3px}
+    .btn{min-height:46px;cursor:pointer;transition:transform .18s ease,background .18s ease,box-shadow .18s ease}
+    .btn:hover{transform:translateY(-2px);box-shadow:0 8px 18px #20372b18}
+    .btn.primary:hover{background:#245548}
+    .card a,.founder-link,.brand-copy>a{display:inline-flex;align-items:center;gap:6px;border-bottom:1px solid #a9c4b4;padding:7px 0 5px;min-height:38px}
+    .card a:hover,.founder-link:hover,.brand-copy>a:hover{border-bottom-color:var(--green);text-decoration:none}
     .hero{padding:78px 0 70px;display:grid;grid-template-columns:1.3fr .7fr;gap:45px;align-items:center;min-width:0}.hero>div:first-child{min-width:0}
     .eyebrow{text-transform:uppercase;letter-spacing:.16em;font-size:.76rem;font-weight:800;color:#527267}
     h1{font-size:clamp(2.65rem,5.6vw,5rem);letter-spacing:-.018em;line-height:1.16;color:var(--green);margin:18px 0 26px;max-width:800px;overflow-wrap:normal;word-spacing:.015em;hyphens:none}
@@ -50,7 +57,7 @@
     h3{font-size:1.2rem;line-height:1.25;letter-spacing:-.025em;color:var(--green);margin:9px 0}
     .card p{font-size:.94rem;color:var(--muted);margin:0 0 18px}
     .card a{font-weight:800;font-size:.9rem;text-decoration:none;margin-top:auto;color:#245d4b}
-    .card a:hover{text-decoration:underline}
+    .card a:hover{text-decoration:none}
     .skillgrid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
     .skillgrid.extended{grid-template-columns:repeat(3,minmax(0,1fr))}
     .founder-intro{display:grid;grid-template-columns:.85fr 1.15fr;gap:18px;margin:24px 0}
@@ -95,7 +102,7 @@
     .skill p{margin-bottom:0;color:var(--muted)}
     .method{display:grid;grid-template-columns:.7fr 1.3fr;gap:35px;align-items:start}
     .steps{display:grid;grid-template-columns:repeat(3,1fr);gap:10px}
-    .step{background:#fff;border:1px solid var(--line);border-radius:14px;padding:16px;font-weight:750;color:var(--green)}
+    .step{background:#fff;border:1px solid var(--line);border-radius:14px;padding:16px;font-weight:750;color:var(--green);cursor:default}
     .step span{display:block;color:#789087;font-size:.75rem;margin-bottom:7px}
     .about{display:grid;grid-template-columns:1fr 1fr;gap:32px}
     .about p{color:var(--muted)}
@@ -105,7 +112,7 @@
     .contact .btn{border-color:#fff;color:#fff;white-space:nowrap}
     footer{padding:28px 0 42px;color:var(--muted);font-size:.85rem;display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap}
     @media(max-width:850px){.hero{grid-template-columns:1fr;padding-top:52px}.hero-art{min-height:250px}.hero-art img{min-height:250px}.grid{grid-template-columns:repeat(2,minmax(0,1fr))}.method,.about,.founder-intro{grid-template-columns:1fr}.skillgrid,.skillgrid.extended{grid-template-columns:repeat(2,minmax(0,1fr))}.brand-grid,.strategy-grid{grid-template-columns:1fr}.brand-card{grid-template-columns:.7fr 1.3fr}.capability-list{grid-template-columns:repeat(2,minmax(0,1fr))}}
-    @media(max-width:560px){.wrap{width:min(100% - 28px,1160px)}nav{align-items:flex-start;flex-direction:column}.navlinks{gap:14px}.hero{padding:42px 0}.grid{grid-template-columns:1fr}.thumb{height:210px}.section-head{display:block}.steps{grid-template-columns:repeat(2,1fr)}.contact{align-items:flex-start;flex-direction:column;padding:25px}.brand-card{grid-template-columns:1fr}.brand-image img{min-height:190px;height:190px}.skillgrid,.skillgrid.extended,.capability-list{grid-template-columns:1fr}.swot-grid{grid-template-columns:1fr}}
+    @media(max-width:560px){.wrap{width:min(100% - 28px,1160px)}nav{align-items:stretch;flex-direction:column;gap:10px;padding:16px 0}.wordmark{padding:4px 0}.navlinks{justify-content:flex-start;gap:6px;flex-wrap:wrap}.navlinks a{min-height:38px;padding:7px 10px;background:#fff;border-color:var(--line);font-size:.82rem}.hero{padding:42px 0}.grid{grid-template-columns:1fr}.thumb{height:210px}.section-head{display:block}.steps{grid-template-columns:repeat(2,1fr)}.contact{align-items:flex-start;flex-direction:column;padding:25px}.contact .actions{width:100%}.contact .btn{width:100%}.brand-card{grid-template-columns:1fr}.brand-image img{min-height:190px;height:190px}.skillgrid,.skillgrid.extended,.capability-list{grid-template-columns:1fr}.swot-grid{grid-template-columns:1fr}.actions .btn{min-height:48px}.cardbody{padding:18px}}
   </style>
   <script type="application/ld+json">
   {"@context":"https://schema.org","@type":"Person","name":"Prajakta Mane","url":"https://www.linkedin.com/in/prajaktamane114/","email":"prajaktamane114@gmail.com","sameAs":["https://www.linkedin.com/in/prajaktamane114/","https://github.com/praj-debug"],"jobTitle":"FinTech Product Operations and Product Analytics"}
@@ -179,7 +186,7 @@
             <div class="tag">Umbrella · Financial education</div><h3>RupeeRani</h3>
             <p class="brand-promise">The home for practical money knowledge.</p>
             
-            <a href="https://github.com/praj-debug/fintech-product-analytics/blob/main/product-case-study/04-stockrani-founder-journey/BRAND-VISION-MONETISATION.md" target="_blank" rel="noreferrer">Explore RupeeRani ↗</a>
+            <a href="https://praj-debug.github.io/Rupeerani/" target="_blank" rel="noreferrer">Visit RupeeRani website ↗</a><a href="https://github.com/praj-debug/Rupeerani" target="_blank" rel="noreferrer">View RupeeRani on GitHub ↗</a>
           </div>
         </article>
         <article class="brand-card">
