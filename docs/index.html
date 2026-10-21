@@ -24,9 +24,9 @@
     .wordmark{font-size:.9rem;font-weight:850;letter-spacing:.12em;color:var(--green)}
     .navlinks{display:flex;gap:22px;flex-wrap:wrap;font-size:.9rem;color:var(--muted)}
     .navlinks a{text-decoration:none}
-    .hero{padding:78px 0 70px;display:grid;grid-template-columns:1.3fr .7fr;gap:45px;align-items:center}
+    .hero{padding:78px 0 70px;display:grid;grid-template-columns:1.3fr .7fr;gap:45px;align-items:center;min-width:0}.hero>div:first-child{min-width:0}
     .eyebrow{text-transform:uppercase;letter-spacing:.16em;font-size:.76rem;font-weight:800;color:#527267}
-    h1{font-size:clamp(3rem,7.5vw,6.4rem);letter-spacing:-.075em;line-height:.98;color:var(--green);margin:18px 0 24px;max-width:800px}
+    h1{font-size:clamp(2.8rem,6.2vw,5.5rem);letter-spacing:-.035em;line-height:1.08;color:var(--green);margin:18px 0 24px;max-width:800px;overflow-wrap:normal;word-spacing:.02em}
     .lead{font-size:clamp(1.05rem,2vw,1.25rem);max-width:680px;color:#465650}
     .chips{display:flex;gap:8px;flex-wrap:wrap;margin:25px 0}
     .chip{border:1px solid #d1dcd2;border-radius:99px;padding:6px 11px;font-size:.8rem;color:#3d5b50;background:#fff}
@@ -65,7 +65,7 @@
     .founder-method li{padding:0 0 11px 4px;color:var(--muted)}
     .founder-method strong{color:var(--ink)}
     .founder-link,.brand-copy>a{display:inline-block;margin-top:8px;color:#245d4b;font-weight:800;text-decoration:none;font-size:.9rem}
-    .brand-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px;margin-top:20px}
+    .brand-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px;margin-top:20px}.brand-card{grid-template-columns:.42fr 1.58fr}.brand-image img{min-height:180px}.brand-copy{padding:18px}.brand-copy h4{display:none}
     .brand-card{display:grid;grid-template-columns:.72fr 1.28fr}
     .brand-image{min-height:100%;background:#e5ebe3}
     .brand-image img{width:100%;height:100%;min-height:340px;object-fit:cover;display:block}
@@ -115,7 +115,7 @@
   <main class="wrap">
     <nav aria-label="Main navigation">
       <a class="wordmark" href="#top" style="text-decoration:none">PRAJAKTA MANE</a>
-      <div class="navlinks"><a href="#work">Case studies</a><a href="#founder-work">Founder projects</a><a href="#skills">Capabilities</a><a href="#about">About</a><a href="#contact">Contact</a></div>
+      <div class="navlinks"><a href="#skills">What I bring</a><a href="#work">Case studies</a><a href="#about">Experience</a><a href="#founder-work">RupeeRani</a><a href="#contact">Contact</a></div>
     </nav>
     <header class="hero" id="top">
       <div>
@@ -130,7 +130,22 @@
         <div class="hero-note"><strong>My approach</strong><br>Observe → Diagnose → Prioritise → Test → Measure</div>
       </div>
     </header>
-    <section id="work">
+    <section id="skills">
+      <div class="eyebrow">Capabilities</div><h2>What I bring to a product team</h2>
+      <p class="section-intro">I connect product questions to evidence, operational context and execution. My strongest work sits where customer experience, business outcomes and real-world delivery meet.</p>
+      <div class="capability-list">
+        <article class="skill"><h3>Product analytics</h3><p>Measure what is happening and identify where to investigate.</p><ul><li>SQL and query-based analysis</li><li>Funnel and conversion analysis</li><li>Segmentation and cohort thinking</li><li>KPI trees, leading indicators and guardrails</li><li>Root-cause analysis and insight synthesis</li></ul></article>
+        <article class="skill"><h3>Product discovery & UX</h3><p>Translate customer friction into clearer product questions.</p><ul><li>Customer journeys and pain-point mapping</li><li>Competitive teardowns</li><li>Problem statements and hypotheses</li><li>Feature discoverability and comprehension</li><li>Prioritisation using impact and effort</li></ul></article>
+        <article class="skill"><h3>Experimentation & measurement</h3><p>Define what to test and how to judge whether it helped.</p><ul><li>Experiment design and testable hypotheses</li><li>Primary and secondary metrics</li><li>Guardrail metrics and risk checks</li><li>Experiment readouts and learning loops</li><li>Distinguishing assumptions from results</li></ul></article>
+        <article class="skill"><h3>FinTech & digital lending</h3><p>Understand the journey behind the product and the lending decision.</p><ul><li>Education-loan and refinance journeys</li><li>Eligibility, documentation and application stages</li><li>Partner-stage and lender handoffs</li><li>Conversion leakage, TAT and SLA concepts</li><li>Exception handling and customer friction</li></ul></article>
+        <article class="skill"><h3>Product operations & delivery</h3><p>Turn cross-functional ambiguity into an operating process.</p><ul><li>Workflow and process design</li><li>Stakeholder alignment and ownership clarity</li><li>Prioritisation, dependencies and follow-through</li><li>Escalations, exception queues and operating cadence</li><li>Continuous improvement and documentation</li></ul></article>
+        <article class="skill"><h3>Founder’s office & zero-to-one</h3><p>Move from a rough idea to a structured, testable initiative.</p><ul><li>Audience and problem framing</li><li>Value proposition and brand architecture</li><li>Positioning, messaging and content pillars</li><li>Lightweight roadmaps and operating systems</li><li>SWOT, assumptions and early-stage success metrics</li></ul></article>
+        <article class="skill"><h3>Partnerships & ecosystem thinking</h3><p>Connect partner behaviour to customer and business outcomes.</p><ul><li>Partner performance frameworks</li><li>Conversion, turnaround and service-quality analysis</li><li>Partner workflows and handoffs</li><li>Cross-functional coordination</li><li>Decision frameworks and allocation logic</li></ul></article>
+        <article class="skill"><h3>Data storytelling & decision writing</h3><p>Make analysis useful to people who need to act on it.</p><ul><li>Executive summaries and clear recommendations</li><li>Metric definitions and data dictionaries</li><li>Dashboard requirements and KPI specifications</li><li>Decision logs and concise documentation</li><li>Trade-offs, risks and next-step clarity</li></ul></article>
+        <article class="skill"><h3>Tools & analytical workflow</h3><p>Use practical tools to organise, query and communicate work.</p><ul><li>SQL, Excel and structured datasets</li><li>GitHub and documentation workflows</li><li>Dashboard specifications and BI concepts</li><li>Jira, Salesforce and operational systems</li><li>API and integration concepts, including testing workflows</li></ul></article>
+      </div>
+    </section>
+<section id="work">
       <div class="section-head"><div><div class="eyebrow">Selected work</div><h2>Product case studies & analytics projects</h2></div><p class="section-intro">From consumer-facing UX to complex lending workflows, each project connects a real product question to a structured diagnosis, prioritised options and measurable next steps.</p></div>
       <div class="grid">
         <article class="card"><div class="thumb"><img loading="lazy" src="https://images.unsplash.com/photo-1526367790999-0150786686a2?auto=format&fit=crop&w=900&q=80" alt="Urban delivery courier on a city street"></div><div class="cardbody"><div class="tag">01 · Consumer UX · Operations</div><h3>Swiggy: Late-delivery friction</h3><p>Problem framing, delivery communication, customer uncertainty, operational metrics and experiment design.</p><a href="https://github.com/praj-debug/fintech-product-analytics/tree/main/product-case-study/01-swiggy-late-deliveries" target="_blank" rel="noreferrer">Read case study ↗</a></div></article>
@@ -147,39 +162,22 @@
       </div>
       <p style="font-size:.86rem;color:var(--muted);margin-top:18px">These are independent product exercises and portfolio projects. Datasets are synthetic or anonymized where stated. Proposed experiments and recommendations are not presented as production results.</p>
     </section>
+        <section>
+      <div class="method"><div><div class="eyebrow">My working method</div><h2>Evidence first. Decisions next.</h2><p class="section-intro">I try to separate what is observed from what is assumed, then define a measurable way to learn whether a change helped.</p></div><div class="steps"><div class="step"><span>01</span>Observe the journey</div><div class="step"><span>02</span>Frame the problem</div><div class="step"><span>03</span>Find the friction</div><div class="step"><span>04</span>Form a hypothesis</div><div class="step"><span>05</span>Define metrics</div><div class="step"><span>06</span>Test and iterate</div></div></div>
+    </section>
+    <section id="about">
+      <div class="about"><div><div class="eyebrow">A little about me</div><h2>Product thinking grounded in operations.</h2></div><div><p>I am Prajakta Mane, a FinTech Product Operations and Strategic Partnerships professional focused on digital lending, product analytics, partner ecosystems and cross-functional product delivery.</p><p>This portfolio captures how I approach product problems, from user friction and funnel diagnosis to measurable product and operational interventions. It is a living body of independent work, not a claim that every hypothesis has been validated in production.</p><p>My financial education initiative, RupeeRani, is documented separately from this professional portfolio.</p></div></div>
+    </section>
     <section id="founder-work">
-      <div class="section-head"><div><div class="eyebrow">Founder projects · Zero to one</div><h2>Building a financial education ecosystem from the ground up.</h2></div><p class="section-intro">RupeeRani is my umbrella initiative. This founder portfolio documents how I translate a broad idea into a brand architecture, specific audiences, distinct propositions, content systems, operating priorities and measurable learning loops.</p></div>
-      <div class="founder-intro">
-        <div class="founder-banner">
-          <div class="tag">Umbrella brand · Founder-led initiative</div>
-          <h3>RupeeRani</h3>
-          <p>Make everyday money decisions easier to understand for young Indians through accessible, practical and responsible financial education.</p>
-          <div class="founder-pills"><span>Financial literacy</span><span>Audience-first content</span><span>Trust-led growth</span><span>Brand ecosystem</span></div>
-          <p class="small-note">Brand architecture: RupeeRani → StockRani · StockRani Studio · StockRani Decodes</p>
-          <a class="founder-link" href="https://github.com/praj-debug/fintech-product-analytics/blob/main/product-case-study/04-stockrani-founder-journey/BRAND-VISION-MONETISATION.md" target="_blank" rel="noreferrer">Read the RupeeRani brand story ↗</a>
-        </div>
-        <div class="founder-method">
-          <div class="tag">My zero-to-one methodology</div>
-          <ol>
-            <li><strong>Define the audience:</strong> identify who has the problem, what they need, and what language they use.</li>
-            <li><strong>Position the proposition:</strong> establish the audience, promise, point of difference and boundaries for each brand.</li>
-            <li><strong>Build the system:</strong> turn strategy into content pillars, formats, a publishing workflow and clear ownership.</li>
-            <li><strong>Test and learn:</strong> publish small, track saves, shares, meaningful engagement and recurring questions, then refine.</li>
-            <li><strong>Protect trust:</strong> source claims, separate education from advice, disclose commercial relationships and avoid return promises.</li>
-            <li><strong>Scale deliberately:</strong> prioritise repeatable processes, audience evidence and sustainable monetisation only when readiness supports it.</li>
-          </ol>
-        </div>
-      </div>
+      <div class="section-head"><div><div class="eyebrow">RupeeRani · Founder projects</div><h2>RupeeRani and its sub-brands</h2></div><p class="section-intro">RupeeRani is my umbrella initiative for practical financial education. Explore the vision and each sub-brand in more detail.</p></div>
       <div class="brand-grid">
         <article class="brand-card">
           <div class="brand-image"><img loading="lazy" src="https://images.unsplash.com/photo-1559526324-4b87b5e36e44?auto=format&fit=crop&w=900&q=80" alt="Financial planning notes and calculator representing personal finance education"></div>
           <div class="brand-copy">
             <div class="tag">Umbrella · Financial education</div><h3>RupeeRani</h3>
             <p class="brand-promise">The home for practical money knowledge.</p>
-            <h4>Target audience</h4><p>Gen Z and young Indian professionals navigating their first salary, budgeting, credit, EMIs, saving and beginner investing.</p>
-            <h4>Positioning & method</h4><p>A trusted umbrella for clear, jargon-light, responsible money education. Organise content around real-life money moments, audience questions and repeatable learning journeys.</p>
-            <h4>Strategic role</h4><p>Set the overarching mission, voice, trust principles, audience needs and shared standards. Help each sub-brand stay focused instead of publishing everything everywhere.</p>
-            <a href="https://github.com/praj-debug/fintech-product-analytics/blob/main/product-case-study/04-stockrani-founder-journey/BRAND-VISION-MONETISATION.md" target="_blank" rel="noreferrer">Read brand vision ↗</a>
+            
+            <a href="https://github.com/praj-debug/fintech-product-analytics/blob/main/product-case-study/04-stockrani-founder-journey/BRAND-VISION-MONETISATION.md" target="_blank" rel="noreferrer">Click to explore brand vision ↗</a>
           </div>
         </article>
         <article class="brand-card">
@@ -188,7 +186,7 @@
             <div class="tag">Brand 01 · Personal finance & investing</div><h3>StockRani</h3>
             <p class="brand-promise">Make money and investing concepts less intimidating.</p>
             <h4>Target audience</h4><p>Finance beginners, Gen Z, first-job professionals and young women who want to understand money basics and investing concepts without jargon or hype.</p>
-            <h4>Positioning & method</h4><p>Social-first financial education with short explainers, practical examples, myth-busting and relatable money scenarios. Use a content matrix by audience question, funnel stage, format and learning goal.</p>
+            
             <h4>Success signals to validate</h4><p>Relevant reach, watch completion, saves, shares, returning viewers, quality questions and evidence that people understand a concept better.</p>
             <a href="https://github.com/praj-debug/fintech-product-analytics/tree/main/product-case-study/04-stockrani-founder-journey" target="_blank" rel="noreferrer">Explore StockRani founder journey ↗</a>
           </div>
@@ -199,7 +197,7 @@
             <div class="tag">Brand 02 · Career & professional resources</div><h3>StockRani Studio</h3>
             <p class="brand-promise">Practical tools for the work and career side of money.</p>
             <h4>Target audience</h4><p>Students, fresh graduates and early-career professionals who need clearer resumes, job-search structure, interview preparation and workplace skills.</p>
-            <h4>Positioning & method</h4><p>A practical resource line focused on templates, checklists, ATS-aware resume guidance and career explainers, with LinkedIn as the primary professional distribution channel. Start with repeatable, useful resources before considering paid products.</p>
+            
             <h4>Success signals to validate</h4><p>Resource saves, downloads, profile visits, qualified enquiries, repeat use and direct feedback about whether the material helps users take action.</p>
             <span class="status-label">Planned brand workstream · validate audience demand before expanding</span>
           </div>
@@ -210,41 +208,15 @@
             <div class="tag">Brand 03 · Explain-it-clearly content</div><h3>StockRani Decodes</h3>
             <p class="brand-promise">Break down complex financial ideas, products and business models.</p>
             <h4>Target audience</h4><p>Curious beginners and young professionals who want to understand financial products, fintech companies, business models and money-related news beyond headlines.</p>
-            <h4>Positioning & method</h4><p>Structured explainers that answer: what is it, how does it work, who benefits, what are the risks, what should a beginner understand, and what sources support the explanation. Use source notes, plain-language summaries and consistent editorial checks.</p>
+            
             <h4>Success signals to validate</h4><p>Completion, saves, shares, meaningful discussion, repeat visits and fewer signs of confusion in audience questions.</p>
             <span class="status-label">Editorial concept · grow at a pace that preserves accuracy</span>
           </div>
         </article>
       </div>
-      <div class="strategy-grid">
-        <article class="strategy-panel"><div class="tag">Operating model</div><h3>How I would run the ecosystem</h3><p><strong>Shared layer:</strong> audience insights, tone of voice, source standards, visual rules, content calendar and monthly review.</p><p><strong>Brand-specific layer:</strong> distinct audience need, proposition, content pillars, formats, channels and success metrics for each brand.</p><p><strong>Learning loop:</strong> audience question → content hypothesis → publish → measure → review comments and saves → update the next sprint.</p></article>
-        <article class="strategy-panel"><div class="tag">SWOT · Working hypothesis</div><h3>RupeeRani ecosystem SWOT</h3><div class="swot-grid"><div><h4>Strengths</h4><p>FinTech and lending context; founder-led ownership; a clear financial-literacy mission; ability to connect product thinking with content operations.</p></div><div><h4>Weaknesses</h4><p>Early-stage awareness; limited time and resources; audience fit and consistency still need validation; no assumed revenue model.</p></div><div><h4>Opportunities</h4><p>High relevance of first-salary and credit questions; local-language explainers; useful templates; partnerships and educational resources when trust is established.</p></div><div><h4>Threats</h4><p>Crowded finance-content market; misinformation risk; platform algorithm changes; low trust in promotional finance content; changing regulations and disclosure expectations.</p></div></div><p class="small-note">This SWOT is a strategic starting hypothesis, not market research or proof of traction. Validate it through audience interviews, search/question analysis, competitor reviews and publishing experiments.</p></article>
-        <article class="strategy-panel"><div class="tag">Measurement & governance</div><h3>What I would measure and protect</h3><p><strong>Discovery:</strong> relevant reach, search entry points and profile visits.</p><p><strong>Engagement:</strong> completion, saves, shares, return visits and substantive questions.</p><p><strong>Usefulness:</strong> user feedback, repeat resource use and evidence of improved understanding.</p><p><strong>Operating health:</strong> publishing consistency, production time, content quality and correction rate.</p><p><strong>Trust:</strong> source quality, visible disclosures, risk explanations and no personalised financial claims disguised as generic content.</p></article>
-      </div>
-      <p class="small-note founder-disclaimer">Founder note: RupeeRani is the umbrella initiative; StockRani, StockRani Studio and StockRani Decodes have distinct intended roles and audiences. Some workstreams are plans or concepts. This page does not imply incorporation, funding, revenue or validated commercial traction.</p>
+      <p class="small-note">RupeeRani is an early-stage founder initiative. Some workstreams are plans or concepts, not claims of revenue or validated commercial traction.</p>
     </section>
-    <section id="skills">
-      <div class="eyebrow">Capabilities</div><h2>What I bring to a product team</h2>
-      <p class="section-intro">I connect product questions to evidence, operational context and execution. My strongest work sits where customer experience, business outcomes and real-world delivery meet.</p>
-      <div class="capability-list">
-        <article class="skill"><h3>Product analytics</h3><p>Measure what is happening and identify where to investigate.</p><ul><li>SQL and query-based analysis</li><li>Funnel and conversion analysis</li><li>Segmentation and cohort thinking</li><li>KPI trees, leading indicators and guardrails</li><li>Root-cause analysis and insight synthesis</li></ul></article>
-        <article class="skill"><h3>Product discovery & UX</h3><p>Translate customer friction into clearer product questions.</p><ul><li>Customer journeys and pain-point mapping</li><li>Competitive teardowns</li><li>Problem statements and hypotheses</li><li>Feature discoverability and comprehension</li><li>Prioritisation using impact and effort</li></ul></article>
-        <article class="skill"><h3>Experimentation & measurement</h3><p>Define what to test and how to judge whether it helped.</p><ul><li>Experiment design and testable hypotheses</li><li>Primary and secondary metrics</li><li>Guardrail metrics and risk checks</li><li>Experiment readouts and learning loops</li><li>Distinguishing assumptions from results</li></ul></article>
-        <article class="skill"><h3>FinTech & digital lending</h3><p>Understand the journey behind the product and the lending decision.</p><ul><li>Education-loan and refinance journeys</li><li>Eligibility, documentation and application stages</li><li>Partner-stage and lender handoffs</li><li>Conversion leakage, TAT and SLA concepts</li><li>Exception handling and customer friction</li></ul></article>
-        <article class="skill"><h3>Product operations & delivery</h3><p>Turn cross-functional ambiguity into an operating process.</p><ul><li>Workflow and process design</li><li>Stakeholder alignment and ownership clarity</li><li>Prioritisation, dependencies and follow-through</li><li>Escalations, exception queues and operating cadence</li><li>Continuous improvement and documentation</li></ul></article>
-        <article class="skill"><h3>Founder’s office & zero-to-one</h3><p>Move from a rough idea to a structured, testable initiative.</p><ul><li>Audience and problem framing</li><li>Value proposition and brand architecture</li><li>Positioning, messaging and content pillars</li><li>Lightweight roadmaps and operating systems</li><li>SWOT, assumptions and early-stage success metrics</li></ul></article>
-        <article class="skill"><h3>Partnerships & ecosystem thinking</h3><p>Connect partner behaviour to customer and business outcomes.</p><ul><li>Partner performance frameworks</li><li>Conversion, turnaround and service-quality analysis</li><li>Partner workflows and handoffs</li><li>Cross-functional coordination</li><li>Decision frameworks and allocation logic</li></ul></article>
-        <article class="skill"><h3>Data storytelling & decision writing</h3><p>Make analysis useful to people who need to act on it.</p><ul><li>Executive summaries and clear recommendations</li><li>Metric definitions and data dictionaries</li><li>Dashboard requirements and KPI specifications</li><li>Decision logs and concise documentation</li><li>Trade-offs, risks and next-step clarity</li></ul></article>
-        <article class="skill"><h3>Tools & analytical workflow</h3><p>Use practical tools to organise, query and communicate work.</p><ul><li>SQL, Excel and structured datasets</li><li>GitHub and documentation workflows</li><li>Dashboard specifications and BI concepts</li><li>Jira, Salesforce and operational systems</li><li>API and integration concepts, including testing workflows</li></ul></article>
-      </div>
-    </section>
-    <section>
-      <div class="method"><div><div class="eyebrow">My working method</div><h2>Evidence first. Decisions next.</h2><p class="section-intro">I try to separate what is observed from what is assumed, then define a measurable way to learn whether a change helped.</p></div><div class="steps"><div class="step"><span>01</span>Observe the journey</div><div class="step"><span>02</span>Frame the problem</div><div class="step"><span>03</span>Find the friction</div><div class="step"><span>04</span>Form a hypothesis</div><div class="step"><span>05</span>Define metrics</div><div class="step"><span>06</span>Test and iterate</div></div></div>
-    </section>
-    <section id="about">
-      <div class="about"><div><div class="eyebrow">A little about me</div><h2>Product thinking grounded in operations.</h2></div><div><p>I am Prajakta Mane, a FinTech Product Operations and Strategic Partnerships professional focused on digital lending, product analytics, partner ecosystems and cross-functional product delivery.</p><p>This portfolio captures how I approach product problems, from user friction and funnel diagnosis to measurable product and operational interventions. It is a living body of independent work, not a claim that every hypothesis has been validated in production.</p><p>My financial education initiative, RupeeRani, is documented separately from this professional portfolio.</p></div></div>
-    </section>
-    <section id="contact">
+<section id="contact">
       <div class="contact"><div><div class="eyebrow" style="color:#d8ee91">Contact</div><h2>Have a product problem worth untangling?</h2><p>For product, product analytics, FinTech operations and collaboration conversations, email me or connect with me on LinkedIn.</p></div><div class="actions" style="margin:0"><a class="btn" href="mailto:prajumane114@gmail.com">Email Prajakta ↗</a><a class="btn" href="https://www.linkedin.com/in/prajaktamane114/" target="_blank" rel="noreferrer">Connect on LinkedIn ↗</a></div></div>
     </section>
     <footer><span>© <span id="year">2026</span> Prajakta Mane · Product portfolio</span><span>Independent case studies use public observations, synthetic or anonymised examples, or independent product exercises.</span></footer>
