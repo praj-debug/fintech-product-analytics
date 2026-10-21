@@ -26,7 +26,7 @@
     .navlinks a{text-decoration:none}
     .hero{padding:78px 0 70px;display:grid;grid-template-columns:1.3fr .7fr;gap:45px;align-items:center;min-width:0}.hero>div:first-child{min-width:0}
     .eyebrow{text-transform:uppercase;letter-spacing:.16em;font-size:.76rem;font-weight:800;color:#527267}
-    h1{font-size:clamp(2.8rem,6.2vw,5.5rem);letter-spacing:-.035em;line-height:1.08;color:var(--green);margin:18px 0 24px;max-width:800px;overflow-wrap:normal;word-spacing:.02em}
+    h1{font-size:clamp(2.65rem,5.6vw,5rem);letter-spacing:-.018em;line-height:1.16;color:var(--green);margin:18px 0 26px;max-width:800px;overflow-wrap:normal;word-spacing:.015em;hyphens:none}
     .lead{font-size:clamp(1.05rem,2vw,1.25rem);max-width:680px;color:#465650}
     .chips{display:flex;gap:8px;flex-wrap:wrap;margin:25px 0}
     .chip{border:1px solid #d1dcd2;border-radius:99px;padding:6px 11px;font-size:.8rem;color:#3d5b50;background:#fff}
@@ -38,7 +38,7 @@
     .hero-note{position:absolute;bottom:18px;left:18px;right:18px;background:rgba(255,255,255,.94);padding:15px 17px;border-radius:15px;font-size:.92rem}
     section{padding:55px 0;border-top:1px solid var(--line)}
     .section-head{display:flex;justify-content:space-between;align-items:end;gap:20px;margin-bottom:25px}
-    h2{font-size:clamp(1.8rem,4vw,2.6rem);line-height:1.1;letter-spacing:-.05em;color:var(--green);margin:8px 0}
+    h2{font-size:clamp(1.8rem,4vw,2.6rem);line-height:1.18;letter-spacing:-.025em;color:var(--green);margin:8px 0}
     .section-intro{max-width:570px;color:var(--muted);margin:0}
     .grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px}
     .card{background:var(--white);border:1px solid var(--line);border-radius:20px;overflow:hidden;display:flex;flex-direction:column;min-width:0;transition:transform .2s ease,box-shadow .2s ease}
@@ -115,7 +115,7 @@
   <main class="wrap">
     <nav aria-label="Main navigation">
       <a class="wordmark" href="#top" style="text-decoration:none">PRAJAKTA MANE</a>
-      <div class="navlinks"><a href="#skills">What I bring</a><a href="#work">Case studies</a><a href="#about">Experience</a><a href="#founder-work">RupeeRani</a><a href="#contact">Contact</a></div>
+      <div class="navlinks"><a href="#skills">What I bring</a><a href="#about">Experience</a><a href="#work">Case studies</a><a href="#founder-work">RupeeRani</a><a href="#contact">Contact</a></div>
     </nav>
     <header class="hero" id="top">
       <div>
@@ -145,7 +145,10 @@
         <article class="skill"><h3>Tools & analytical workflow</h3><p>Use practical tools to organise, query and communicate work.</p><ul><li>SQL, Excel and structured datasets</li><li>GitHub and documentation workflows</li><li>Dashboard specifications and BI concepts</li><li>Jira, Salesforce and operational systems</li><li>API and integration concepts, including testing workflows</li></ul></article>
       </div>
     </section>
-<section id="work">
+    <section id="about">
+      <div class="about"><div><div class="eyebrow">A little about me</div><h2>Product thinking grounded in operations.</h2></div><div><p>I am a FinTech professional with experience across product operations, strategic partnerships, lending and customer-facing workflows. I bring structured problem-solving, stakeholder coordination, analytical thinking and a bias toward getting work from diagnosis to execution.</p><p>My experience spans fintech operations, partnerships and lending, alongside independent projects in product analytics and UX. The case studies show how I structure problems, use evidence and turn findings into practical next steps.</p><p>Outside my professional work, I am building RupeeRani, a separate financial-education initiative.</p></div></div>
+    </section>
+    <section id="work">
       <div class="section-head"><div><div class="eyebrow">Selected work</div><h2>Product case studies & analytics projects</h2></div><p class="section-intro">From consumer-facing UX to complex lending workflows, each project connects a real product question to a structured diagnosis, prioritised options and measurable next steps.</p></div>
       <div class="grid">
         <article class="card"><div class="thumb"><img loading="lazy" src="https://images.unsplash.com/photo-1526367790999-0150786686a2?auto=format&fit=crop&w=900&q=80" alt="Urban delivery courier on a city street"></div><div class="cardbody"><div class="tag">01 · Consumer UX · Operations</div><h3>Swiggy: Late-delivery friction</h3><p>Problem framing, delivery communication, customer uncertainty, operational metrics and experiment design.</p><a href="https://github.com/praj-debug/fintech-product-analytics/tree/main/product-case-study/01-swiggy-late-deliveries" target="_blank" rel="noreferrer">Read case study ↗</a></div></article>
@@ -165,11 +168,10 @@
         <section>
       <div class="method"><div><div class="eyebrow">My working method</div><h2>Evidence first. Decisions next.</h2><p class="section-intro">I try to separate what is observed from what is assumed, then define a measurable way to learn whether a change helped.</p></div><div class="steps"><div class="step"><span>01</span>Observe the journey</div><div class="step"><span>02</span>Frame the problem</div><div class="step"><span>03</span>Find the friction</div><div class="step"><span>04</span>Form a hypothesis</div><div class="step"><span>05</span>Define metrics</div><div class="step"><span>06</span>Test and iterate</div></div></div>
     </section>
-    <section id="about">
-      <div class="about"><div><div class="eyebrow">A little about me</div><h2>Product thinking grounded in operations.</h2></div><div><p>I am Prajakta Mane, a FinTech Product Operations and Strategic Partnerships professional focused on digital lending, product analytics, partner ecosystems and cross-functional product delivery.</p><p>This portfolio captures how I approach product problems, from user friction and funnel diagnosis to measurable product and operational interventions. It is a living body of independent work, not a claim that every hypothesis has been validated in production.</p><p>My financial education initiative, RupeeRani, is documented separately from this professional portfolio.</p></div></div>
-    </section>
+
+
     <section id="founder-work">
-      <div class="section-head"><div><div class="eyebrow">RupeeRani · Founder projects</div><h2>RupeeRani and its sub-brands</h2></div><p class="section-intro">RupeeRani is my umbrella initiative for practical financial education. Explore the vision and each sub-brand in more detail.</p></div>
+      <div class="section-head"><div><div class="eyebrow">RupeeRani · Founder projects</div><h2>A separate founder project</h2></div><p class="section-intro">My independent financial-education initiative. Each page has the details, so this portfolio can get back to the point.</p></div>
       <div class="brand-grid">
         <article class="brand-card">
           <div class="brand-image"><img loading="lazy" src="https://images.unsplash.com/photo-1559526324-4b87b5e36e44?auto=format&fit=crop&w=900&q=80" alt="Financial planning notes and calculator representing personal finance education"></div>
@@ -177,7 +179,7 @@
             <div class="tag">Umbrella · Financial education</div><h3>RupeeRani</h3>
             <p class="brand-promise">The home for practical money knowledge.</p>
             
-            <a href="https://github.com/praj-debug/fintech-product-analytics/blob/main/product-case-study/04-stockrani-founder-journey/BRAND-VISION-MONETISATION.md" target="_blank" rel="noreferrer">Click to explore brand vision ↗</a>
+            <a href="https://github.com/praj-debug/fintech-product-analytics/blob/main/product-case-study/04-stockrani-founder-journey/BRAND-VISION-MONETISATION.md" target="_blank" rel="noreferrer">Explore RupeeRani ↗</a>
           </div>
         </article>
         <article class="brand-card">
@@ -185,9 +187,7 @@
           <div class="brand-copy">
             <div class="tag">Brand 01 · Personal finance & investing</div><h3>StockRani</h3>
             <p class="brand-promise">Make money and investing concepts less intimidating.</p>
-            <h4>Target audience</h4><p>Finance beginners, Gen Z, first-job professionals and young women who want to understand money basics and investing concepts without jargon or hype.</p>
-            
-            <h4>Success signals to validate</h4><p>Relevant reach, watch completion, saves, shares, returning viewers, quality questions and evidence that people understand a concept better.</p>
+            <p>Financial literacy and investing basics for beginners, young professionals and women, explained without jargon or hype.</p>
             <a href="https://github.com/praj-debug/fintech-product-analytics/tree/main/product-case-study/04-stockrani-founder-journey" target="_blank" rel="noreferrer">Explore StockRani founder journey ↗</a>
           </div>
         </article>
@@ -196,10 +196,8 @@
           <div class="brand-copy">
             <div class="tag">Brand 02 · Career & professional resources</div><h3>StockRani Studio</h3>
             <p class="brand-promise">Practical tools for the work and career side of money.</p>
-            <h4>Target audience</h4><p>Students, fresh graduates and early-career professionals who need clearer resumes, job-search structure, interview preparation and workplace skills.</p>
-            
-            <h4>Success signals to validate</h4><p>Resource saves, downloads, profile visits, qualified enquiries, repeat use and direct feedback about whether the material helps users take action.</p>
-            <span class="status-label">Planned brand workstream · validate audience demand before expanding</span>
+            <p>Career resources and practical tools for students, graduates and early-career professionals.</p>
+            <span class="status-label">Planned workstream</span>
           </div>
         </article>
         <article class="brand-card">
@@ -207,16 +205,14 @@
           <div class="brand-copy">
             <div class="tag">Brand 03 · Explain-it-clearly content</div><h3>StockRani Decodes</h3>
             <p class="brand-promise">Break down complex financial ideas, products and business models.</p>
-            <h4>Target audience</h4><p>Curious beginners and young professionals who want to understand financial products, fintech companies, business models and money-related news beyond headlines.</p>
-            
-            <h4>Success signals to validate</h4><p>Completion, saves, shares, meaningful discussion, repeat visits and fewer signs of confusion in audience questions.</p>
-            <span class="status-label">Editorial concept · grow at a pace that preserves accuracy</span>
+            <p>Clear explainers on financial products, fintech businesses and money-related news beyond the headlines.</p>
+            <span class="status-label">Editorial concept</span>
           </div>
         </article>
       </div>
       <p class="small-note">RupeeRani is an early-stage founder initiative. Some workstreams are plans or concepts, not claims of revenue or validated commercial traction.</p>
     </section>
-<section id="contact">
+    <section id="contact">
       <div class="contact"><div><div class="eyebrow" style="color:#d8ee91">Contact</div><h2>Have a product problem worth untangling?</h2><p>For product, product analytics, FinTech operations and collaboration conversations, email me or connect with me on LinkedIn.</p></div><div class="actions" style="margin:0"><a class="btn" href="mailto:prajumane114@gmail.com">Email Prajakta ↗</a><a class="btn" href="https://www.linkedin.com/in/prajaktamane114/" target="_blank" rel="noreferrer">Connect on LinkedIn ↗</a></div></div>
     </section>
     <footer><span>© <span id="year">2026</span> Prajakta Mane · Product portfolio</span><span>Independent case studies use public observations, synthetic or anonymised examples, or independent product exercises.</span></footer>
