@@ -6,13 +6,33 @@ I use data, customer journeys and product observation to understand **what is ha
 
 This repository is my professional portfolio of independent product and analytics case studies. It focuses on product problem-solving, SQL and analytics, user experience, digital lending, and operational improvement.
 
-## Product case studies
+## Product case studies & analytics projects
 
-| # | Case study | What it demonstrates |
+| # | Case study / project | What it demonstrates |
 |---|---|---|
 | **01** | [Swiggy: Reducing Late-Delivery Friction](product-case-study/01-swiggy-late-deliveries/) | Problem framing, UX, metrics, experimentation and operational thinking |
 | **02** | [Zomato vs Swiggy: Multi-Restaurant Checkout](product-case-study/02-zomato-swiggy-multi-restaurant-checkout/) | Competitive teardown, UX discoverability, feature comprehension and experimentation |
-| **03** | [Education Loan Refinance Funnel](product-case-study/) | Funnel analysis, conversion leakage, product hypotheses and measurable interventions |
+| **03** | [Education Loan Refinance Funnel](product-case-study/README.md) | Funnel analysis, conversion leakage, product hypotheses and measurable interventions |
+| **04** | [Partner Rejection Diagnosis](case-studies/partner-rejection-diagnosis/) | SQL-based stage analysis, rejection patterns and operational hypotheses |
+| **05** | [Digital Lending Funnel Optimization](projects/01-lending-funnel-optimization/) | Conversion diagnostics, stage metrics, SLA friction and prioritised improvements |
+| **06** | [Partner Performance & Allocation Engine](projects/02-partner-performance-engine/) | Partner scoring across conversion, turnaround time, SLA reliability and value |
+| **07** | [Lending Operations Control Tower](projects/03-lending-operations-control-tower/) | KPI-led exception management, ownership, escalation and operating cadence |
+| **08** | [API Reliability & Lending Operations](projects/04-api-reliability/) | Integration incidents, application state and downstream customer/operational impact |
+| **09** | [Lending Conversion Experiment](projects/05-lending-conversion-experiment/) | Experiment design, primary metrics, guardrails and a synthetic readout |
+| **10** | [Affordability Stress Test](projects/06-affordability-stress-test/) | Synthetic data, EMI burden, residual income and affordability flags |
+| **11** | [Portfolio KPI & SQL Analysis](analysis/) | Reusable SQL for portfolio, partner and funnel metrics |
+| **12** | [Dashboard & Operations Metrics Specification](dashboard/dashboard_spec.md) | KPI definitions, dashboard requirements and exception-led monitoring |
+
+## Founder projects
+
+| Initiative | My role | Focus |
+|---|---|---|
+| [RupeeRani: Brand Vision & Ecosystem](product-case-study/04-stockrani-founder-journey/BRAND-VISION-MONETISATION.md) | Founder | Umbrella vision, audience, brand architecture, trust principles, content strategy and potential monetisation |
+| [StockRani: Founder Journey](product-case-study/04-stockrani-founder-journey/) | Founder / owner / operator | Financial literacy content, positioning, content operations and early-stage learning |
+| StockRani Studio | Planned sub-brand | Career resources, resume guidance and professional tools |
+| StockRani Decodes | Planned sub-brand | Plain-language explainers on finance, fintech and business models |
+
+RupeeRani is the umbrella initiative with three intended sub-brands: StockRani, StockRani Studio and StockRani Decodes. Planned initiatives and hypotheses are distinguished from completed work; this portfolio does not imply incorporation, revenue or validated commercial traction.
 
 ## How I approach a product problem
 
