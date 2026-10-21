@@ -3,84 +3,125 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Prajakta Mane | FinTech Product Portfolio</title>
-  <meta name="description" content="Product analytics, product thinking, SQL, UX and digital lending case studies by Prajakta Mane.">
+  <title>Prajakta Mane | Product Portfolio</title>
+  <meta name="description" content="Product and analytics case studies by Prajakta Mane across consumer UX, digital lending, SQL, product operations and FinTech.">
   <meta name="author" content="Prajakta Mane">
   <meta name="robots" content="index,follow">
   <link rel="canonical" href="https://praj-debug.github.io/fintech-product-analytics/">
   <meta property="og:type" content="website">
-  <meta property="og:title" content="Prajakta Mane | FinTech Product Portfolio">
-  <meta property="og:description" content="Independent case studies in product analytics, SQL, UX, digital lending and operational problem-solving.">
+  <meta property="og:title" content="Prajakta Mane | Product Portfolio">
+  <meta property="og:description" content="Independent case studies across product thinking, analytics, UX, digital lending and operations.">
   <meta property="og:url" content="https://praj-debug.github.io/fintech-product-analytics/">
-  <meta name="theme-color" content="#173b32">
+  <meta name="theme-color" content="#163d35">
   <style>
-    :root { color-scheme: light; --ink:#18211f; --muted:#52615d; --paper:#fbfaf6; --green:#173b32; --lime:#d8ed8a; --line:#dce2dc; }
-    * { box-sizing:border-box; }
-    body { margin:0; font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif; background:var(--paper); color:var(--ink); line-height:1.65; }
-    main { max-width:980px; margin:0 auto; padding:32px 22px 64px; }
-    nav { display:flex; justify-content:space-between; gap:16px; align-items:center; padding:8px 0 52px; color:var(--muted); font-size:.92rem; }
-    .brand { color:var(--green); font-weight:800; letter-spacing:.04em; }
-    .eyebrow { text-transform:uppercase; letter-spacing:.12em; color:#49685c; font-weight:700; font-size:.78rem; }
-    h1 { max-width:780px; font-size:clamp(2.5rem,7vw,5.4rem); line-height:1.02; letter-spacing:-.055em; margin:16px 0 24px; color:var(--green); }
-    .lead { font-size:clamp(1.08rem,2.4vw,1.38rem); max-width:740px; color:#394743; }
-    .actions { display:flex; flex-wrap:wrap; gap:12px; margin:30px 0 52px; }
-    .button { display:inline-block; padding:12px 17px; text-decoration:none; border-radius:999px; border:1px solid var(--green); font-weight:700; color:var(--green); }
-    .button.primary { background:var(--green); color:white; }
-    section { border-top:1px solid var(--line); padding:30px 0; }
-    h2 { font-size:1.55rem; letter-spacing:-.025em; color:var(--green); margin:0 0 12px; }
-    .grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(220px,1fr)); gap:14px; margin-top:20px; }
-    .card { border:1px solid var(--line); border-radius:18px; padding:20px; background:white; }
-    .card h3 { margin:0 0 8px; color:var(--green); }
-    a { color:#205c4b; }
-    footer { border-top:1px solid var(--line); padding-top:22px; color:var(--muted); font-size:.9rem; }
-    @media (max-width:600px) { nav { padding-bottom:34px; } main { padding-top:18px; } }
+    :root{color-scheme:light;--ink:#172421;--muted:#5a6964;--paper:#f7f7f2;--green:#163d35;--lime:#d8ee91;--line:#dfe5dc;--white:#fff}
+    *{box-sizing:border-box}
+    html{scroll-behavior:smooth}
+    body{margin:0;background:var(--paper);color:var(--ink);font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;line-height:1.65}
+    a{color:inherit}
+    .wrap{width:min(1160px,calc(100% - 40px));margin:auto}
+    nav{display:flex;align-items:center;justify-content:space-between;gap:20px;padding:24px 0;border-bottom:1px solid var(--line)}
+    .wordmark{font-size:.9rem;font-weight:850;letter-spacing:.12em;color:var(--green)}
+    .navlinks{display:flex;gap:22px;flex-wrap:wrap;font-size:.9rem;color:var(--muted)}
+    .navlinks a{text-decoration:none}
+    .hero{padding:78px 0 70px;display:grid;grid-template-columns:1.3fr .7fr;gap:45px;align-items:center}
+    .eyebrow{text-transform:uppercase;letter-spacing:.16em;font-size:.76rem;font-weight:800;color:#527267}
+    h1{font-size:clamp(3rem,7.5vw,6.4rem);letter-spacing:-.075em;line-height:.98;color:var(--green);margin:18px 0 24px;max-width:800px}
+    .lead{font-size:clamp(1.05rem,2vw,1.25rem);max-width:680px;color:#465650}
+    .chips{display:flex;gap:8px;flex-wrap:wrap;margin:25px 0}
+    .chip{border:1px solid #d1dcd2;border-radius:99px;padding:6px 11px;font-size:.8rem;color:#3d5b50;background:#fff}
+    .actions{display:flex;flex-wrap:wrap;gap:12px;margin-top:28px}
+    .btn{display:inline-flex;align-items:center;justify-content:center;padding:12px 18px;border:1px solid var(--green);border-radius:999px;text-decoration:none;font-weight:750;font-size:.92rem}
+    .btn.primary{background:var(--green);color:white}
+    .hero-art{position:relative;min-height:330px;border-radius:28px;overflow:hidden;background:#dfe9dc}
+    .hero-art img{width:100%;height:100%;min-height:330px;object-fit:cover;display:block}
+    .hero-note{position:absolute;bottom:18px;left:18px;right:18px;background:rgba(255,255,255,.94);padding:15px 17px;border-radius:15px;font-size:.92rem}
+    section{padding:55px 0;border-top:1px solid var(--line)}
+    .section-head{display:flex;justify-content:space-between;align-items:end;gap:20px;margin-bottom:25px}
+    h2{font-size:clamp(1.8rem,4vw,2.6rem);line-height:1.1;letter-spacing:-.05em;color:var(--green);margin:8px 0}
+    .section-intro{max-width:570px;color:var(--muted);margin:0}
+    .grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px}
+    .card{background:var(--white);border:1px solid var(--line);border-radius:20px;overflow:hidden;display:flex;flex-direction:column;min-width:0;transition:transform .2s ease,box-shadow .2s ease}
+    .card:hover{transform:translateY(-4px);box-shadow:0 14px 35px #20372b12}
+    .thumb{height:185px;background:#e6ece5;overflow:hidden}
+    .thumb img{width:100%;height:100%;object-fit:cover;display:block}
+    .cardbody{padding:20px;display:flex;flex-direction:column;align-items:flex-start;flex:1}
+    .tag{font-size:.72rem;font-weight:800;text-transform:uppercase;letter-spacing:.09em;color:#527267}
+    h3{font-size:1.2rem;line-height:1.25;letter-spacing:-.025em;color:var(--green);margin:9px 0}
+    .card p{font-size:.94rem;color:var(--muted);margin:0 0 18px}
+    .card a{font-weight:800;font-size:.9rem;text-decoration:none;margin-top:auto;color:#245d4b}
+    .card a:hover{text-decoration:underline}
+    .skillgrid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+    .skill{padding:22px;border-radius:18px;background:#fff;border:1px solid var(--line)}
+    .skill h3{margin-top:0}
+    .skill p{margin-bottom:0;color:var(--muted)}
+    .method{display:grid;grid-template-columns:.7fr 1.3fr;gap:35px;align-items:start}
+    .steps{display:grid;grid-template-columns:repeat(3,1fr);gap:10px}
+    .step{background:#fff;border:1px solid var(--line);border-radius:14px;padding:16px;font-weight:750;color:var(--green)}
+    .step span{display:block;color:#789087;font-size:.75rem;margin-bottom:7px}
+    .about{display:grid;grid-template-columns:1fr 1fr;gap:32px}
+    .about p{color:var(--muted)}
+    .contact{background:var(--green);color:#fff;border-radius:26px;padding:35px;display:flex;justify-content:space-between;align-items:center;gap:28px}
+    .contact h2{color:#fff;margin-top:0}
+    .contact p{color:#d8e5de;max-width:620px}
+    .contact .btn{border-color:#fff;color:#fff;white-space:nowrap}
+    footer{padding:28px 0 42px;color:var(--muted);font-size:.85rem;display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap}
+    @media(max-width:850px){.hero{grid-template-columns:1fr;padding-top:52px}.hero-art{min-height:250px}.hero-art img{min-height:250px}.grid{grid-template-columns:repeat(2,minmax(0,1fr))}.method,.about{grid-template-columns:1fr}.skillgrid{grid-template-columns:1fr}}
+    @media(max-width:560px){.wrap{width:min(100% - 28px,1160px)}nav{align-items:flex-start;flex-direction:column}.navlinks{gap:14px}.hero{padding:42px 0}.grid{grid-template-columns:1fr}.thumb{height:210px}.section-head{display:block}.steps{grid-template-columns:repeat(2,1fr)}.contact{align-items:flex-start;flex-direction:column;padding:25px}}
   </style>
   <script type="application/ld+json">
-  {
-    "@context":"https://schema.org",
-    "@type":"Person",
-    "name":"Prajakta Mane",
-    "url":"https://www.linkedin.com/in/prajaktamane114/",
-    "sameAs":["https://www.linkedin.com/in/prajaktamane114/","https://github.com/praj-debug"],
-    "jobTitle":"FinTech Product Operations and Strategic Partnerships"
-  }
+  {"@context":"https://schema.org","@type":"Person","name":"Prajakta Mane","url":"https://www.linkedin.com/in/prajaktamane114/","email":"prajaktamane114@gmail.com","sameAs":["https://www.linkedin.com/in/prajaktamane114/","https://github.com/praj-debug"],"jobTitle":"FinTech Product Operations and Product Analytics"}
   </script>
 </head>
 <body>
-  <main>
-    <nav><div class="brand">PRAJAKTA MANE</div><div>Product thinking · Analytics · FinTech</div></nav>
-    <header>
-      <div class="eyebrow">Product portfolio</div>
-      <h1>I turn messy problems into clear product decisions.</h1>
-      <p class="lead">I use customer journeys, data and operational context to understand what is happening, identify friction and decide what should change next. This portfolio documents independent case studies across product analytics, UX, SQL and digital lending.</p>
-      <div class="actions"><a class="button primary" href="https://github.com/praj-debug/fintech-product-analytics">Explore the GitHub repository</a><a class="button" href="https://www.linkedin.com/in/prajaktamane114/">Connect on LinkedIn</a></div>
+  <main class="wrap">
+    <nav aria-label="Main navigation">
+      <a class="wordmark" href="#top" style="text-decoration:none">PRAJAKTA MANE</a>
+      <div class="navlinks"><a href="#work">Case studies</a><a href="#skills">Capabilities</a><a href="#about">About</a><a href="#contact">Contact</a></div>
+    </nav>
+    <header class="hero" id="top">
+      <div>
+        <div class="eyebrow">Product portfolio · Product thinking · Analytics · FinTech</div>
+        <h1>I turn messy problems into clear product decisions.</h1>
+        <p class="lead">I connect customer journeys, data and operational context to understand what is breaking, why it matters and what a product team should change next. Explore my independent case studies across consumer UX, digital lending, SQL and product operations.</p>
+        <div class="chips"><span class="chip">Product analytics</span><span class="chip">Digital lending</span><span class="chip">UX teardown</span><span class="chip">SQL & funnels</span><span class="chip">Operations</span></div>
+        <div class="actions"><a class="btn primary" href="#work">Explore case studies ↓</a><a class="btn" href="https://www.linkedin.com/in/prajaktamane114/" target="_blank" rel="noreferrer">Connect on LinkedIn ↗</a></div>
+      </div>
+      <div class="hero-art">
+        <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=1100&q=85" alt="Analytics charts and a laptop on a desk">
+        <div class="hero-note"><strong>My approach</strong><br>Observe → Diagnose → Prioritise → Test → Measure</div>
+      </div>
     </header>
-    <section>
-      <h2>Selected case studies</h2>
+    <section id="work">
+      <div class="section-head"><div><div class="eyebrow">Selected work</div><h2>Case studies & product explorations</h2></div><p class="section-intro">A growing collection of practical exercises. Each one connects a user or business problem to evidence, hypotheses, metrics and possible interventions.</p></div>
       <div class="grid">
-        <article class="card"><h3>Swiggy: Late-delivery friction</h3><p>Problem framing, user experience, operational metrics and experimentation.</p><a href="https://github.com/praj-debug/fintech-product-analytics/tree/main/product-case-study/01-swiggy-late-deliveries">Read case study</a></article>
-        <article class="card"><h3>Zomato vs Swiggy: Checkout</h3><p>Competitive teardown, discoverability, feature comprehension and testable hypotheses.</p><a href="https://github.com/praj-debug/fintech-product-analytics/tree/main/product-case-study/02-zomato-swiggy-multi-restaurant-checkout">Read case study</a></article>
-        <article class="card"><h3>Education loan refinance funnel</h3><p>Conversion leakage, funnel analysis, product hypotheses and measurable interventions.</p><a href="https://github.com/praj-debug/fintech-product-analytics/tree/main/product-case-study">Explore project files</a></article>
+        <article class="card"><div class="thumb"><img loading="lazy" src="https://images.unsplash.com/photo-1526367790999-0150786686a2?auto=format&fit=crop&w=900&q=80" alt="Courier riding a bicycle on a city street"></div><div class="cardbody"><div class="tag">Consumer UX · Operations</div><h3>Swiggy: Late-delivery friction</h3><p>Explore delivery communication, customer uncertainty, operational causes and experiments that could improve trust when an order is late.</p><a href="https://github.com/praj-debug/fintech-product-analytics/tree/main/product-case-study/01-swiggy-late-deliveries" target="_blank" rel="noreferrer">Read case study ↗</a></div></article>
+        <article class="card"><div class="thumb"><img loading="lazy" src="https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?auto=format&fit=crop&w=900&q=80" alt="Person making a digital payment at a checkout"></div><div class="cardbody"><div class="tag">Competitive analysis · UX</div><h3>Zomato vs Swiggy: Multi-restaurant checkout</h3><p>A product teardown of feature discoverability, comprehension, checkout clarity and how experience parity differs from feature parity.</p><a href="https://github.com/praj-debug/fintech-product-analytics/tree/main/product-case-study/02-zomato-swiggy-multi-restaurant-checkout" target="_blank" rel="noreferrer">Read case study ↗</a></div></article>
+        <article class="card"><div class="thumb"><img loading="lazy" src="https://images.unsplash.com/photo-1554224155-6726b3ff858f?auto=format&fit=crop&w=900&q=80" alt="Calculator, paperwork and financial planning notes on a desk"></div><div class="cardbody"><div class="tag">FinTech · Funnel analysis</div><h3>Education loan refinance funnel</h3><p>Map the journey from lead to disbursal, identify conversion leakage and define product interventions for eligibility, application and document completion.</p><a href="https://github.com/praj-debug/fintech-product-analytics/tree/main/product-case-study" target="_blank" rel="noreferrer">Explore project files ↗</a></div></article>
+        <article class="card"><div class="thumb"><img loading="lazy" src="https://images.unsplash.com/photo-1579621970563-ebec7560ff3e?auto=format&fit=crop&w=900&q=80" alt="Coins and a small plant representing financial planning"></div><div class="cardbody"><div class="tag">Digital lending · SQL</div><h3>Affordability stress test</h3><p>Use synthetic lending data to examine income, existing EMIs, proposed EMI, residual income and affordability flags before making a lending decision.</p><a href="https://github.com/praj-debug/fintech-product-analytics/search?q=affordability&type=code" target="_blank" rel="noreferrer">Find project files on GitHub ↗</a></div></article>
+        <article class="card"><div class="thumb"><img loading="lazy" src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=900&q=80" alt="Data dashboard with charts and analytics"></div><div class="cardbody"><div class="tag">Partner funnel · Product analytics</div><h3>Partner-stage rejection diagnosis</h3><p>Investigate where approved-looking applications fail at lender or partner stages, with funnel analysis, segmentation and operational hypotheses.</p><a href="https://github.com/praj-debug/fintech-product-analytics/search?q=partner&type=code" target="_blank" rel="noreferrer">Find project files on GitHub ↗</a></div></article>
+        <article class="card"><div class="thumb"><img loading="lazy" src="https://images.unsplash.com/photo-1521737711867-e3b97375f902?auto=format&fit=crop&w=900&q=80" alt="Colleagues discussing work around a table"></div><div class="cardbody"><div class="tag">Product operations · Process design</div><h3>Reducing operational handoff delays</h3><p>Examine why a short task can take much longer end to end, then map ownership, waiting time, missing information and handoff improvements.</p><a href="https://github.com/praj-debug/fintech-product-analytics" target="_blank" rel="noreferrer">Explore portfolio repository ↗</a></div></article>
+      </div>
+      <p style="font-size:.86rem;color:var(--muted);margin-top:18px">Some newer explorations are documented across the repository and public project notes. Synthetic examples and hypotheses are labelled as such; no proprietary employer data is claimed.</p>
+    </section>
+    <section id="skills">
+      <div class="eyebrow">Capabilities</div><h2>What I bring to a product team</h2>
+      <div class="skillgrid">
+        <article class="skill"><h3>Product analytics</h3><p>SQL, funnels, segmentation, KPI design, root-cause analysis and translating data into decisions.</p></article>
+        <article class="skill"><h3>FinTech & lending</h3><p>Digital lending journeys, refinance workflows, partner-stage processes, eligibility and exception handling.</p></article>
+        <article class="skill"><h3>Product operations</h3><p>Process design, stakeholder alignment, prioritisation, cross-functional delivery and operational improvement.</p></article>
       </div>
     </section>
     <section>
-      <h2>What I bring</h2>
-      <div class="grid">
-        <article class="card"><h3>Product analytics</h3><p>SQL, funnels, segmentation, KPI design and root-cause analysis.</p></article>
-        <article class="card"><h3>FinTech and lending</h3><p>Digital lending journeys, refinance workflows, partner management and exception handling.</p></article>
-        <article class="card"><h3>Product operations</h3><p>Process design, stakeholder alignment, prioritization and cross-functional delivery.</p></article>
-      </div>
+      <div class="method"><div><div class="eyebrow">My working method</div><h2>Evidence first. Decisions next.</h2><p class="section-intro">I try to separate what is observed from what is assumed, then define a measurable way to learn whether a change helped.</p></div><div class="steps"><div class="step"><span>01</span>Observe the journey</div><div class="step"><span>02</span>Frame the problem</div><div class="step"><span>03</span>Find the friction</div><div class="step"><span>04</span>Form a hypothesis</div><div class="step"><span>05</span>Define metrics</div><div class="step"><span>06</span>Test and iterate</div></div></div>
     </section>
-    <section>
-      <h2>How I work</h2>
-      <p>Observe the user and business problem, identify friction, form a hypothesis, define success metrics and guardrails, test a change, then measure and iterate. I distinguish evidence from assumptions and completed work from planned work.</p>
+    <section id="about">
+      <div class="about"><div><div class="eyebrow">A little about me</div><h2>Product thinking grounded in operations.</h2></div><div><p>I am Prajakta Mane, a FinTech Product Operations and Strategic Partnerships professional focused on digital lending, product analytics, partner ecosystems and cross-functional product delivery.</p><p>This portfolio captures how I approach product problems, from user friction and funnel diagnosis to measurable product and operational interventions. It is a living body of independent work, not a claim that every hypothesis has been validated in production.</p><p>My financial education initiative, RupeeRani, is documented separately from this professional portfolio.</p></div></div>
     </section>
-    <section>
-      <h2>About</h2>
-      <p>I am Prajakta Mane, a FinTech Product Operations and Strategic Partnerships professional focused on digital lending, product analytics, partner ecosystems and cross-functional product delivery.</p>
-      <p>My founder-led financial education initiative, RupeeRani, is documented separately from this professional portfolio.</p>
+    <section id="contact">
+      <div class="contact"><div><div class="eyebrow" style="color:#d8ee91">Contact</div><h2>Have a product problem worth untangling?</h2><p>For product, product analytics, FinTech operations and collaboration conversations, email me or connect with me on LinkedIn.</p><p><a href="mailto:prajumane114@gmail.com">prajumane114@gmail.com</a></p></div><div class="actions" style="margin:0"><a class="btn" href="mailto:prajumane114@gmail.com">Email Prajakta ↗</a><a class="btn" href="https://www.linkedin.com/in/prajaktamane114/" target="_blank" rel="noreferrer">LinkedIn ↗</a></div></div>
     </section>
-    <footer><p>© Prajakta Mane</p><p>Independent case studies use public observations, synthetic or anonymized examples, or independent product exercises. No proprietary employer data is claimed.</p></footer>
+    <footer><span>© <span id="year">2026</span> Prajakta Mane · Product portfolio</span><span>Independent case studies use public observations, synthetic or anonymised examples, or independent product exercises.</span></footer>
   </main>
 </body>
 </html>
