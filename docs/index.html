@@ -95,6 +95,25 @@
     .swot-grid p{font-size:.79rem;margin:0}
     .small-note{font-size:.82rem;color:var(--muted)}
     .founder-disclaimer{margin-top:18px}
+    .founder-feature{display:grid;grid-template-columns:.9fr 1.1fr;gap:0;background:#fff;border:1px solid var(--line);border-radius:24px;overflow:hidden}
+    .founder-feature-image{min-height:300px;background:#e5ebe3}
+    .founder-feature-image img{width:100%;height:100%;min-height:300px;display:block;object-fit:cover}
+    .founder-feature-copy{padding:clamp(22px,4vw,42px);align-self:center}
+    .founder-feature-copy h2{font-size:clamp(2rem,4vw,3rem);margin:8px 0}
+    .founder-lead{font-size:1.16rem;font-weight:800;color:var(--green);margin:12px 0}
+    .founder-feature-copy p:not(.founder-lead){color:var(--muted);max-width:480px}
+    .subbrand-heading{display:flex;justify-content:space-between;align-items:end;gap:20px;margin:32px 0 16px}
+    .subbrand-heading h3{font-size:1.35rem;margin:7px 0}
+    .subbrand-heading .section-intro{max-width:390px;font-size:.9rem}
+    .subbrand-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px}
+    .subbrand-card{display:flex;flex-direction:column;background:#fff;border:1px solid var(--line);border-radius:18px;overflow:hidden;min-width:0;color:inherit;text-decoration:none}
+    a.subbrand-card{transition:transform .18s ease,box-shadow .18s ease}
+    a.subbrand-card:hover{transform:translateY(-3px);box-shadow:0 12px 25px #20372b12}
+    .subbrand-card>img{display:block;width:100%;height:145px;object-fit:cover;background:#e5ebe3}
+    .subbrand-card>div{padding:17px;display:flex;flex-direction:column;align-items:flex-start;flex:1}
+    .subbrand-card h3{margin:7px 0;font-size:1.22rem}
+    .subbrand-card p{font-size:.88rem;line-height:1.6;color:var(--muted);margin:0 0 14px}
+    .subbrand-link{margin-top:auto;padding-top:5px;color:#245d4b;font-weight:800;font-size:.88rem}
     .contact .contact-copy .contact-linkedin-note{font-size:.9rem;color:#d8e5de;margin-bottom:0}
     .capability-list{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px;margin-top:16px}
     .capability-list .skill{height:100%}
@@ -130,8 +149,8 @@
     .contact p{color:#d8e5de;max-width:620px}
     .contact .btn{border-color:#fff;color:#fff;white-space:nowrap}
     footer{padding:28px 0 42px;color:var(--muted);font-size:.85rem;display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap}
-    @media(max-width:850px){.experience-section-head{grid-template-columns:1fr;gap:8px}.experience-section-head .section-intro{max-width:720px}.hero{grid-template-columns:1fr;padding-top:52px}.hero-art{min-height:250px}.hero-art img{min-height:250px}.grid{grid-template-columns:repeat(2,minmax(0,1fr))}.method,.about,.founder-intro{grid-template-columns:1fr}.skillgrid,.skillgrid.extended{grid-template-columns:repeat(2,minmax(0,1fr))}.brand-grid,.strategy-grid{grid-template-columns:1fr}.impact-grid{grid-template-columns:1fr}.brand-card{grid-template-columns:.7fr 1.3fr}.capability-list{grid-template-columns:repeat(2,minmax(0,1fr))}}
-    @media(max-width:560px){.wrap{width:min(100% - 28px,1160px)}.experience-heading{flex-direction:column}.experience-domain{text-align:left}nav{align-items:stretch;flex-direction:column;gap:10px;padding:16px 0}.wordmark{padding:4px 0}.navlinks{justify-content:flex-start;gap:6px;flex-wrap:wrap}.navlinks a{min-height:38px;padding:7px 10px;background:#fff;border-color:var(--line);font-size:.82rem}.hero{padding:42px 0}.grid{grid-template-columns:1fr}.thumb{height:210px}.section-head{display:block}.steps{grid-template-columns:repeat(2,1fr)}.contact{align-items:flex-start;flex-direction:column;padding:25px}.contact .actions{width:100%}.contact .btn{width:100%}.brand-card{grid-template-columns:1fr}.brand-image img{min-height:190px;height:190px}.skillgrid,.skillgrid.extended,.capability-list{grid-template-columns:1fr}.swot-grid{grid-template-columns:1fr}.actions .btn{min-height:48px}.cardbody{padding:18px}}
+    @media(max-width:850px){.experience-section-head{grid-template-columns:1fr;gap:8px}.experience-section-head .section-intro{max-width:720px}.hero{grid-template-columns:1fr;padding-top:52px}.hero-art{min-height:250px}.hero-art img{min-height:250px}.grid{grid-template-columns:repeat(2,minmax(0,1fr))}.method,.about,.founder-intro{grid-template-columns:1fr}.skillgrid,.skillgrid.extended{grid-template-columns:repeat(2,minmax(0,1fr))}.brand-grid,.strategy-grid{grid-template-columns:1fr}.impact-grid{grid-template-columns:1fr}.founder-feature{grid-template-columns:1fr}.founder-feature-image,.founder-feature-image img{min-height:200px;height:200px}.subbrand-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.subbrand-heading{align-items:flex-start;flex-direction:column;gap:5px}.brand-card{grid-template-columns:.7fr 1.3fr}.capability-list{grid-template-columns:repeat(2,minmax(0,1fr))}}
+    @media(max-width:560px){.wrap{width:min(100% - 28px,1160px)}.experience-heading{flex-direction:column}.experience-domain{text-align:left}nav{align-items:stretch;flex-direction:column;gap:10px;padding:16px 0}.wordmark{padding:4px 0}.navlinks{justify-content:flex-start;gap:6px;flex-wrap:wrap}.navlinks a{min-height:38px;padding:7px 10px;background:#fff;border-color:var(--line);font-size:.82rem}.hero{padding:42px 0}.grid{grid-template-columns:1fr}.thumb{height:210px}.section-head{display:block}.steps{grid-template-columns:repeat(2,1fr)}.contact{align-items:flex-start;flex-direction:column;padding:25px}.contact .actions{width:100%}.contact .btn{width:100%}.brand-card{grid-template-columns:1fr}.brand-image img{min-height:190px;height:190px}.skillgrid,.skillgrid.extended,.capability-list,.subbrand-grid{grid-template-columns:1fr}.swot-grid{grid-template-columns:1fr}.actions .btn{min-height:48px}.cardbody{padding:18px}}
   </style>
   <script type="application/ld+json">
   {"@context":"https://schema.org","@type":"Person","name":"Prajakta Mane","url":"https://www.linkedin.com/in/prajaktamane114/","email":"prajaktamane114@gmail.com","sameAs":["https://www.linkedin.com/in/prajaktamane114/","https://github.com/praj-debug"],"jobTitle":"FinTech Product Operations and Product Analytics"}
@@ -223,46 +242,32 @@
 
 
     <section id="founder-work">
-      <div class="section-head"><div><div class="eyebrow">RupeeRani · Founder projects</div><h2>A separate founder project</h2></div><p class="section-intro">My independent financial-education initiative. Each page has the details, so this portfolio can get back to the point.</p></div>
-      <div class="brand-grid">
-        <article class="brand-card">
-          <div class="brand-image"><img loading="lazy" src="https://images.unsplash.com/photo-1554224155-6726b3ff858f?auto=format&fit=crop&w=900&q=80" alt="Financial paperwork and calculator for practical money management"></div>
-          <div class="brand-copy">
-            <div class="tag">Umbrella · Financial education</div><h3>RupeeRani</h3>
-            <p class="brand-promise">The home for practical money knowledge.</p>
-            
-            <a href="https://praj-debug.github.io/Rupeerani/" target="_blank" rel="noreferrer">Visit RupeeRani website ↗</a><a href="https://github.com/praj-debug/Rupeerani" target="_blank" rel="noreferrer">View RupeeRani on GitHub ↗</a>
-          </div>
+      <div class="founder-feature">
+        <div class="founder-feature-image"><img loading="lazy" src="https://images.unsplash.com/photo-1554224155-6726b3ff858f?auto=format&fit=crop&w=1200&q=85" alt="Financial paperwork and calculator representing practical money management"></div>
+        <div class="founder-feature-copy">
+          <div class="eyebrow">Founder project · Financial education</div>
+          <h2>RupeeRani</h2>
+          <p class="founder-lead">The home for practical money knowledge.</p>
+          <p>An independent financial-education initiative making money, financial products and everyday decisions easier to understand.</p>
+          <div class="actions"><a class="btn primary" href="https://praj-debug.github.io/Rupeerani/" target="_blank" rel="noreferrer">Explore RupeeRani ↗</a><a class="btn" href="https://github.com/praj-debug/Rupeerani" target="_blank" rel="noreferrer">View on GitHub ↗</a></div>
+        </div>
+      </div>
+      <div class="subbrand-heading"><div><div class="eyebrow">Under the RupeeRani umbrella</div><h3>Explore the workstreams</h3></div><p class="section-intro">Smaller projects, each with its own focus and page.</p></div>
+      <div class="subbrand-grid">
+        <a class="subbrand-card" href="https://github.com/praj-debug/fintech-product-analytics/tree/main/product-case-study/04-stockrani-founder-journey" target="_blank" rel="noreferrer">
+          <img loading="lazy" src="https://images.unsplash.com/photo-1579621970563-ebec7560ff3e?auto=format&fit=crop&w=700&q=80" alt="Savings planning and personal finance">
+          <div><span class="tag">Personal finance</span><h3>StockRani</h3><p>Budgeting, saving, credit, debt, banking, investing and financial decisions for beginners.</p><span class="subbrand-link">Explore StockRani ↗</span></div>
+        </a>
+        <article class="subbrand-card">
+          <img loading="lazy" src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&w=700&q=80" alt="Career planning and professional resources on a desk">
+          <div><span class="tag">Career resources</span><h3>StockRani Studio</h3><p>Practical career and professional resources for students, graduates and early-career professionals.</p><span class="status-label">Planned workstream</span></div>
         </article>
-        <article class="brand-card">
-          <div class="brand-image"><img loading="lazy" src="https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?auto=format&fit=crop&w=900&q=80" alt="Personal finance planning and budgeting on a desk"></div>
-          <div class="brand-copy">
-            <div class="tag">Brand 01 · Personal finance & investing</div><h3>StockRani</h3>
-            <p class="brand-promise">Make money make sense, across everyday finance and beyond.</p>
-            <p>Practical explainers on budgeting, saving, credit, debt, banking, investing, insurance and financial decisions for beginners and young professionals, especially women.</p>
-            <a href="https://github.com/praj-debug/fintech-product-analytics/tree/main/product-case-study/04-stockrani-founder-journey" target="_blank" rel="noreferrer">Explore StockRani founder journey ↗</a>
-          </div>
-        </article>
-        <article class="brand-card">
-          <div class="brand-image"><img loading="lazy" src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&w=900&q=80" alt="Resume and planning notes on a work desk"></div>
-          <div class="brand-copy">
-            <div class="tag">Brand 02 · Career & professional resources</div><h3>StockRani Studio</h3>
-            <p class="brand-promise">Practical tools for the work and career side of money.</p>
-            <p>Career resources and practical tools for students, graduates and early-career professionals.</p>
-            <span class="status-label">Planned workstream</span>
-          </div>
-        </article>
-        <article class="brand-card">
-          <div class="brand-image"><img loading="lazy" src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=900&q=80" alt="Data charts used for explaining business and financial concepts"></div>
-          <div class="brand-copy">
-            <div class="tag">Brand 03 · Explain-it-clearly content</div><h3>StockRani Decodes</h3>
-            <p class="brand-promise">Break down complex financial ideas, products and business models.</p>
-            <p>Clear explainers on financial products, fintech businesses and money-related news beyond the headlines.</p>
-            <span class="status-label">Editorial concept</span>
-          </div>
+        <article class="subbrand-card">
+          <img loading="lazy" src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=700&q=80" alt="Financial and business data visualisation">
+          <div><span class="tag">Financial explainers</span><h3>StockRani Decodes</h3><p>Clear explainers on financial products, fintech businesses and money-related news.</p><span class="status-label">Editorial concept</span></div>
         </article>
       </div>
-      <p class="small-note">RupeeRani is an early-stage founder initiative. Some workstreams are plans or concepts, not claims of revenue or validated commercial traction.</p>
+      <p class="small-note founder-disclaimer">RupeeRani is an early-stage initiative. Planned workstreams and editorial concepts are labelled accordingly.</p>
     </section>
     <section id="contact">
       <div class="contact"><div><div class="eyebrow" style="color:#d8ee91">Contact</div><h2>Have a product problem worth untangling?</h2><p>For product, product analytics, FinTech operations and collaboration conversations, email me or connect with me on LinkedIn.</p></div><div class="actions" style="margin:0"><a class="btn" href="mailto:prajumane114@gmail.com">Email Prajakta ↗</a><a class="btn" href="https://www.linkedin.com/in/prajaktamane114/" target="_blank" rel="noreferrer">Connect on LinkedIn ↗</a></div></div>
