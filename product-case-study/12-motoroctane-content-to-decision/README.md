@@ -1,4 +1,4 @@
-# MotorOctane: Automotive Content-to-Decision Journey
+# Automotive Content-to-Decision Journey
 
 **Type:** Independent product teardown  
 **Focus:** Content discovery, automotive research, consideration journey  
