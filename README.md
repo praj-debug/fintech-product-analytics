@@ -22,7 +22,8 @@ This repository is my professional portfolio of independent product and analytic
 | **10** | [Affordability Stress Test](projects/06-affordability-stress-test/) | Synthetic data, EMI burden, residual income and affordability flags |
 | **11** | [Portfolio KPI & SQL Analysis](analysis/) | Reusable SQL for portfolio, partner and funnel metrics |
 | **12** | [Dashboard & Operations Metrics Specification](dashboard/dashboard_spec.md) | KPI definitions, dashboard requirements and exception-led monitoring |
-| [SignalForge: Model Lifecycle Control Plane](product-case-study/07-signalforge-ml-platform/) | ML platform product strategy, MLOps lifecycle, data lineage, release gates, monitoring, rollback, and responsible GenAI |
+| **13** | [Payment Success Lab: Payment Failure Recovery UX](product-case-study/08-payment-success-lab/) | Payment status journeys, safe recovery, PRD, UX, synthetic analytics and experiment design |
+| | [SignalForge: Model Lifecycle Control Plane](product-case-study/07-signalforge-ml-platform/) | ML platform product strategy, MLOps lifecycle, data lineage, release gates, monitoring, rollback, and responsible GenAI |
 
 ## Founder projects
 
