@@ -106,13 +106,24 @@
     .step span{display:block;color:#789087;font-size:.75rem;margin-bottom:7px}
     .about{display:grid;grid-template-columns:1fr 1fr;gap:32px}
     .about p{color:var(--muted)}
+    .experience-list{display:grid;gap:14px}
+    .experience-item{background:#fff;border:1px solid var(--line);border-radius:18px;padding:22px 24px}
+    .experience-heading{display:flex;align-items:flex-start;justify-content:space-between;gap:18px}
+    .experience-item h3{font-size:1.35rem;margin:6px 0 2px}
+    .experience-role{margin:0;color:var(--muted);font-size:.93rem}
+    .experience-domain{display:inline-block;border:1px solid var(--line);background:#f7f8f3;border-radius:99px;padding:6px 10px;color:#527267;font-size:.78rem;white-space:normal;text-align:center}
+    .experience-item ul{margin:15px 0 0;padding-left:20px;color:var(--muted)}
+    .experience-item li{margin:7px 0}
+    .experience-note,.experience-footnote{font-size:.84rem;color:var(--muted)}
+    .experience-note{margin:12px 0 0;font-style:italic}
+    .experience-footnote{margin-top:16px}
     .contact{background:var(--green);color:#fff;border-radius:26px;padding:35px;display:flex;justify-content:space-between;align-items:center;gap:28px}
     .contact h2{color:#fff;margin-top:0}
     .contact p{color:#d8e5de;max-width:620px}
     .contact .btn{border-color:#fff;color:#fff;white-space:nowrap}
     footer{padding:28px 0 42px;color:var(--muted);font-size:.85rem;display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap}
     @media(max-width:850px){.hero{grid-template-columns:1fr;padding-top:52px}.hero-art{min-height:250px}.hero-art img{min-height:250px}.grid{grid-template-columns:repeat(2,minmax(0,1fr))}.method,.about,.founder-intro{grid-template-columns:1fr}.skillgrid,.skillgrid.extended{grid-template-columns:repeat(2,minmax(0,1fr))}.brand-grid,.strategy-grid{grid-template-columns:1fr}.brand-card{grid-template-columns:.7fr 1.3fr}.capability-list{grid-template-columns:repeat(2,minmax(0,1fr))}}
-    @media(max-width:560px){.wrap{width:min(100% - 28px,1160px)}nav{align-items:stretch;flex-direction:column;gap:10px;padding:16px 0}.wordmark{padding:4px 0}.navlinks{justify-content:flex-start;gap:6px;flex-wrap:wrap}.navlinks a{min-height:38px;padding:7px 10px;background:#fff;border-color:var(--line);font-size:.82rem}.hero{padding:42px 0}.grid{grid-template-columns:1fr}.thumb{height:210px}.section-head{display:block}.steps{grid-template-columns:repeat(2,1fr)}.contact{align-items:flex-start;flex-direction:column;padding:25px}.contact .actions{width:100%}.contact .btn{width:100%}.brand-card{grid-template-columns:1fr}.brand-image img{min-height:190px;height:190px}.skillgrid,.skillgrid.extended,.capability-list{grid-template-columns:1fr}.swot-grid{grid-template-columns:1fr}.actions .btn{min-height:48px}.cardbody{padding:18px}}
+    @media(max-width:560px){.wrap{width:min(100% - 28px,1160px)}.experience-heading{flex-direction:column}.experience-domain{text-align:left}nav{align-items:stretch;flex-direction:column;gap:10px;padding:16px 0}.wordmark{padding:4px 0}.navlinks{justify-content:flex-start;gap:6px;flex-wrap:wrap}.navlinks a{min-height:38px;padding:7px 10px;background:#fff;border-color:var(--line);font-size:.82rem}.hero{padding:42px 0}.grid{grid-template-columns:1fr}.thumb{height:210px}.section-head{display:block}.steps{grid-template-columns:repeat(2,1fr)}.contact{align-items:flex-start;flex-direction:column;padding:25px}.contact .actions{width:100%}.contact .btn{width:100%}.brand-card{grid-template-columns:1fr}.brand-image img{min-height:190px;height:190px}.skillgrid,.skillgrid.extended,.capability-list{grid-template-columns:1fr}.swot-grid{grid-template-columns:1fr}.actions .btn{min-height:48px}.cardbody{padding:18px}}
   </style>
   <script type="application/ld+json">
   {"@context":"https://schema.org","@type":"Person","name":"Prajakta Mane","url":"https://www.linkedin.com/in/prajaktamane114/","email":"prajaktamane114@gmail.com","sameAs":["https://www.linkedin.com/in/prajaktamane114/","https://github.com/praj-debug"],"jobTitle":"FinTech Product Operations and Product Analytics"}
@@ -126,10 +137,10 @@
     </nav>
     <header class="hero" id="top">
       <div>
-        <div class="eyebrow">Product portfolio · Product thinking · Analytics · FinTech</div>
-        <h1>I turn messy problems into clear product decisions.</h1>
-        <p class="lead">I connect customer journeys, data and operational context to understand what is breaking, why it matters and what a product team should change next. Explore my independent case studies across consumer UX, digital lending, SQL and product operations.</p>
-        <div class="chips"><span class="chip">Product analytics</span><span class="chip">Digital lending</span><span class="chip">UX teardown</span><span class="chip">SQL & funnels</span><span class="chip">Operations</span></div>
+        <div class="eyebrow">FinTech · Product operations · Digital lending · Analytics</div>
+        <h1>I make lending journeys and operations work better.</h1>
+        <p class="lead">I bring 4+ years across fintech, lending, banking and partnerships, connecting customer journeys, funnel data and operational workflows. My strongest lane is finding friction across lending and partner journeys, then turning evidence into clearer processes and better decisions. Independent case studies are labelled separately from professional work.</p>
+        <div class="chips"><span class="chip">Digital lending</span><span class="chip">Product operations</span><span class="chip">SQL & funnel diagnosis</span><span class="chip">Partner operations</span><span class="chip">Cross-functional delivery</span></div>
         <div class="actions"><a class="btn primary" href="#work">Explore case studies ↓</a><a class="btn" href="https://www.linkedin.com/in/prajaktamane114/" target="_blank" rel="noreferrer">Connect on LinkedIn ↗</a></div>
       </div>
       <div class="hero-art">
@@ -153,7 +164,15 @@
       </div>
     </section>
     <section id="about">
-      <div class="about"><div><div class="eyebrow">A little about me</div><h2>Product thinking grounded in operations.</h2></div><div><p>I am a FinTech professional with experience across product operations, strategic partnerships, lending and customer-facing workflows. I bring structured problem-solving, stakeholder coordination, analytical thinking and a bias toward getting work from diagnosis to execution.</p><p>My experience spans fintech operations, partnerships and lending, alongside independent projects in product analytics and UX. The case studies show how I structure problems, use evidence and turn findings into practical next steps.</p><p>Outside my professional work, I am building RupeeRani, a separate financial-education initiative.</p></div></div>
+      <div class="section-head"><div><div class="eyebrow">Professional experience</div><h2>FinTech depth, from partner workflows to lending journeys.</h2></div><p class="section-intro">Examples below describe work from my professional roles. Outcomes are included only where I have a grounded figure; not every project had a tracked or attributable impact metric.</p></div>
+      <div class="experience-list">
+        <article class="experience-item"><div class="experience-heading"><div><div class="tag">Current · Digital lending</div><h3>Nomad Credit</h3><p class="experience-role">Refinance Loan Manager</p></div><span class="experience-domain">Refinance · Lender matching · CRM</span></div><ul><li>Work across education-loan refinance and balance-transfer journeys, including eligibility and lender-option discussions.</li><li>Identify friction in CRM follow-ups and the refinance funnel, with a focus on clearer next steps and customer communication.</li></ul><p class="experience-note">Current-role work in progress; no unverified impact figure claimed.</p></article>
+        <article class="experience-item"><div class="experience-heading"><div><div class="tag">Banking · Education loans</div><h3>IDFC FIRST Bank</h3><p class="experience-role">Territory Manager · International Education Loans</p></div><span class="experience-domain">Partner coordination · Lead flow</span></div><ul><li>Coordinated with a group of approximately 4–5 education-consultant partners around lead assignment and follow-through.</li><li>Worked across partner and internal handoffs in an education-loan sales workflow.</li></ul></article>
+        <article class="experience-item"><div class="experience-heading"><div><div class="tag">FinTech · Banking partnerships</div><h3>Fi Money</h3><p class="experience-role">FinTech operations and partnerships</p></div><span class="experience-domain">Partner/API setup · Routing · Funnel</span></div><ul><li>Contributed to partner and API setup, and a rejected-lead routing pilot intended to improve how leads were handled.</li><li>Worked with 10+ consultancy partners and supported funnel and partner operations.</li><li>Contributed within an operating environment where monthly disbursement volume grew from approximately ₹1 crore to ₹15 crore; this is team/business context, not a claim that I alone caused the growth.</li></ul></article>
+        <article class="experience-item"><div class="experience-heading"><div><div class="tag">FinTech · Strategic partnerships</div><h3>Yocket / Leap Finance</h3><p class="experience-role">Program Operations Manager · Strategic Partnerships</p></div><span class="experience-domain">SQL · Metabase · Partner decisions</span></div><ul><li>Used SQL and Metabase to investigate funnel issues, including response delays, follow-up gaps and bank-side delays.</li><li>Built dashboards and operational visibility for a team of approximately 11 people to support partner decisions and follow-through.</li></ul></article>
+        <article class="experience-item"><div class="experience-heading"><div><div class="tag">Education finance</div><h3>WeMakeScholars / Bima</h3><p class="experience-role">Education-loan and lender comparison experience</p></div><span class="experience-domain">Lender comparison · Enablement</span></div><ul><li>Worked around education-loan options and lender comparisons, translating product differences into clearer guidance.</li><li>Supported team enablement, including training four colleagues/advisors, as reflected in my prior work history.</li></ul></article>
+      </div>
+      <p class="experience-footnote">Professional experience is separate from the independent case studies below. Disbursement growth is stated as team/business context; no causal attribution, conversion lift, TAT reduction or rejection-rate improvement is claimed without verified measurement.</p>
     </section>
     <section id="work">
       <div class="section-head"><div><div class="eyebrow">Selected work</div><h2>Product case studies & analytics projects</h2></div><p class="section-intro">From consumer-facing UX to complex lending workflows, each project connects a real product question to a structured diagnosis, prioritised options and measurable next steps.</p></div>
