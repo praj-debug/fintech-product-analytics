@@ -8,6 +8,8 @@ This repository is my professional portfolio of independent product and analytic
 
 ## Product case studies & analytics projects
 
+| **Razorpay Payment Recovery** | [razorpay-payment-recovery/](razorpay-payment-recovery/) | Payment failure diagnosis, SQL funnel analysis, AI-assisted investigation, experimentation and risk-aware growth |
+
 | # | Case study / project | What it demonstrates |
 |---|---|---|
 | **01** | [Swiggy: Reducing Late-Delivery Friction](product-case-study/01-swiggy-late-deliveries/) | Problem framing, UX, metrics, experimentation and operational thinking |
