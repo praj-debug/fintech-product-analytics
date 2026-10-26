@@ -8,6 +8,8 @@ This repository is my professional portfolio of independent product and analytic
 
 ## Product case studies & analytics projects
 
+| **AI ValueOps: From AI Pilots to Business Outcomes** | [ai-valueops/](ai-valueops/) | AI product strategy, initiative prioritisation, adoption analytics, finance-validated ROI and governance |
+
 | **Razorpay Payment Recovery** | [razorpay-payment-recovery/](razorpay-payment-recovery/) | Payment failure diagnosis, SQL funnel analysis, AI-assisted investigation, experimentation and risk-aware growth |
 
 | # | Case study / project | What it demonstrates |
