@@ -1,0 +1,11 @@
+attempt_id,method_group,failure_category,recovery_eligible,recovery_action,final_outcome,elapsed_seconds,synthetic_data
+SYN001,card,issuer_timeout,true,retry_after_wait,succeeded,38,true
+SYN002,upi,customer_authentication,false,complete_authentication,failed,75,true
+SYN003,card,insufficient_funds,false,choose_another_method,failed,20,true
+SYN004,netbanking,temporary_network_error,true,choose_retry_or_alternate,succeeded,92,true
+SYN005,card,hard_decline,false,stop_retrying,failed,12,true
+SYN006,upi,technical_timeout,true,check_status_before_retry,succeeded,44,true
+SYN007,card,merchant_integration_error,false,merchant_support_review,failed,16,true
+SYN008,netbanking,issuer_unavailable,true,choose_retry_or_alternate,succeeded,105,true
+SYN009,upi,customer_authentication,false,complete_authentication,succeeded,63,true
+SYN010,card,temporary_network_error,true,retry_after_wait,failed,52,true
