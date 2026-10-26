@@ -1,0 +1,6 @@
+initiative_id,workflow,problem_statement,business_owner,baseline_status,adoption_readiness,risk_level,illustrative_priority,decision_status,synthetic_data
+AI-001,Support ticket triage,Reduce manual categorisation and routing,Support Operations,defined,medium,medium,high,discovery,true
+AI-002,Internal knowledge search,Reduce time spent finding approved guidance,Knowledge Management,partial,high,low,medium,pilot-design,true
+AI-003,Automated customer decisions,Support faster eligibility decisions,Product and Risk,missing,low,high,low,hold-for-review,true
+AI-004,Invoice data extraction,Reduce manual document entry,Finance Operations,defined,medium,medium,medium,pilot-design,true
+AI-005,Sales call summaries,Reduce admin time after customer calls,Sales Operations,partial,high,medium,medium,discovery,true
