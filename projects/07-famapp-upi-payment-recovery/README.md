@@ -1,9 +1,9 @@
-# FamApp UPI Payment Recovery — Product Manager Case Study
+# FamPay UPI Payment Recovery — Product Manager Case Study
 
 **Owner:** Prajakta Mane  
 **Type:** Independent, hypothesis-led product case study  
 **Focus:** Consumer fintech · UPI reliability · Product discovery · UX · PRD · metrics · experimentation  
-**Status:** Proposed concept only. Not commissioned by FamApp and not based on internal FamApp data.
+**Status:** Proposed concept only. Not commissioned by FamPay and not based on internal FamPay data.
 
 ## Executive summary
 
@@ -11,7 +11,7 @@ When a UPI payment is pending or a user sees a debit without clear confirmation,
 
 This proposal explores a **Payment Status & Recovery** experience that makes the latest known state clear, prevents unsafe duplicate retries while a transaction is unresolved, gives a sensible next action, and makes support handoff easier.
 
-The opportunity is not to claim FamApp has a verified platform-wide incident. Public support content explains how to get help for blocked or disputed payments, and public reviews provide anecdotal examples. Internal transaction data and representative user research would be required to size the problem.
+The opportunity is not to claim FamPay has a verified platform-wide incident. Public support content explains how to get help for blocked or disputed payments, and public reviews provide anecdotal examples. Internal transaction data and representative user research would be required to size the problem.
 
 ## Problem statement
 
@@ -19,13 +19,13 @@ Users may struggle to decide what to do after an uncertain UPI outcome because p
 
 ### User and job to be done
 
-A student or young adult using FamApp for everyday P2P or merchant payments needs to understand the current transaction status and take the next safe step without accidentally paying twice or repeatedly contacting support.
+A student or young adult using FamPay for everyday P2P or merchant payments needs to understand the current transaction status and take the next safe step without accidentally paying twice or repeatedly contacting support.
 
 ## Evidence vs. assumptions
 
 | Evidence | Interpretation / limitation |
 |---|---|
-| FamApp's official help pages describe blocked UPI payments and disputed debits. | Confirms a support path exists, not the current incidence or root cause of failures. |
+| FamPay's official help pages describe blocked UPI payments and disputed debits. | Confirms a support path exists, not the current incidence or root cause of failures. |
 | FamPay's older educational article describes processing states during bank downtime. | Useful background; its timelines may not reflect current product/network rules. |
 | NPCI and RBI publish guidance for pending/failed UPI transactions and reversal timelines. | The applicable timeline depends on transaction type and scenario; copy must reflect the applicable rule. |
 | Public app reviews mention individual payment problems and support friction. | Anecdotal, self-selected reports; not a representative measure of quality or prevalence. |
@@ -112,19 +112,45 @@ No baseline, improvement percentage, or business impact is claimed because inter
 
 ## Clickable concept
 
-The HTML case study includes a low-fidelity interaction for Pending, Successful, and Failed states. It is a demonstration only and is not connected to FamApp or a payment network.
+The HTML case study includes a low-fidelity interaction for Pending, Successful, and Failed states. It is a demonstration only and is not connected to FamPay or a payment network.
 
 ## Sources
 
-1. [FamApp official contact and support](https://www.famapp.in/contact/)
+1. [FamPay official contact and support](https://www.fampay.in/contact/)
 2. [Tri O Tech official FAQs](https://www.triotech.co.in/faqs/)
-3. [FamPay educational article on stuck online payments](https://blog.famapp.in/blog/why-do-online-payments-get-stuck-and-what-can-you-do/) — older content; verify current timelines before relying on them.
+3. [FamPay educational article on stuck online payments](https://blog.fampay.in/blog/why-do-online-payments-get-stuck-and-what-can-you-do/) — older content; verify current timelines before relying on them.
 4. [NPCI UPI FAQs](https://www.npci.org.in/what-we-do/upi/faqs)
 5. [RBI circular: Harmonisation of TAT and customer compensation for failed transactions](https://www.rbi.org.in/commonman/Upload/English/Notification/PDFs/CIRCULAR677EC931A7A65E4D99AA957D8E85BC0A2A.PDF)
-6. [FamApp Google Play listing](https://play.google.com/store/apps/details?id=com.fampay.in) — user reviews are anecdotal, not representative.
+6. [FamPay Google Play listing](https://play.google.com/store/apps/details?id=com.fampay.in) — user reviews are anecdotal, not representative.
 
 ## What this case demonstrates
 
 Problem framing, evidence-quality judgement, consumer journey design, state-based UX, PRD requirements, metric selection, experiment design, operational dependencies, privacy guardrails, and iterative product delivery.
 
-**Portfolio integrity:** This is an independent proposal. The product changes are not shipped; no internal FamApp data was used; no impact is claimed.
+**Portfolio integrity:** This is an independent proposal. The product changes are not shipped; no internal FamPay data was used; no impact is claimed.
+
+
+## Expected impact and conclusion
+
+The proposed MVP combines an authoritative payment state, a safe next action, a transaction reference, and a visible support handoff in one recovery journey. The business hypothesis is that clearer decisions reduce avoidable repeat attempts and preventable support demand while protecting payment safety.
+
+Initial experiment decision targets, measured against a randomized control after baseline analysis:
+
+| Metric | Proposed target |
+|---|---:|
+| Avoidable repeat-payment rate for unresolved transactions | 20% relative reduction |
+| Payment-related support contacts per 1,000 attempts | 15% relative reduction |
+| Correct user understanding of payment status and next action | +15 percentage points |
+| Duplicate debit, false success, missed reversal and escalation guardrails | No deterioration |
+
+These are planning thresholds, not measured results or promises. Confirm baseline rates, sample size, and statistical power before running the test.
+
+### Next steps
+
+1. Analyse 4–6 weeks of current payment-state, retry, reversal, and support-contact data, segmented by bank and transaction type.
+2. Test the prototype with 5–8 users and revise copy until users can accurately explain what to do.
+3. Instrument status views, retry attempts, help opens, final outcomes, and support resolution.
+4. Run a controlled experiment. Roll out only if the primary metric improves and safety guardrails hold.
+5. If results miss the target, inspect the largest failure segment and iterate rather than scaling a weak solution.
+
+**Conclusion:** Ship a measurable recovery experiment, not a blanket promise that the payment problem is solved. The intended value is fewer avoidable duplicate attempts, less preventable support work, and greater user trust. Actual lift must be established with product data.
