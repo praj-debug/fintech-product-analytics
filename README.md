@@ -14,6 +14,7 @@ This repository is my professional portfolio of independent product and analytic
 
 | # | Case study / project | What it demonstrates |
 |---|---|---|
+| **01** | [Fi Money: PL & CC Product Launch and Activation Operations](credit-card-activation-product-case-study/) | Real professional work across 0→1 launches, partner onboarding, BRE changes, MoEngage activation, PL ↔ CC routing, MIS, SFTP, conversion and CAC |
 | **01** | [Swiggy: Reducing Late-Delivery Friction](product-case-study/01-swiggy-late-deliveries/) | Problem framing, UX, metrics, experimentation and operational thinking |
 | **02** | [Zomato vs Swiggy: Multi-Restaurant Checkout](product-case-study/02-zomato-swiggy-multi-restaurant-checkout/) | Competitive teardown, UX discoverability, feature comprehension and experimentation |
 | **03** | [Education Loan Refinance Funnel](product-case-study/README.md) | Funnel analysis, conversion leakage, product hypotheses and measurable interventions |
