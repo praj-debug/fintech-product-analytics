@@ -1,7 +1,0 @@
-stage,users,conversion_from_previous,notes
-approved,10000,1.00,"Synthetic illustrative data only"
-card_access_started,8200,0.82,"Synthetic illustrative data only"
-card_access_completed,6800,0.83,"Synthetic illustrative data only"
-card_activation_completed,6100,0.90,"Synthetic illustrative data only"
-first_purchase_completed_7d,3900,0.64,"Synthetic illustrative data only"
-repeat_use_30d,2500,0.64,"Synthetic illustrative data only"
