@@ -11,6 +11,8 @@ I handled operational execution across personal-loan (PL) and credit-card (CC) p
 
 ## Scope of work
 
+During the period, daily inbound lead volume grew from approximately **1,000 to 10,000 leads per day** (about 10×). I tracked lead quality and partner-level outcomes as part of the operating funnel.
+
 ### 1. Launch and partner onboarding
 - Worked across PL and CC product launches and partner onboarding.
 - Coordinated operational requirements, partner dependencies and internal handoffs.
