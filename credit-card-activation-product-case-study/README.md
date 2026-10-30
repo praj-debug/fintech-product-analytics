@@ -1,60 +1,82 @@
-# Credit Card Activation: Approval to First Purchase
+# Fi Money: PL & CC Product Launch, Partner Integrations and Activation Operations
 
-**Type:** Independent product-management case study  
-**Focus:** Consumer fintech · Credit card activation · Funnel analytics · Experimentation · Risk-aware growth
+**Type:** Retrospective of professional experience at Fi Money  
+**Focus:** Product operations · 0→1 launch execution · Partner onboarding · Customer activation · Cross-product routing · MIS · SFTP · Conversion and CAC
 
-> **Important:** This is a hypothetical portfolio exercise based on a public job description and general product-management reasoning. It is not Bright Money internal work, does not use Bright Money data, and does not claim results from a real experiment. All example values must be treated as illustrative.
+> This is real work I personally handled at Fi Money. It is not a hypothetical product exercise. The public write-up is sanitised and excludes customer-level information, partner-confidential data, internal screenshots, proprietary business rules, exact commercial terms and unverified performance figures.
 
-## Problem
+## Overview
 
-An approved applicant is not yet an activated customer. Users may fail to access or activate their card, misunderstand the next step, worry about fees or repayment, or encounter technical friction. This creates a poor customer experience and weakens the return on acquisition and underwriting costs.
+I handled operational execution across personal-loan (PL) and credit-card (CC) products from launch and partner onboarding through customer servicing and ongoing performance tracking. The work connected partner operations, product configuration, activation journeys, sales teams, account managers and customer follow-through.
 
-**Product question:** How might we help eligible approved users confidently complete card setup and make a first purchase, while protecting customer outcomes and credit risk?
+## Scope of work
 
-## Proposed approach
+### 1. Launch and partner onboarding
+- Worked across PL and CC product launches and partner onboarding.
+- Coordinated operational requirements, partner dependencies and internal handoffs.
+- Supported customer journeys with sales teams and account managers.
+- Tracked partner and product changes that affected the operating journey.
 
-1. **Diagnose the funnel:** Measure approval → card access → activation → first purchase → 30-day repeat use.
-2. **Understand friction:** Segment by channel, device, time-to-event, verification outcomes, support contacts, and customer feedback.
-3. **Design a narrow intervention:** Provide a clear next-step checklist, useful error recovery, transparent repayment/fee information, and a relevant reminder with frequency limits.
-4. **Test responsibly:** Run a controlled experiment with pre-defined eligibility, sample-size calculation, duration, and decision thresholds.
-5. **Make a decision:** Scale, iterate, or roll back based on activation and downstream outcomes, not a vanity metric alone.
+### 2. BRE and activation operations
+- Kept track of changes to the Business Rules Engine (BRE) and their impact on the product journey.
+- Monitored customer activation activity through MoEngage.
+- Followed application outcomes and customer progress across both products.
+- Coordinated operational follow-up when a case needed another route or partner action.
 
-## Metrics
+### 3. Cross-product routing: PL ↔ CC
+- Tracked cases where a personal-loan application could not proceed and a relevant credit-card route might be available, subject to applicable rules and eligibility.
+- Tracked the reverse direction when a credit-card journey could not proceed and a personal-loan route was relevant.
+- Maintained visibility of outcomes and handoffs rather than treating a failed product path as an automatic end to the customer journey.
 
-**Primary:** Percentage of eligible approved users completing activation and first purchase within 7 days.
+This describes routing oversight and coordination. It does not imply every unsuccessful applicant was eligible for or approved through the alternate product.
 
-**Secondary:** Time to activation, card-access completion, 30-day repeat use, and support-contact rate.
+### 4. MIS and SFTP partner data exchange
+- Prepared and shared MIS with partner stakeholders.
+- Received partner data through the agreed SFTP process.
+- Coordinated case updates, operational reconciliation and follow-up on exceptions.
 
-**Guardrails:** Fraud, disputes, complaints, opt-outs, failed payments, early delinquency, and risk-adjusted contribution margin.
+### 5. Conversion, CAC and revenue tracking
+- Tracked conversion across product and partner journeys.
+- Kept CAC and revenue contribution in view when reviewing performance.
+- Used MIS and partner data to understand stronger-performing conversion paths and support operational decisions.
 
-## Experiment outline
+No numeric uplift, CAC reduction or revenue result is claimed here because approved, attributable figures have not been supplied for publication.
 
-| Element | Plan |
-|---|---|
-| Population | Newly approved eligible users who have not activated |
-| Control | Existing approved-user journey |
-| Treatment | Clear checklist, contextual help, repayment transparency, and one consent-aware reminder |
-| Primary metric | 7-day activation plus first-purchase conversion |
-| Analysis | Randomised comparison; pre-register eligibility, minimum detectable effect, sample size, and duration |
-| Decision | Scale only if the primary outcome improves credibly and guardrails remain within agreed limits |
+## Product operations lifecycle
 
-I would calculate the sample size from a validated baseline before launch rather than inventing a target uplift. The experiment would be reviewed with Product, Design, Engineering, Risk, Compliance, Operations, and issuer partners.
+```text
+Product launch
+   ↓
+Partner onboarding
+   ↓
+BRE / journey configuration tracking
+   ↓
+Customer activation monitoring (MoEngage)
+   ↓
+PL / CC application outcome
+   ↓
+Eligible alternate-product route, where applicable
+   ↓
+MIS + partner data exchange through SFTP
+   ↓
+Conversion, CAC and revenue performance tracking
+```
 
-## Delivery plan
+## Skills demonstrated
 
-- **Discover:** Validate event instrumentation, quantify stage drop-offs, review support reasons, and interview eligible non-activators.
-- **Define:** Choose the largest evidenced friction point and document requirements, edge cases, event definitions, and risk constraints.
-- **Build and test:** Prototype the journey, test recovery states, instrument analytics, and validate consent/frequency rules.
-- **Experiment:** Launch to a controlled population, monitor guardrails, and review segment-level outcomes.
-- **Decide:** Scale, iterate, or stop based on the pre-agreed decision rule.
+- 0→1 launch execution and partner onboarding
+- Product and customer journey operations
+- Business-rule change tracking
+- MoEngage activation monitoring
+- Cross-product routing and exception management
+- Partner MIS and SFTP data coordination
+- Conversion, CAC and revenue-oriented analysis
+- Cross-functional coordination with sales, account managers and partner teams
 
-## Repository contents
+## Public case study
 
-- [Live case study](https://praj-debug.github.io/fintech-product-analytics/case-studies/credit-card-activation.html) — narrative case study published on the portfolio.
-- `product-brief.md` — problem framing, user story, requirements, and non-goals.
-- `experiment-plan.md` — experiment design, event taxonomy, guardrails, and decision framework.
-- `sample_funnel.csv` — explicitly synthetic sample data for practicing funnel analysis.
+[Read the full case study](https://praj-debug.github.io/fintech-product-analytics/case-studies/credit-card-activation.html)
 
-## How to present this in an interview
+## Confidentiality note
 
-Describe it as a **self-directed product case study** demonstrating how you would approach an activation problem. Do not present the scenario, assumptions, or any sample figures as production results or work performed at Bright Money.
+This retrospective reflects responsibilities and workflows I handled. It does not publish internal MIS, partner files, customer records, BRE logic, MoEngage campaign content, SFTP credentials or proprietary commercial information. Quantitative claims will be added only when the metric definition, time period, source and attribution can be verified.
