@@ -1,57 +1,48 @@
-# Product Brief: Credit Card Activation
+# Product Operations Brief: Fi Money PL & CC Journeys
 
-## Context
+## Work context
 
-This independent case study explores a hypothetical consumer credit-card journey. The scenario is not based on Bright Money internal data.
+This document records real product operations work personally handled at Fi Money across personal-loan (PL) and credit-card (CC) products. It is a retrospective, not a proposed product concept.
 
-## Problem statement
+## Scope
 
-Eligible customers who have been approved may not progress to card activation and first purchase. The reasons are unknown until behavioural data and customer evidence are examined. Potential causes include unclear next steps, card-access friction, verification failures, repayment uncertainty, and lack of relevant guidance.
+Operational execution across launch, partner onboarding, customer servicing, activation monitoring, cross-product routing, partner reporting and performance tracking.
 
-## Target user
+## Operating requirements handled
 
-A newly approved, eligible applicant who has not yet activated their card or completed a first purchase.
+### Partner and launch readiness
+- Coordinate PL and CC product launches and partner onboarding.
+- Track partner dependencies, operational requirements and internal handoffs.
+- Support customer journeys with sales teams and account managers.
 
-## User need
+### Product configuration and activation
+- Track Business Rules Engine (BRE) changes and their operational impact.
+- Monitor activation activity through MoEngage.
+- Keep application status, product outcome and follow-up visible across PL and CC.
 
-“I want to understand what I need to do next, access my card easily, and understand the costs and repayment responsibilities before I use it.”
+### Cross-product routing
+- Track PL cases that cannot proceed and coordinate a relevant CC route where applicable.
+- Track CC cases that cannot proceed and coordinate a relevant PL route where applicable.
+- Keep routing subject to the applicable product rules, partner process and customer eligibility.
 
-## Product goal
+### MIS and partner data
+- Prepare and share MIS with partner stakeholders.
+- Receive partner data through the agreed SFTP process.
+- Coordinate operational reconciliation and follow-up on exceptions.
 
-Increase the share of eligible approved users who activate and make a first purchase within seven days, without worsening customer outcomes, risk, or unit economics.
+### Commercial performance
+- Track conversion across product and partner journeys.
+- Review CAC alongside conversion and revenue contribution.
+- Use available MIS and partner data to identify stronger-performing paths.
 
-## User story
+## Stakeholders
 
-As a newly approved cardholder, I want a clear and trustworthy path to set up and use my card so I can make an informed first purchase and understand how repayment works.
+- Product and internal operations
+- Sales teams
+- Account managers
+- External lending and card partners
+- Customer-facing support functions
 
-## Requirements
+## Boundaries
 
-### P0: Measurement and clarity
-- Define consistent events for approval, card access, activation, first purchase, and repeat use.
-- Show a clear next action after approval.
-- Provide understandable explanations of relevant fees, repayment obligations, and due dates.
-- Instrument errors and recovery paths without logging sensitive payment credentials.
-
-### P1: Recovery and guidance
-- Provide actionable recovery guidance for common card-access or verification failures.
-- Offer help at the point of friction.
-- Send a reminder only where permitted, useful, and within frequency limits.
-- Provide a clear post-purchase confirmation and route to spending and payment information.
-
-## Non-goals
-- Encouraging unnecessary borrowing or spending.
-- Weakening underwriting, verification, or fraud controls.
-- Promising approval or credit limits.
-- Optimising first purchase without monitoring downstream customer outcomes.
-
-## Dependencies
-- Product, Design, Engineering, Analytics, Risk, Compliance, Customer Operations, and external card/issuer partners.
-- Accurate event tracking and agreed definitions.
-- Legal/compliance review of disclosures and communications.
-
-## Acceptance criteria
-- Funnel events pass analytics QA.
-- Eligible users can identify their next step and understand repayment information in usability testing.
-- Error states provide actionable guidance.
-- Experiment assignment and eligibility rules are documented.
-- Guardrail monitoring and rollback ownership are agreed before release.
+This brief does not disclose internal BRE logic, customer-level data, partner-specific rules, credentials, campaign content or confidential commercial terms. No quantitative impact is asserted without a verified metric definition, period, source and attribution.
