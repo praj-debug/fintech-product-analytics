@@ -1,74 +1,47 @@
-# Experiment Plan: Activation Journey
+# Operating Review Framework: PL & CC Product Journeys
 
-## Hypothesis
+This is a retrospective operating framework based on real work handled at Fi Money. It is not an experiment proposal and does not claim an experiment or uplift was run.
 
-If eligible approved users receive a clear activation checklist, contextual recovery guidance, transparent repayment information, and one relevant reminder, then more will complete activation and a first purchase within seven days than users in the current journey.
+## Operating dimensions tracked
 
-This is a hypothesis to test, not a claimed outcome.
+| Dimension | What was followed |
+|---|---|
+| Product | Personal-loan and credit-card journey |
+| Launch | Launch readiness and partner onboarding |
+| Configuration | Business Rules Engine (BRE) changes affecting the journey |
+| Activation | MoEngage activation activity and customer follow-through |
+| Routing | PL-to-CC and CC-to-PL alternate paths where applicable |
+| Partner operations | MIS shared with partners and data received through SFTP |
+| Conversion | Product- and partner-level conversion movement |
+| Commercials | CAC and revenue contribution |
 
-## Design
+## Review questions
 
-- **Population:** Newly approved users eligible for the card-access journey who have not activated.
-- **Control:** Existing journey.
-- **Treatment:** Checklist, recovery guidance, repayment transparency, and consent-aware reminder.
-- **Randomisation:** User-level assignment, with assignment held stable throughout the test.
-- **Duration:** Set after baseline traffic, expected conversion, and sample-size calculations are validated.
-- **Analysis:** Intention-to-treat as the primary analysis; review pre-specified segments for meaningful differences.
+1. Are product launches and partner onboarding dependencies on track?
+2. Have BRE changes altered eligibility, routing or customer progression?
+3. Are customers progressing through activation communications and next steps?
+4. Where a PL or CC journey cannot proceed, is an alternate product route relevant and permitted?
+5. Have partner MIS and SFTP data been received, reconciled and actioned?
+6. Which product and partner paths show stronger conversion?
+7. How does CAC compare with conversion and revenue contribution?
 
-## Event taxonomy
+## Operating loop
 
-| Event | Trigger | Useful properties (non-sensitive) |
-|---|---|---|
-| application_approved | Approval status becomes available | timestamp, acquisition_channel, device_type |
-| card_access_started | User starts card access | timestamp, app_version |
-| card_access_completed | Access flow succeeds | timestamp, elapsed_time_bucket |
-| card_activation_completed | Activation succeeds | timestamp, elapsed_time_bucket |
-| first_purchase_completed | First eligible purchase is confirmed | timestamp, transaction_category_group |
-| support_contact_created | User contacts support | timestamp, reason_category |
-| reminder_delivered | Permitted reminder is delivered | timestamp, channel |
-| reminder_opted_out | User opts out | timestamp, channel |
-| repeat_use_30d | Qualifying repeat use within 30 days | cohort_date, eligible_flag |
+- **Track:** Maintain visibility of product status, partner dependencies, activation and application outcomes.
+- **Reconcile:** Compare internal MIS with partner updates received through the agreed data process.
+- **Route:** Coordinate eligible alternate-product journeys where the original product path cannot proceed.
+- **Escalate:** Follow up with sales, account managers and partner teams on exceptions.
+- **Review:** Assess conversion, CAC and revenue contribution using approved reporting.
 
-Do not collect card numbers, CVV, passwords, or other sensitive payment credentials in analytics events.
+## Metrics publication standard
 
-## Metrics
+No numerical results are included in this portfolio page. Before publishing any metric, document:
+- Exact definition and numerator/denominator
+- Measurement period and cohort
+- Source system and validation method
+- Product and partner scope
+- Attribution and any relevant caveats
 
-### Primary
-- 7-day activation plus first-purchase conversion among eligible approved users.
+## Confidentiality
 
-### Secondary
-- Median time from approval to activation.
-- Card-access completion rate.
-- Support-contact rate by reason.
-- 30-day repeat use.
-
-### Guardrails
-- Fraud and dispute rates.
-- Complaints and opt-outs.
-- Failed payments.
-- Early delinquency.
-- Risk-adjusted contribution margin.
-
-## Sample size and stopping
-
-Calculate the minimum detectable effect and required sample size from a validated baseline, chosen statistical power, and significance level before launch. Do not stop early just because interim results look favourable unless a sequential testing method has been specified in advance. Monitor safety and risk guardrails throughout.
-
-## Decision framework
-
-- **Scale:** Primary metric clears the pre-agreed evidence threshold and guardrails remain acceptable.
-- **Iterate:** Result is inconclusive or evidence points to a narrower friction point; revise the hypothesis and test.
-- **Stop/rollback:** Customer harm, risk, compliance, or technical guardrails breach.
-
-## Pre-launch checklist
-
-- [ ] Event definitions and data QA complete
-- [ ] Eligibility and randomisation documented
-- [ ] Sample size, duration, and decision thresholds pre-registered
-- [ ] Risk, compliance, and issuer reviews complete
-- [ ] Reminder consent and frequency rules tested
-- [ ] Dashboard and rollback owner assigned
-- [ ] Customer-support teams briefed on expected changes
-
-## Transparency
-
-All details are a proposed design for an independent portfolio exercise. No experiment has been run and no performance lift is claimed.
+Do not publish customer records, partner files, internal MIS extracts, proprietary BRE rules, MoEngage campaign content, SFTP credentials or confidential commercial terms.
