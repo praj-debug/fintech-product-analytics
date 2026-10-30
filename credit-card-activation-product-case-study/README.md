@@ -11,11 +11,12 @@ I handled operational execution across personal-loan (PL) and credit-card (CC) p
 
 ## Scope of work
 
-During the period, daily inbound lead volume grew from approximately **1,000 to 10,000 leads per day** (about 10×), and the share of inbound leads processed increased from **20% to 80%**. The PL lender network grew from **5 to approximately 15 partners**, and around **10 credit-card partners** were onboarded. These are aggregate business outcomes during the period; the contribution described below is the work I handled, not a claim of sole attribution.
+During the period, daily inbound lead volume grew from approximately **1,000 to 10,000 leads per day** (about 10×), and the share of inbound leads processed increased from **20% to 80%**. The PL lender network grew from **5 to approximately 15 partners**, and around **10 credit-card partners** were onboarded. These are aggregate business outcomes during the period; the contribution described below is the work I handled, not a claim of sole attribution. The operating workflow also supported processing **1,000+ applications daily** within a platform handling **5,000+ applications**. This is a different funnel stage and measure from the 10,000 daily inbound leads: leads represent incoming demand, while applications represent cases moving through the platform.
 
 ### 1. Launch and partner onboarding
 - Worked across PL and CC product launches and partner onboarding.
 - Grew the PL lender network from 5 to approximately 15 partners and onboarded around 10 CC partners.
+- Led implementation and production launches across 12 lending partners, covering requirements, REST API integration, Postman-based UAT, go-live and partner enablement. The 12 refers to the implementation/API integration scope; approximately 15 refers to the wider PL lender network.
 - Coordinated operational requirements, partner dependencies and internal handoffs.
 - Supported customer journeys with sales teams and account managers.
 - Tracked partner and product changes that affected the operating journey.
@@ -61,6 +62,9 @@ This describes routing oversight and coordination. It does not imply every unsuc
 | Daily business transaction volume | Approximately ₹1 Cr |
 | DSA portfolio | 385+ |
 | DSA channel contribution | 2.5% of overall company revenue |
+| Applications processed daily | 1,000+ |
+| Platform application volume | 5,000+ |
+| API implementation / integration scope | 12 lending partners |
 | Performance-based lead allocation | 12 partners |
 
 These are aggregate business outcomes during the period, not claims that every result was solely caused by my work. CAC was tracked against conversion and revenue quality, but no unsupported CAC saving is stated.
