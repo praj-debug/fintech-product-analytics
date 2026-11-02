@@ -4,6 +4,7 @@ on:
   push:
     branches: ["main"]
     paths:
+      - "docs/**"
       - "education-loan-tools/**"
       - "education-loan-calculator/**"
       - ".github/workflows/pages.yml"
@@ -36,6 +37,7 @@ jobs:
       - name: Prepare site files
         run: |
           mkdir -p _site
+          cp -R docs/. _site/
           mkdir -p _site/education-loan-tools
           cp -R education-loan-tools/* _site/education-loan-tools/
           cp -R education-loan-calculator _site/education-loan-calculator
