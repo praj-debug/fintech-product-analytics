@@ -1,10 +1,11 @@
-name: Deploy StockRani landing page to GitHub Pages
+name: Deploy Education Loan Tools to GitHub Pages
 
 on:
   push:
     branches: ["main"]
     paths:
-      - "docs/**"
+      - "index.html"
+      - "education-loan-calculator/**"
       - ".github/workflows/pages.yml"
   workflow_dispatch:
 
@@ -32,10 +33,16 @@ jobs:
         with:
           enablement: true
 
+      - name: Prepare site files
+        run: |
+          mkdir -p _site
+          cp index.html _site/index.html
+          cp -R education-loan-calculator _site/education-loan-calculator
+
       - name: Upload site artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: docs
+          path: _site
 
       - name: Deploy to GitHub Pages
         id: deployment
