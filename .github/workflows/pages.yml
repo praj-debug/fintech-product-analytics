@@ -43,6 +43,20 @@ jobs:
           cp -R education-loan-tools/* _site/education-loan-tools/
           cp -R education-loan-calculator _site/education-loan-calculator
 
+          # Keep GitHub Pages from applying Jekyll processing to static app assets.
+          touch _site/.nojekyll
+
+          # Fail the build rather than publish an incomplete portfolio artifact.
+          test -s _site/index.html
+          test -s _site/tranche/index.html
+          test -s _site/tranche/app/index.html
+          test -s _site/loan-advisor/index.html
+          test -d _site/case-studies
+          test -d _site/education-loan-tools
+          test -d _site/education-loan-calculator
+          echo "Verified key published paths:"
+          find _site -maxdepth 3 -type f | sort | head -200
+
       - name: Upload site artifact
         uses: actions/upload-pages-artifact@v3
         with:
