@@ -40,6 +40,9 @@ jobs:
         run: |
           mkdir -p _site
           cp -R docs/. _site/
+          # Publish standalone portfolio case studies alongside the docs-based site.
+          mkdir -p _site/case-studies
+          cp -R case-studies/. _site/case-studies/
           mkdir -p _site/education-loan-tools
           cp -R education-loan-tools/* _site/education-loan-tools/
           cp -R education-loan-calculator _site/education-loan-calculator
