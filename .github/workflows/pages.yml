@@ -5,6 +5,7 @@ on:
     branches: ["main"]
     paths:
       - "index.html"
+      - "case-studies/**"
       - "docs/**"
       - "education-loan-tools/**"
       - "education-loan-calculator/**"
