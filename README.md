@@ -6,6 +6,19 @@ I use data, customer journeys and product observation to understand **what is ha
 
 This repository is my professional portfolio of independent product and analytics case studies. It focuses on product problem-solving, SQL and analytics, user experience, digital lending, and operational improvement.
 
+## Commercial and partnership outcomes
+
+Selected outcomes from prior professional roles, separate from independent portfolio projects:
+
+| Experience | Scope | Reported outcome |
+|---|---|---|
+| WeMakeScholars | B2B2C education-loan sales, student lead identification, conversion and banking-partner coordination | ₹500 Cr+ education-loan business facilitated |
+| Yocket / Leap Finance | 12 lending partnerships across Indian and international lenders; partner onboarding, bank-specific targets, lead prioritisation and an 11-member execution team | ₹100 Cr+ disbursements with an individual banking partner, achieved ahead of schedule |
+| Fi Money | 15+ DSA partners onboarded for personal loans and credit cards; partner commercials, SFTP, MIS, training, BRE/STP optimisation and cross-partner routing | Contributed to scaling monthly disbursements to ₹15 Cr+ |
+| IDFC FIRST Bank | Education-loan channel development, DSA identification and onboarding, lead sourcing and disbursement coordination | Banking sales and partner-led distribution experience |
+
+These figures describe facilitated or supported lending business and disbursement volume. They are not SaaS ARR, software subscription revenue or personal income. Partner-level commercial terms and customer information are not published.
+
 ## Product case studies & analytics projects
 
 | **14** | [Partner API Integration & Launch Operations](projects/07-partner-api-integration-launch/) | Partner onboarding, API contract and field mapping, UAT, operational readiness and launch governance |
@@ -75,6 +88,8 @@ MEASURE + ITERATE
 
 ## Core skills
 
+**GTM & Partnerships:** Institutional Partner Acquisition, Strategic Partnerships, B2B2C Distribution, Channel Sales, Commercial Coordination, Partner Onboarding, Revenue Operations
+
 **Product:** Product Operations, Product Analytics, Product Strategy, Customer Journey, KPI Design, Experimentation, UAT
 
 **FinTech:** Digital Lending, Lending Operations, Partner Management, API Integrations, SLA/TAT, Exception Management
@@ -100,7 +115,7 @@ Portfolio datasets and analysis are based on publicly observable product behavio
 
 ## About me
 
-I am Prajakta Mane, a FinTech Product Operations and Strategic Partnerships professional focused on digital lending, product analytics, partner ecosystems and cross-functional product delivery.
+I am Prajakta Mane, a FinTech professional working across institutional partnerships, B2B2C distribution, GTM execution, digital lending, product operations and analytics. My experience includes identifying and onboarding lending partners, building channel ecosystems, coordinating business and technology teams, and improving the operational journeys that support business conversion.
 
 This repository documents **how I think through product problems**, from observation and diagnosis to product decisions, experiments and measurement.
 
