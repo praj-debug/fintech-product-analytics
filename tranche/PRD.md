@@ -36,7 +36,8 @@ RM, Loan Operations, Partner Manager, Management/Admin, Student/Applicant, Lende
 - Business Overview
 - New Education Loan Pipeline
 - Balance Transfer Pipeline
-- Students / Student 360
+- Borrower profile and all linked lender applications
+- Destination-matched student community
 - Documents Queue
 - Lenders and Lender Products
 - Tasks and Communications
@@ -79,7 +80,7 @@ A payoff letter expiry returns the case to a request-new-letter action. Not Viab
 
 ## 9. Lender application state
 
-A case can have multiple parallel lender applications. Each has its own lender reference, owner, submitted checklist, status, queries, timestamps and decision. On student offer acceptance, selected application is recorded and alternate applications are closed as alternate chosen, subject to a confirmation step. Parallel hard bureau enquiries should be controlled by a configurable cap and prequalification process.
+A borrower profile represents one student and one borrower-level loan case can have multiple parallel lender applications. Each application has its own lender reference, journey type (NEW or BT), owner, submitted checklist, status, queries, timestamps and decision. The public demo shows one to three applications per student, all visible together in the student's portal and borrower profile. Lender representatives see only their lender's applications, with separate NEW and BT queues. On student offer acceptance, selected application is recorded and alternate applications are closed as alternate chosen, subject to a confirmation step. Parallel hard bureau enquiries should be controlled by a configurable cap and prequalification process.
 
 ## 10. Documents
 
@@ -105,6 +106,9 @@ RBAC plus record ownership/assignment scope. Enforce row-level access at the dat
 
 - Six role-specific demo views: Admin, Relationship Manager, Loan Operations, Lender / Partner Manager, Student / Applicant and Lender Representative.
 - UI-level role switching and assigned-lender sample views; production authorization remains a backend requirement.
+- Student portal shows every lender application for the borrower on one page, with a maximum of three sample applications per student.
+- Community suggestions use university, city, state / region and destination country; students in the same region are recommended the same regional group.
+- Each of the six roles has a guided walkthrough describing navigation and expected content.
 - Student, co-applicant, education plan and financial profile.
 - Shared case engine with separate NEW and BT pipelines.
 - Lender directory, lender products, independent lender applications.
@@ -123,6 +127,10 @@ Phase 3: forecasting, geography, team productivity, calendar sync, workflow edit
 ## 17. Acceptance criteria for portfolio demo
 
 - A complete student journey is demonstrable in under 10 minutes.
+- A borrower with multiple lender applications can view each lender reference and status together on one page.
+- Lender representative can switch between separate NEW and BT queues and see only applications assigned to the selected lender.
+- Community recommendations match the student's destination city, state / region and country.
+- Each role has a visible walkthrough with navigation actions and explanations.
 - New Loan and BT have visibly distinct stages and business rules.
 - Multiple lender applications can exist on one case.
 - Document checklist and verification status are traceable.
