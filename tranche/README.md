@@ -36,7 +36,7 @@ Both workflows share Student 360, people and co-applicants, lender directory, do
 | Student / Applicant | Application status, document requests, uploads and messages |
 | Lender Representative | Assigned lender applications and explicitly permitted information |
 
-Role access is enforced by permissions and assigned-record scope. Students do not see internal notes; lender representatives do not see other lenders' offers or internal commissions.
+The static prototype simulates six role-specific views. The lender representative view is scoped to Credila sample applications and omits internal-only fields. This is a UI demonstration only; it does not enforce server-side authorization or database row-level security.
 
 ## Core capabilities
 
@@ -69,7 +69,7 @@ Role access is enforced by permissions and assigned-record scope. Students do no
 
 ## MVP boundaries
 
-The first demonstrable slice focuses on RM, Operations and Admin workflows, with a lightweight student portal. It includes synthetic student/person data, both pipelines, lender applications, document verification, offers/sanctions/disbursement, BT payoff and savings calculations, tasks, communication simulation, basic SLA tracking, audit history and decision-focused dashboards.
+The public prototype exposes six role views: Admin, Relationship Manager, Operations, Lender / Partner Manager, Student and Lender Representative. It includes synthetic student/person data, both pipelines, parallel lender-application examples, document review, offers/sanctions/disbursement, BT payoff and savings concepts, tasks, simulated communications, sample audit history and decision-focused dashboards. Role switching is client-side only.
 
 Not included in the prototype: live lender integrations, real credit decisions, real KYC/bureau checks, money movement, regulated e-sign/e-NACH integrations or compliance certification.
 
