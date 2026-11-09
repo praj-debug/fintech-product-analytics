@@ -23,7 +23,7 @@ Tranche brings the journey into one coordinated workspace while keeping the two 
 - **New Education Loans:** lead and counselling, eligibility, documentation, lender applications, offers, sanction, agreement and disbursement tranches.
 - **Balance Transfers:** existing-loan review, savings validation, document collection, lender mapping, sanction, payoff/foreclosure, payment to the old lender, closure confirmation and post-closure release tracking.
 
-Both workflows share Student 360, people and co-applicants, lender directory, document vault, communications, tasks, audit history and analytics.
+Both workflows share one borrower profile, people and co-applicants, up to three parallel lender applications per student in the demo, lender directory, document vault, communications, tasks, audit history and analytics. Each lender application keeps its own reference, journey type and status while remaining linked to the same borrower-level case.
 
 ## Users and role-aware experiences
 
@@ -36,23 +36,25 @@ Both workflows share Student 360, people and co-applicants, lender directory, do
 | Student / Applicant | Application status, document requests, uploads and messages |
 | Lender Representative | Assigned lender applications and explicitly permitted information |
 
-The static prototype simulates six role-specific views. The lender representative view is scoped to Credila sample applications and omits internal-only fields. This is a UI demonstration only; it does not enforce server-side authorization or database row-level security.
+The static prototype simulates six role-specific views, with separate New Education Loan and Balance Transfer queues for lender representatives. A student sees all their lender applications together on one page; sample students have one, two or three lender applications. Community recommendations are matched to the student's university, city, state / region and destination country. A role-specific walkthrough explains where to click and what each section contains. These are UI demonstrations only; they do not enforce server-side authorization or database row-level security.
 
 ## Core capabilities
 
 - Business Overview dashboard with drill-through to underlying cases.
 - Separate New Loan and BT pipelines.
 - Case management in table and Kanban views with shared filters.
-- Student 360 with co-applicants, academics, finances and linked cases.
+- Borrower profile with co-applicants, academics, finances and every linked lender application on one page.
 - Hybrid case assignment with manual manager override and audit history.
 - Central document vault supporting student self-upload and employee upload.
 - Dynamic lender-product checklists, verification, rejection reasons and version history.
-- Lender directory, product criteria, multi-lender applications and independent application statuses.
+- Lender directory, product criteria, up to three parallel lender applications in the demo, and independent application statuses.
 - Offer comparison using total effective cost, not headline rate alone.
 - Sanction conditions, agreement steps and tranche-wise disbursements.
 - BT payoff/foreclosure tracking, savings validation, old-lender closure and NOC/release tracking.
 - Omnichannel communication timeline for WhatsApp, email, SMS and portal messages.
 - Tasks, follow-ups, SLA clocks, stale-case flags and escalations.
+- Destination-matched student community by university, city, region and country.
+- Role-specific walkthroughs for Admin, Relationship Manager, Operations, Partner Manager, Student and Lender Representative.
 - Funnel, ageing, lender scorecard, rejection and operations analytics.
 - Append-only status history, audit events, consent records and role-based controls.
 
@@ -69,7 +71,7 @@ The static prototype simulates six role-specific views. The lender representativ
 
 ## MVP boundaries
 
-The public prototype exposes six role views: Admin, Relationship Manager, Operations, Lender / Partner Manager, Student and Lender Representative. It includes synthetic student/person data, both pipelines, parallel lender-application examples, document review, offers/sanctions/disbursement, BT payoff and savings concepts, tasks, simulated communications, sample audit history and decision-focused dashboards. Role switching is client-side only.
+The public prototype exposes six role views: Admin, Relationship Manager, Operations, Lender / Partner Manager, Student and Lender Representative. It includes synthetic student/person data, separate NEW and BT queues, one borrower profile with up to three parallel lender applications, destination-matched community recommendations, role-specific walkthroughs, document review, offers/sanctions/disbursement, BT payoff and savings concepts, tasks, simulated communications, sample audit history and decision-focused dashboards. Role switching is client-side only.
 
 Not included in the prototype: live lender integrations, real credit decisions, real KYC/bureau checks, money movement, regulated e-sign/e-NACH integrations or compliance certification.
 
