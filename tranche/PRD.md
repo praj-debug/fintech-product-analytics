@@ -99,11 +99,12 @@ Decision-led dashboards: stage conversion and ageing; lead source to disbursemen
 
 ## 14. Permissions and security
 
-RBAC plus record ownership/assignment scope. Enforce row-level access at the database. Student sees own records only. Lender rep sees assigned applications and consented/allowed fields only. No lender rep access to other lenders' offers or commissions; no student access to internal notes. Mask sensitive identifiers, use short-lived file URLs, scan uploads, log access and exports. No real PII in public demo.
+RBAC plus record ownership/assignment scope. Enforce row-level access at the database and re-check authorization on every API and export. Student sees own records only. Lender rep sees assigned applications and consented/allowed fields only. No lender rep access to other lenders' offers or internal commission data; no student access to internal notes. Mask sensitive identifiers, use short-lived file URLs, scan uploads, log access and exports. No real PII in public demo. The current static GitHub Pages prototype does not implement these server-side controls; its role switcher demonstrates intended UI boundaries only.
 
 ## 15. MVP scope
 
-- RM, Operations and Admin roles; student portal-lite.
+- Six role-specific demo views: Admin, Relationship Manager, Loan Operations, Lender / Partner Manager, Student / Applicant and Lender Representative.
+- UI-level role switching and assigned-lender sample views; production authorization remains a backend requirement.
 - Student, co-applicant, education plan and financial profile.
 - Shared case engine with separate NEW and BT pipelines.
 - Lender directory, lender products, independent lender applications.
@@ -115,7 +116,7 @@ RBAC plus record ownership/assignment scope. Enforce row-level access at the dat
 
 ## 16. Later phases
 
-Phase 2: lender representative portal, query loop, student offer compare/accept, SLA pause, escalation matrix, auto-assignment tuning, duplicate merge, mock OCR, expiry tracking, commission lifecycle and reconciliation.
+Phase 2: authenticated backend and database policies for role and record scope; lender query loop; student offer compare/accept; SLA pause; escalation matrix; auto-assignment tuning; duplicate merge; mock OCR; expiry tracking; and permission-tested commission lifecycle and reconciliation.
 
 Phase 3: forecasting, geography, team productivity, calendar sync, workflow editor and selected integration spikes.
 
