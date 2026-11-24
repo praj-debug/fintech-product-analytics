@@ -41,6 +41,8 @@ jobs:
         run: |
           mkdir -p _site
           cp -R docs/. _site/
+          # Publish standalone profile page from repository root.
+          cp profile.html _site/profile.html
           # Publish standalone portfolio case studies alongside the docs-based site.
           mkdir -p _site/case-studies
           cp -R case-studies/. _site/case-studies/
